@@ -1,0 +1,16 @@
+{
+  "name": "@inspire/qa-agent-scripts",
+  "version": "1.0.0",
+  "description": "QA Agent scripts for INSPIRE loan origination system",
+  "private": true,
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "scripts": {
+    "qa-run": "node qa-runner.js",
+    "qa-debug": "node qa-debugger.js",
+    "qa-generate": "node qa-generator.js",
+    "qa-report": "node qa-reporter.js"
+  }
+}
+

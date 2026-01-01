@@ -1,0 +1,499 @@
+FIX AND FLIP
+GROUND UP CONSTRUCTION
+UNDERWRITING GUIDELINES
+Version Control:
+6.0 Adam Gottfried
+
+Table of Contents
+Introduction .............................................................................................................................................................. 3
+General Underwriting .............................................................................................................................................. 3
+Underwriting Escalations ......................................................................................................................................... 3
+Borrower and Sponsor Evaluation .......................................................................................................................... 3
+Borrower and Principal Underwriting Due Diligence (KYC) .................................................................................... 4
+Consumer Credit Reports ........................................................................................................................................ 5
+Collateral Evaluation ............................................................................................................................................... 5
+Eligible Real Property Collateral.............................................................................................................................. 5
+FNF/Bridge Financing Product Description ............................................................................................................. 6
+Ground-Up Construction Product Description ......................................................................................................... 9
+Appraisal Requirements ........................................................................................................................................ 12
+Ineligible Properties ............................................................................................................................................... 14
+2
+Archwest Comprehensive Credit Guidelines v 6
+
+Introduction
+Archwest’s strategic objective is to originate and purchase business-purpose mortgage loans secured by first
+mortgage liens against residential properties as herein described, and to underwrite, document and price those
+loans to generate assets that produce targeted rates of return without exposing Archwest or its investors to
+undue risk.
+Loans are sourced directly, by way of mortgage broker relationships, and through correspondent lenders. Loan
+products include bridge loans to real estate investors who need short-term execution capital, fix and flip loans to
+real estate investors executing rehabilitation strategies, and ground-up construction loans to home builders and
+developers.
+Credit quality is to be managed in balance with other objectives, and in any event, should never be sacrificed or
+mitigated for immediate results. Accordingly, it is incumbent upon the management of Archwest to instill a
+credit culture that fosters and actively supports the extension of credit on sound, fundamental lending principles.
+General Underwriting
+The strengths and weakness of each loan request are carefully assessed to determine the extent to which the
+experience, credit, cash flow and financial condition of the Borrower and borrower principals is sufficient for the
+Borrower to undertake successfully its business plan and/or renovation plans as well as undertaking the
+burdens of operating costs and contractual debt service obligations, and determine the extent to which the
+characteristics of the local real estate market are favorable, the as-is value of the specific real estate collateral
+property is sufficient at loan origination to secure the initial loan funding, and the pro-forma (typically as-
+renovated) value of the real estate collateral will be sufficient at the end of the loan term to provide for payment
+in full of the loan by way of a sale or refinance of the property.
+All factors that significantly reduce risk should be awarded in the overall credit decision. Just as a thorough
+review of collateral quality as well as the strengths of the Borrower and Sponsor should be considered by the
+underwriter, risks can be balanced by way of prudent loan structure.
+Underwriting Escalations
+These guidelines are intended to define an approach and set forth criteria to be followed for the purpose of
+ensuring that credit is extended in a manner consistent with risk tolerance parameters adopted by the
+organization. Because it is impractical to provide for every circumstance or to pre-judge every nuance that an
+underwriter might encounter in the evaluation of a loan request, it stands to reason that there will be loan
+requests that present the requirement for senior management to review and approve.
+If an underwriter recommends a loan be approved, but the loan does not meet the guidelines as presented in
+this document, they will escalate the loan for review by an SVP or Senior Manager who will review the loan
+request.
+All underwriting escalations will be made available to and be tracked by executive management, who will ensure
+that (i) the number of escalations is minimal, (ii) all escalations are offset by compensating factors such as
+prudent loan structuring in combination with favorable Borrower and/or collateral characteristics, and (iii)
+escalations do not exhibit trends that should be addressed through improved underwriting management and/or
+review of the guidelines. Upon approval of the escalation by an SVP or Senior Manager, that loan is deemed to
+meet the guidelines as presented in this document.
+Borrower and Sponsor Evaluation
+The underwriting of each loan will include the following evaluation of every Borrower and Sponsor(s):
+• Borrowing entities must be duly organized, in good standing and otherwise legally capable of
+undertaking the proposed loan.
+• Borrowers and the Sponsor(s) must not be engaged in business activities that, by their nature, could
+pose reputation risk to Archwest.
+• Financial strength should be consistent with the size and complexity of the financing requested.
+• Credit profile and a history of good character should sufficiently demonstrate ability to be counted on to
+be a responsible secondary source of repayment.
+3
+Archwest Comprehensive Credit Guidelines v 6
+
+• Real estate investment experience, real estate development, fix and flip management, and property
+management experience should be sufficient to capably manage the proposed real estate investment
+successfully.
+Archwest updated underwriting guidelines and weights of specific variables to reflect the deal tier. Program
+guidelines are designed to delineate all general lending parameters. Deal Tier is calculated by taking into
+account the following variables weighted on a scale between 1-10
+Borrower and Principal Underwriting Due Diligence (KYC)
+“Know Your Counterparty”(KYC) on each Borrower and Sponsor is part of the underwriting process. KYC
+allows Archwest to evaluate a Borrower before extending credit to the Borrower and forming a relationship. The
+goal of the KYC process is to confirm the following:
+Formation/Standing/Identity
+• If an entity, Archwest performs extensive corporate record searches (Thomson Reuters) applicable
+Secretary of State website(s)) to confirm the entity is active, in good standing and authorized to do
+business in the appropriate state.
+• If an individual, Archwest performs an extensive public record search (Thomson Reuters Clear Report)
+using the Borrower’s personal information.
+• Archwest reviews the entity’s formation documents to ensure business purpose, ownership,
+authorization to borrow funds, and execution authority.
+• The underwriter reviews the Borrower’s bank statements, real estate schedules, background checks,
+credit reports and other financial documentation to confirm that the Borrower meets the cash flow, net
+worth and liquidity requirements given the size of the proposed loan and contemplated construction
+improvements.
+• If Borrower or Sponsor(s) hold professional licenses, a review is made to determine whether the
+licenses are active, in good standing and whether there has been any disciplinary activity.
+Background Searches
+• A search is conducted for any outstanding items that may impact the Borrower’s ability to perform,
+including the following on the borrowing entity, principals/ key management and affiliates including:
+o Litigation, judgments and liens
+o Criminal arrest and infraction records
+o Record of fraud and other financial crimes
+o Bankruptcies
+o Foreclosures
+o OFAC alerts and watch list
+o UCC filings
+o Death records
+o FEIN/SSN verification
+4
+Archwest Comprehensive Credit Guidelines v 6
+TTTTT ieieieieie rr
+1
+r 2
+r 3
+r 4
+T ie r R a n k in g s
+M in S7531 c o re
+
+Consumer Credit Reports
+A Tri-Merge credit report relating to all Individual Borrowers and Sponsor(s) of Borrowing Entities is reviewed to
+determine the extent to which each subject has managed credit responsibility.
+Letters of Explanation are obtained for review by the underwriter with respect to adverse credit report
+information such as late payments, liens, judgments, foreclosure, bankruptcy, and creditor account closures and
+collections.
+The Borrower and Sponsor’s real estate investment and/or fix and flip experience is assessed.
+Clear report searches on the Borrower, affiliated entities, and Sponsor(s) to find evidence of real estate
+transactions undertaken.
+Findings from the Clear reports are compared to Schedules of Real Estate Owned that are provided by the
+Borrower and Sponsor(s).
+Collateral Evaluation
+All loans are to be secured by a first mortgage lien against real property that is zoned for and improved in a
+manner consistent with the program requirements for each loan. As part of the underwriting process, the
+underwriter:
+• Confirms the proposed real property collateral meets eligibility guidelines.
+• Reviews and analyzes the loan origination appraisal/valuation, multiple listing information and other
+available pertinent market data to determine the extent to which the as-is value of the real estate
+collateral property is sufficient at loan origination to secure the initial loan funding and the pro-forma
+(typically as-renovated) value of the real estate collateral will be sufficient at the end of the loan term to
+provide for payment in full of the loan by way of a sale or refinance of the property.
+• Reviews title report and (when appropriate with respect to certain multifamily property loans)
+environmental site assessment, property survey, and seismic risk assessment.
+• Analyzes (when appropriate with respect to certain fix and flip or construction loans) construction budget
+as well as related building plans and detailed summary of improvements to be constructed to determine
+sufficiency/adequacy to complete project and whether a contingency is necessary.
+• Assesses the extent to which the property either benefits or suffers from the access, visibility, physical
+condition and market competitiveness of the property location.
+• If tenant occupied, compares each lease or rental agreement to the current rent roll and assesses
+whether the lease or rental agreement reflect market rents.
+Eligible Real Property Collateral
+• Zoning is consistent with current use (as a single-family residence and/or a multifamily residential
+property).
+• Located within one of the largest 225 metropolitan statistical areas of the United States of America
+(those with a population of 200,000 or greater) even if not within nation’s largest cities
+• Located in a primary, typically in a secondary, and sometimes in a tertiary urban or suburban market
+with average or better population density and which exhibit average or better than average recent
+population and employment growth.
+• Current improvements and use is highest and best use of the subject property.
+• Located within reasonable proximity to community amenities such as schools, shopping, recreational
+facilities and employment centers.
+• Benefits from direct proximity and use of a public street. Properties located on private roads are not
+eligible.
+See Ineligible Properties Section.
+5
+Archwest Comprehensive Credit Guidelines v 6
+
+FNF/Bridge Financing Product Description
+Bridge Financing provides experienced investors with liquidity necessary to acquire, refinance and sometimes
+rehabilitate single family residential as well as multifamily residential properties containing 9 or fewer units.
+Loans are made for a term of typically 12 -24 months with up to two extensions. Each note is payable interest-
+only until maturity against properties that may not stabilized and may require upgrades or significant capital
+improvements.
+Critical to the underwriting of bridge loans is a well-founded belief that (i) the subject property has the potential
+to achieve After Renovated Value and readily provide for a sale or refinance in time to retire the bridge loan at or
+before maturity, and (ii) the Borrower has the management capacity, construction experience and requisite
+financial resources to achieve the property’s full potential, and (iii) a commercially reasonable refinance at
+completion of renovation, or sale at completion of renovation, will be readily available.
+Minimum $150,000
+Loan Size
+Maximum $3,500,000 maximum
+Purchase
+Delayed Purchase
+Loan Purpose Rate and Term Refinance
+Cash Out Refinance (See additional guidelines on page 8)
+Refinance
+Fix and Flip with Lender Financed Rehab
+Transaction Purpose Fix and Flip with Borrower Financed Rehab
+Bridge Loan
+Fix and Flip: 6 – 24 Months with up to two 3-months extension subject to
+underwriting and a fee
+Loan Term
+Bridge: 6- 12 months with up to one 3-month extension subject to
+underwriting and a fee
+Balloon Payment Yes
+Lien Position First Lien Loan (no subordinate financing permitted)
+The Loan Amount will be limited to the lesser of:
+90% LTAIV
+Maximum Loan Amount 93.50% LTC
+80% LTARV
+Small Multifamily Leverage Reduction: -5%
+Max Rehab % 60% of overall Loan Amount
+Loan Structure Interest Only, Fixed Rate, Balloon Loan
+Individuals
+Partnerships
+Borrower Corporations
+Limited Liability Companies
+Trusts (with local counsel approval)
+Minimum Experience 1 in the last 36 months
+All Tiers: Post-closing verified cash reserves > insurance and real estate
+taxes due during the initial term + 6 Months Debt Service + 10% of
+Liquidity
+rehab/capex (hard costs + soft costs + contingency)
+6
+Archwest Comprehensive Credit Guidelines v 6
+
+Full to Borrower
+Unconditional Guaranty Required:
+By one or more stakeholder in the Borrower which in aggregate own at
+least 51% of the Borrower
+Recourse
+By each stakeholder with a 20% or greater ownership in the Borrower
+Warm body guaranty may be waived to the extent the Borrower has a net
+worth in excess of 250% of the total Loan Amount and liquidity in excess
+of 100% of total Loan Amount
+Maximum Units 9 units
+Required on Small Multifamily (5-9 Units)
+Equity Pledge Required in Judicial Foreclosure states if a warm-body guarantor is not
+obtained
+Contingency Minimum Hard Cost and Soft Cost Contingency: 5.0%
+Tax and Insurance is not Reserved but is instead paid by Borrower as a
+condition of closing, if due within 90-days of the closing date.
+Tax and Insurance
+Insurance is prepaid for 1 year; provided however, that for refinances,
+Archwest will accept an active policy so long as it does not expire within
+90 days of closing and any remaining balance is paid at closing.
+With respect to loan amounts above $3,500,000 the following will supersede the foregoing:
+Loan Amount Between $3,500,000 and $5,000,000
+Maximum After-Repair/As-Complete Value as % of Average Home Sale
+Maximum ARV
+Price*** in Zip Code (9-digit) in past 60-days: 115%
+Minimum FICO 720
+Minimum Experience At least 5+ (must be on title)
+Prior Bankruptcies None
+Additional Underwriting Criteria:
+• Tier 4 Borrowers may not have a FICO less than 700
+• Borrowers and/or Sponsors must not have any bankruptcy filings within the last 10 years
+7
+Archwest Comprehensive Credit Guidelines v 6
+
+Cash-out Refinance
+Any Bridge loan in which borrower/sponsor is receiving cash-out may require additional parameters to ensure
+strong exit of asset at maturity of loan term. To the extent that the following parameters are not adhered to,
+escalation for approval must be obtained from either an SVP of Credit or the COO:
+Archwest Capital Cash Out Refinance Matrix
+Max %
+Borrower Max %
+Cash-Out Max Appraisal Allocated
+Experience Value
+Available $ Amount Type to
+Tier Added*
+Liquidity
+Interior
+1 Yes $500,000 50% 75.00%
+Valuation
+Interior
+2 Yes $300,000 30% 50.00%
+Valuation
+3 No - - -
+4 No - - -
+*% of how much value add (since the most recent arm's length transaction) can be counted fo r cash out lending.
+For additional consideration on cash-out refinances:
+• Proceeds are paying off a mortgage that has not yet matured
+• Cash out refinance is defined as a loan where cash out to borrower exceeds 2% or $2,000 (whichever is
+lower).
+• Mid-construction Cash-outs are prohibited
+For rate and term refinances, some considerations:
+• Proceeds are paying off a mortgage that has not yet matured
+• Cash back to borrower at closings cannot exceed 2% or $2,000 (whichever is lower). (If exceeds>
+considered a “Cash-out”)
+• Items that can be paid off in a rate term refinance must be business expenses only including: mortgage
+liens, real estate taxes, insurance, customary closing costs.
+8
+Archwest Comprehensive Credit Guidelines v 6
+
+Ground-Up Construction Product Description
+Ground-Up Construction Financing provides experienced real estate developers with liquidity necessary to
+acquire or refinance properties and construct single family residential as well as multifamily residential
+properties containing 9 or fewer units.
+Loans are made for a term of typically 12 -24 months with up to two 3-month extensions available subject to a
+fee. Each loan is payable interest-only until maturity and will be secured by a first mortgage lien against real
+property for which entitlements to construct a residential property that conforms to these guidelines has been
+received.
+Critical to the underwriting of a construction loan is a well-founded belief that (i) the subject project is
+economically viable, (ii) the Borrower and contractor have the management capacity, construction experience
+and requisite financial resources to complete the project, (iii) and a commercially reasonable refinance at
+completion of renovation, or sale at completion of renovation, will be readily available.
+Minimum $236,250 (minimum initial loan amount $0)
+Loan Size
+Maximum $5,000,000
+Purchase
+Delayed Purchase
+Loan Purpose
+Cash Out Refinance
+Rate and Term Refinance
+Transaction
+Fix and Flip with Lender Financed Rehab
+Purpose
+Loan Term 12 – 24 Months with up to two 3-month extension subject to underwriting and a fee
+Balloon Payment Yes
+Lien Position First Lien Loan (no subordinate financing permitted)
+The Loan Amount will be limited to the lesser of:
+70% LTAIV
+Maximum Loan
+85% LTC
+Amount
+67.5% LTARV
+Small Multifamily Leverage Reduction (5 to 9 units): -10%
+Loan Structure Interest Only, Fixed Rate, Balloon Loan
+Individuals
+Partnerships
+Borrower
+Corporations
+Limited Liability Companies
+3 in the last 36 months; or
+Minimum
+2 in the last 36 months if the Borrower is a licensed General Contractor, has 2x
+Experience
+liquidity and at least a 720 FICO
+All Tiers: Post-closing verified cash reserves > insurance and real estate taxes due
+during the initial term + 6 Months Debt Service based on note amount + 10% of
+Liquidity
+rehab/capex (hard costs + soft costs + contingency)
+9
+Archwest Comprehensive Credit Guidelines v 6
+
+Required for Small Multifamily equal to 100% of Interest and Carry during Loan
+Term
+Interest Reserve
+May Be Required in All Other Instances
+Full to Borrower
+Unconditional Guaranty Required:
+• By one or more stakeholder in the Borrower which in aggregate own at
+least 51% of the Borrower
+Recourse
+• By each stakeholder with a 20% or greater ownership in the Borrower
+Warm body guaranty may be waived to the extent the Borrower has a net worth in
+excess of 250% of the total Loan Amount and liquidity in excess of 100% of total
+Loan Amount
+Maximum Units 9 units
+Required on Small Multifamily (5-9 Units)
+Equity Pledge
+Required in judicial foreclosure states if a warm-body guarantor is not obtained
+Completion
+Required
+Guaranty
+Completion Bond Required for projects with construction budgets in excess of $10,000,000
+Contingency Minimum Hard Cost and Soft Cost Contingency: 5.0%
+Feasibility Required
+Tax and Insurance is not Reserved but is instead paid by Borrower as a
+condition of closing, if due within 90-days of the closing date.
+Tax and Insurance
+Insurance is prepaid for 1 year
+With respect to loan amounts above $3,500,000 the following will supersede the foregoing:
+Loan Size Between $3,500,000 and $5,000,000
+Maximum After-Repair/As-Complete Value as % of Average Home Sale
+Maximum ARV
+Price*** in Zip Code (9-digit) in past 60-days: 110%
+Minimum FICO 720
+Minimum Experience At least 10+ (must be on title)
+Prior Bankruptcies None
+With respect to loans with an LTC of more than 82.5% the following will supersede the foregoing:
+Maximum Loan Amount $2,000,000
+Maximum ARV 65%
+Minimum FICO 720
+Minimum Experience At least 10+ (must be on title)
+Prior Bankruptcies None
+Additional Underwriting Criteria:
+• Tier 4 Borrowers may not have a FICO less than 700
+10
+Archwest Comprehensive Credit Guidelines v 6
+
+• Borrowers and/or Sponsors must not have any bankruptcy filings within the last 10 years
+11
+Archwest Comprehensive Credit Guidelines v 6
+
+Appraisal Requirements
+An independent third-party appraisal will be obtained to support every loan made or purchased as set forth
+below:
+Loans with a Note Amount greater than or equal to $400,000:
+A full appraisal, including an interior inspection of the subject property, in compliance with FIRREA with
+a date within one-hundred twenty days of the origination date or 6 months prior to the Closing
+Date. Each appraisal is to be signed by an appraiser who is licensed to prepare appraisals in the state
+where the Mortgaged Property is located and satisfies applicable legal and regulatory requirements.
+Loans with a Note Amount less than $400,000:
+A property valuation or appraisal suitable to the purpose of determining the quality and status of the
+dwelling and is one of the following types: an Appraisal with qualities as described in these guidelines
+for loans of $1,000,000 or more, a Broker Price Opinion, a Desktop Valuation with property inspection
+from a vetted and approved vendor, or Automated Valuation Model.
+Properties for which rehab is contemplated:
+• The property valuation or appraisal must be developed with the assumption the proposed new
+construction will be completed as of the anticipated date of completion.
+• The property valuation or appraisal must be developed with the assumption the proposed new
+construction will conform to Borrower’s construction budget as well as related building plans and
+detailed summary of the improvements to be constructed.
+• The property valuation or appraisal must be developed with the assumption the Borrower will obtain all
+requisite work permits and complete the required renovations in a workmanlike manner within no more
+than 12 months and will obtain a Permanent Certificate of Occupancy within a reasonable time horizon.
+• The property valuation or appraisal must be developed with the assumption that after the completed
+construction, the subject property will be in good condition.
+Appraisal/Property Valuations will be developed with two distinct values:
+• The current (“as is”) value given current market conditions and depicting the property in its current
+physical and economic conditions; and
+• A pro forma (as renovated “ARV”) value given current market conditions and depicting the property in a
+physical condition that assumes completion of contemplated capital improvements/property upgrades
+and economic condition that would be consistent with the subject property in the same real estate
+market.
+Appraisal signed by an appraiser who is licensed and certified to prepare appraisals in the state where the
+Mortgaged Property is located that follows FIRREA with a date within 90 days of the origination.
+All of the following methods are used to assess proposed real estate collateral.
+Broker Price Opinion
+BPOs don’t necessarily follow a standard format, which means that they may look somewhat different based on
+the individual practices of the broker. A BPO can be done either as a drive-by visit or as a full inspection of a
+property’s interior. In either case, the broker or agent will typically drive through the neighborhood to get a better
+understanding of the local area. Then, they’ll use their MLS to find similar, comparable properties to create an
+accurate estimate of the subject property’s value. Generally, they will use at least three properties that are
+currently on the market, as well as three properties that have recently sold, in order to create a reasonable
+estimate. This is a version of the sales comparison approach that is often used for traditional
+appraisals. Nevertheless, BPOs are not conducted by licensed appraisers and are not completed in accordance
+with the uniform standards for professional appraisal practice (“USPAP”).
+12
+Archwest Comprehensive Credit Guidelines v 6
+
+Appraisals
+Appraisals are conducted by someone who has satisfactorily completed required course work and training,
+obtained a state-issued appraisal license, and performs appraisal in accordance with USPAP. A full appraisal is
+a valuation performed by an appraiser who visits the property being appraised, takes photos, measures and
+evaluates in person the condition of your home. A desktop appraisal is a valuation performed without a physical
+inspection of the property. All research is done as the name suggests, from the appraiser’s desk. In any event,
+the valuation is completed by a licensed appraiser in accordance with USPAP.
+Hybrid Appraisals
+All of the desktop appraisals that we will obtain are commonly referred to as hybrid appraisals, because – as
+part of each appraisal – an inspection is conducted by a local real estate professional, so the desktop appraisal
+is augmented by a property inspection conducted by a local real estate professional whose accounts and
+descriptions are taken into consideration by the appraiser.
+Automated Valuation Model
+An automated valuation model (“AVM”) is a computer driven mathematical formula that uses basic property
+characteristics, local market information, and price trends to arrive at an estimated value or value range. The
+most obvious example of AVM technology at work is Zillow. It is important to understand that AVM’s consider
+the location, lot size, building size, bedroom/bathroom count and age but assume all properties are in similar
+average condition and therefore do not account for differences in property condition and/or cosmetic
+upgrades. Accordingly, AVM’s produce reliable estimates of value when the subject property is very similar to
+many recently sold properties and the range of sales prices for such properties does not vary widely.
+13
+Archwest Comprehensive Credit Guidelines v 6
+
+Ineligible Properties
+1. ADUs
+2. Assisted Living Facilities
+3. Boarding Houses
+4. Built-to-Rent projects that are not subdivided/have individual tax lots and/or not sellable individually
+5. Collateral Cross-Collateralized with Properties Financed by Other Lenders
+6. Cooperatives
+7. Dome
+8. Geodesic Homes
+9. Houseboats
+10. Improved Residential Properties containing 10 or more acres of land
+11. Improved Residential Properties containing 5 or more acres of land
+12. Individual townhomes or condominium units containing less than 500 SF of GLA with the exception that
+a single ADU associated with a conforming SFR may be => 250 SF
+13. Leased Land
+14. Log Homes
+15. Master leased properties and land/leaseholds
+16. Metal Buildings
+17. Multifamily properties valued at less than $150,000/unit
+18. Multifamily properties with greater than 9 units
+19. Non-warrantable condominiums
+20. Properties located on Indian Reservations
+21. Properties subject to government rent control/regulation
+22. Properties with Agricultural or Natural Zoning
+23. Properties with Section 8 tenants
+24. Properties with significant attendant environmental risks (including Hawaii properties located in lava
+zones one or two)
+25. Properties with underground oil tanks
+26. Properties which are used for daily tenancy
+27. Residential properties where Day-Care services are provided
+28. Retail (including mixed-used properties with ground-floor retail)
+29. Rural Properties
+30. SFR properties containing fewer than 2 bedrooms or less than 700 SF of GLA
+31. SFR properties valued at less than $100,000
+32. Seasonal Rentals
+33. Single-Room-Occupancy residential properties
+34. Student Housing Facilities (rented by the bed)
+35. Time shares/special purpose and exotic real estate
+36. Undeveloped Land
+37. Unreinforced brick buildings
+*Mid-construction properties are not ineligible but require Bain Capital approval.
+14
+Archwest Comprehensive Credit Guidelines v 6
+

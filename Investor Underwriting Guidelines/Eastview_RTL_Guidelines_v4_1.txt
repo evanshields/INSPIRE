@@ -1,0 +1,558 @@
+Residential Transition Loan (“RTL”)
+Underwriting Credit Guidelines
+(1-4 Units)
+(Effective April 2025)
+Version 4.1
+
+Page 2 of 20
+Contents
+Disclosures .................................................................................................................................................... 3
+List of Underwriting Documents .................................................................................................................. 4
+Loan Programs and Qualifications ................................................................................................................ 5
+Leverage Matrices ......................................................................................................................................... 6
+Definitions .................................................................................................................................................... 7
+Eligible Loan Characteristics ........................................................................................................................ 8
+Property Underwriting ............................................................................................................................... 9
+Valuation Methodology ............................................................................................................................ 9
+Area Conformity Assessment ................................................................................................................. 11
+Property Requirements ............................................................................................................................ 13
+Title Requirements .................................................................................................................................. 14
+Property Insurance .................................................................................................................................. 15
+Borrower Underwriting ............................................................................................................................ 16
+Track Record Documentation ................................................................................................................. 16
+Liquidity Requirements .......................................................................................................................... 17
+Credit & Background .............................................................................................................................. 18
+Holdback of Funds / Future Draw Process ............................................................................................. 19
+Project Feasibility Analysis .................................................................................................................... 19
+Project Profitability – Bridge Plus (DSCR) ............................................................................................ 20
+
+Page 3 of 20
+Disclosures
+Origination Policy
+This Underwriting Guide establishes the minimum requirements that must be met to originate short term Residential
+Transition loans (“RTL”) by Eastview as a loan buyer or table funder. Every subject loan is subject to a full diligence
+review executed by Eastview. Eastview maintains the right to reject a loan for any reason not specified in the guidelines
+as it sees fit. All loans underwritten under this program are business purpose loans with a fully executed affidavit from
+the borrowers/guarantors.
+Applicable Law
+Any originator, seller, or any third-party originator or broker engaged by the Seller must fully comply with all federal,
+state, and local laws applicable to the origination and sale of mortgage loans (“Applicable Law”). It is the Seller’s sole
+responsibility to ensure that all loans it originates comply with Applicable Law.
+Fair Lending
+Eastview strictly complies with all applicable federal, state, and local requirements related to fair lending, including
+the Equal Credit Opportunity Act and the Fair Housing Act (together, the “Fair Lending Requirements”). Accordingly,
+in connection with its decision to purchase / table fund loans, Eastview will not discriminate on any prohibited basis.
+Eastview will also not knowingly purchase loans from Sellers engaged in practices that violate Fair Lending
+Requirements. To the extent a Seller is found to be engaging in practices that may violate Fair Lending Requirements,
+Eastview may terminate its contractual relationship with such Seller or take any other action that it deems appropriate.
+State Licensing
+The Seller must comply with all applicable state license and registration requirements in connection with mortgage
+loan origination and any other related business activities, which include without limitation:
+• Ensuring that each loan officer/originator/broker involved in the origination of loans delivered to Eastview
+is appropriately licensed.
+• Maintaining appropriate organizational licensure based on the type and location of the activities it engages
+in.
+
+Page 4 of 20
+List of Underwriting Documents
+All Products – Ordered by Lender: Loan Purpose: Purchase
+ Appraisal Report / Interior BPO  Purchase Agreement
+ Secondary Valuation
+Loan Purpose: Refinance
+ Credit Report
+ Background Report
+ Payoff Letter / VOM
+ OFAC Check
+ Preliminary Title Report Loan Program: Fix & Flip
+ Flood Certificate
+ Rehab Budget
+All Products - Provided by the borrower:  Feasibility Analysis
+ Loan Application / Credit Authorization Loan Program: Bridge Plus
+ ID or Passport
+ Lease Agreement
+ Proof of Liquidity
+ Vacation Rental Specifics
+ Insurance
+o Annual Income Statement
+ Track Record
+o Proof of Online Listing
+ Condo Questionnaire
+o Property Management Agreement
+ Entity Documents
+o Certificate of Formation / Filed Closing Documents
+Articles of Organization
+o Operating Agreement / Partnership
+ Business Purpose Affidavit
+Agreement / Bylaws  Deed of Trust or Mortgage
+o Certificate of Good Standing  Note
+o EIN Verification  Loan Agreement
+ Guarantee
+ Closing Instructions and Closing Protection
+Letter
+ Spousal Consent
+
+Page 5 of 20
+Loan Programs and Qualifications
+Our current offering includes three products: Fix & Flip, Bridge and Bridge Plus. All products require a Borrower
+Classification which is derived by with the sum of the Credit Decision Score and the # of Verified Experience Score
+as shown in the table below.
+In order to determine the Credit Decision Score please refer to section Borrower Underwriting / Credit & Background
+In order to determine the # of Verified Experience Score please refer to section Borrower Underwriting / Track Record
+Documentation.
+Bucket Score
+>=700 3
+Credit Decision Score 680-699 1
+<680 / FN 0
+10+ 7
+# of
+3-9 5
+Verified Experience
+0-2 1
+Borrower Classification Total Score
+A+ >=7
+A 5-6
+Total Score
+B 2-4
+C <2
+Fix & Flip Bridge Bridge Plus
+Max As-Is LTV 90.0% 82.5% 77.5%
+Max LTC 90.0% 82.5% 77.5%
+Max LTVARV 75.0% N/A N/A
+Loan Term 12-24 Months 12-24 Months 25-36 Months
+Loan Structure Interest Only Interest Only Interest Only
+
+Page 6 of 20
+Leverage Matrices
+Initial Loan Amount Loan Amount
+Loan Program Loan Purpose Borrower Classification AS-IS LTV LTC LTARV
+A+ 90.0% 90.0% 75.0%
+A 85.0% 85.0% 70.0%
+Purchase
+B 82.5% 82.5% 65.0%
+C 75.0% 75.0% 60.0%
+A+ 75.0% N/A 65.0%
+Refinance A 72.5% N/A 65.0%
+Fix & Flip
+(Rate & Term) B 70.0% N/A 60.0%
+C 60.0% N/A 55.0%
+A+ 70.0% N/A 65.0%
+Refinance A 67.5% N/A 65.0%
+(Cash Out) B 65.0% N/A 60.0%
+C N/A N/A N/A
+A+ 82.5% 82.5% N/A
+A 80.0% 80.0% N/A
+Purchase
+B 80.0% 80.0% N/A
+C 75.0% 75.0% N/A
+A+ 77.5% N/A N/A
+Refinance A 75.0% N/A N/A
+Bridge
+(Rate & Term) B 75.0% N/A N/A
+C 65.0% N/A N/A
+A+ 72.5% N/A N/A
+Refinance A 70.0% N/A N/A
+(Cash Out) B 70.0% N/A N/A
+C 60.0% N/A N/A
+A+ 77.5% 77.5% N/A
+A 75.0% 75.0% N/A
+Purchase
+B 75.0% 75.0% N/A
+C 70.0% 70.0% N/A
+A+ 72.5% N/A N/A
+Refinance A 70.0% N/A N/A
+Bridge Plus
+(Rate & Term) B 70.0% N/A N/A
+C 60.0% N/A N/A
+A+ 67.5% N/A N/A
+Refinance A 65.0% N/A N/A
+(Cash Out) B 65.0% N/A N/A
+C 55.0% N/A N/A
+Underwriting Description Leverage Reductions
+Heavy Rehab Projects - Class A & B -5%
+Heavy Rehab Projects - Class C -10%
+HPA decline between 0% - 10% -5%
+200% < ZHVI Multiplier < 300% -5%
+Loan Amount between $2.0M and $3.0M -5%
+
+Page 7 of 20
+Definitions
+Bridge / Bridge Plus Loan: All transaction types that do not include a rehab component.
+Fix & Flip Loan: All transaction types that do include a rehab component.
+Initial Loan Amount: Total proceeds disbursed at closing. Does not include any rehab escrow.
+Loan Amount: Initial Loan Amount plus rehab escrow, if applicable.
+Initial Loan to Cost (“LTC”): Initial Loan Amount divided by the Cost Basis of the subject property.
+ Cost Basis: The total closing costs as disclosed in the HUD / Settlement statement without including any
+origination points paid to the lender or the broker (if applicable). Cost basis can include assignments fees up
+to lesser of 5% of property’s purchase price or $40,000. Regarding completed rehabilitation, the borrower
+needs to provide before/after photos verifying the completed work.
+Refinance Cost Basis: The sum of the original property purchase price and any previously completed rehabilitation
+cost for which the borrower needs to provide before/after photos verifying the completed work.
+Initial Loan to Value (“LTV”): Initial Loan Amount divided by “As-Is” appraised value.
+Loan to After-Repair Value (“LTARV”): Loan Amount divided by “After-Repair” appraised value.
+Heavy Rehab: Defined as rehab budgets that are (i) greater than $50,000 and (ii) greater than 100% of the property
+purchase price or as-is value of the property if the loan is a refinance.
+Loan Purpose:
+ Purchase: The property was acquired within 6 months of loan origination.
+ Refinance (Rate & Term): The property was acquired more than 6 months before loan origination and the
+borrower’s net receivable funds at closing represent less than or equal to 2% of the loan amount or less than
+$2,000.
+ Refinance (Cash Out): The property was acquired more than 6 months before loan origination and the
+borrower’s net receivable funds at closing represent more than 2% of the loan amount or more than or
+equal to $2,000.
+
+Page 8 of 20
+Eligible Loan Characteristics
+Minimum Loan Amount $100,000
+Maximum Loan Amount $3,000,000 (up to $4,500,000 on an exception basis)
+Minimum Qualifying Credit Score 660
+Loan Term (Fix & Flip) 12-24 Months
+Loan Term (Bridge) 12-24 Months
+Loan Term (Bridge Plus) 25-36 Months
+Loan Structure Interest Only
+Rate Type Fixed Rate
+Interest Accrual Fix & Flip:
+- Dutch / Single Funding (With Rehab Escrow)
+- Non-Dutch / Multiple Draws
+Bridge / Bridge Plus:
+- Single Funding (No Rehab Escrow)
+Lien Only first liens are allowed
+Origination Points May not exceed 5% of the loan amount
+Borrowing Entity The following structures are allowed:
+- LLC
+- Limited Partnership
+- Corporation
+- Irrevocable Trust
+- Individual
+Property Ownership Fee Simple. Leasehold is not permitted
+Recourse All loans should have executed personal guarantees by at least 51% of the
+entity’s ownership
+Not Permitted States North Dakota, South Dakota, Hawaii, and Alaska
+Seller’s Concession May not exceed 5% of the property purchase price
+Maximum HPA Variance - 10.0%
+Maximum ZHVI Multiplier +300.0%
+Release Provisions For cross-collateralized loans the release provision for a partial lien
+release is calculated at 120% of the pro-rata allocated UPB of the subject
+property
+
+Page 9 of 20
+Credit Underwriting (Fix & Flip, Bridge, Bridge Plus)
+Property Underwriting
+Valuation Methodology
+Eastview requires independent third-party valuations for all loans tabled funded or aggregated. Eastview reserves the
+right to review all valuation reports and determine if the subject property value is supported.
+Valuation assignments must be obtained in a manner that maintains third-party independence and does not unduly
+influence the appraiser/broker to meet a predetermined value. Eastview reserves the right to restrict the use of any
+specific appraiser/broker and/or appraisal management company at its discretion.
+The age and price of the subject property should fall within the age and price range of properties in the subject
+neighborhood. Comparable properties should be selected from the same neighborhood when possible. Selection of a
+comparable outside the subject neighborhood should be addressed within the report. For condominiums, at least one
+comparable should be from outside the subject project. Ideally, comparable sales should be within six months of the
+report date. Older comparable sales that are the best indicator of value should be addressed in comments by the
+appraiser/broker.
+Valuations need to comply to the following:
+1. Both exterior and interior photos need to be provided.
+2. For Fix and Flip loans where rehab is contemplated, the valuation needs to provide both As-Is and After-
+Repair values.
+3. The valuation should be dated no more than 120 days prior to the Note date.
+Valuations can either be in the format of an Interior BPO or an Appraisal. The requirements for each valuation type
+are summarized below:
+Appraisal:
+- Appraisers must meet all industry standards and be State Certified.
+- State Licensed Appraisers and Trainees are not permitted.
+- All real estate appraisals must be performed according to the Uniform Standards of Professional Appraisal
+Practice (USPAP) and Fannie Mae guidelines, including Universal Appraisal Dataset (UAD) requirements.
+Interior BPO
+- The valuation needs to be completed by a licensed certified real estate broker.
+
+Page 10 of 20
+- The Interior BPO must either be ordered through an Appraisal Management Company (AMC) unless
+approved on an exception basis.
+The following table summarizes the requirements for each valuation type:
+Full Appraisal Interior BPO
+Loan Amount
+Less than or equal to $1,500,000  
+Greater than $1,500,000  
+Property Type
+SFR, Townhome, PUD, Condo  
+2-4 Units  
+Rehab Type
+Less than or equal to $100,000  
+Greater than $100,000  
+As-Is Loan to Value  
+Less than or equal to 80%  
+Greater than 80%  
+Loan Purpose  
+Purchase  
+Refinance (Rate & Term)  
+Refinance (Cash Out)  
+A valuation review is required on every loan file unless a second appraisal is obtained. The Secondary Review will
+need to be within 10% of the As-Is value and 10% of the After-Repair value (if applicable). If the variance is less than
+10%, the appraisal/BPO value will be used to underwrite the loan. If the variance is greater than 10% the lesser of the
+two values will be used to underwrite the loan.
+
+Page 11 of 20
+Area Conformity Assessment
+Publicly available Zillow data will be used in conjunction with the housing trends provided on the appraisal(s) to
+determine if the subject property is in a declining market.
+For underwriting purposes, we will look at the following metrics:
+ Zillow Home Value Index (“ZHVI”): this metric indicates the median home value on the subject zip code.
+ Home Price Appreciation (“HPA”): this metric indicates the percentage of change of the median home
+value on the subject zip code.
+To protect against an unhealthy and illiquid market, Eastview restricts leverage and lending in total for properties
+located in red zip codes. Such reductions are set forth in the leverage reduction table.
+For Fix and Flip loans, the After-Repair value will be used for comparison reasons against the ZHVI. For Bridge
+loans, the lesser of the As-Is value and the Purchase Price (if applicable) will be used for comparison reasons against
+the ZHVI.
+
+Page 12 of 20
+Condominium Requirements
+For each condominium, Eastview requires the borrower to obtain a fully executed Condominium Questionnaire from
+the Association. The applicable form can be derived directly through Fannie Mae (Form 1076).
+A condominium is considered non-warrantable if any of the following applies:
+ The project is not yet completed.
+ The developer has not turned over control of the HOA to the owners.
+ A single person/entity owns more than 10% of all units.
+ HOA permits short-term rentals.
+ The majority (>50%) of the units are purposed as rentals (non-owner occupied).
+ There is pending litigation associated with the HOA.
+ Commercial space accounts for more than 25% of the building square footage.
+ More than 15% of units are in arrears with their association dues.
+If Fannie Mae’s guidelines change or if there is a provision not included in the bullet points above that
+deems a condominium warrantable then Eastview will revert to the newest guidelines and Fannie Mae’s
+eligibility in order to qualify the dwelling as warrantable or non-warrantable.
+
+Page 13 of 20
+Property Requirements
+The property needs to satisfy the following criteria:
+ Only the following property types are allowed:
+o Single Family Residence.
+o Townhome.
+o Condominium.
+o 2-4 Units.
+ Minimum square footage is:
+o SFR or Townhome: 600
+o Condo or 2-4 Unit: 500 per unit
+ Properties not located in Rural areas (as defined in the appraisal)
+ Ineligible properties include:
+o Mobile or manufactured homes.
+o Raw land.
+o Properties with escalated liens as set forth in the title report with local authorities.
+o Properties with environmental hazards such as underground oil tanks.
+o Condotels / Timeshares.
+o Property currently involved in litigation or with zoning violations that can’t be resolved prior at
+closing.
+o Properties encumbered by purchase options.
+o Properties located in lots larger than 5 acres (on an exception basis).
+
+Page 14 of 20
+Title Requirements
+The following title insurance requirements are applicable to loans purchased:
+ The title should be fee-simple.
+ No liens are accepted on the property.
+ The insurance should provide sufficient gap coverage.
+ Each dwelling should be its own tax parcel.
+ Each dwelling should comply to zoning regulation and have sufficient access to public.
+ The policy is produced in the correct form:
+o The 2006 American Land Title Association (ALTA) standard form.
+o An ALTA short form if it provides coverage equivalent to the 2006 ALTA standard form.
+o In states in which standard ATLA forms of coverage are, by law or regulation, not used, the state
+promulgated standard or short form which provides the same coverage as the equivalent ALTA
+form.
+ The amount of title insurance coverage must at least equal the original principal amount of the mortgage.
+The title policy must protect Eastview by insuring:
+ That the mortgage is superior to any lien for unpaid common expense assessments. (In jurisdictions that give
+these assessments a limited priority over a first mortgage lien, the policy must provide assurance that those
+assessments have been paid through the effective date of the policy.).
+ Against any impairment or loss of title of the first lien caused by any past, present, or future violations of any
+covenants, conditions, or restrictions of the master deed for the project. (It must specifically insure against
+any loss that results from a violation that existed as of the date of the policy.).
+ That the unit does not encroach on another unit or on any of the common elements, areas, or facilities. (The
+policy also must ensure that there is no encroachment on the unit by another unit or by any of the common
+elements, areas, or facilities.).
+ That the mortgage loan is secured by a unit in a condominium project that has been created in compliance
+with the applicable enabling statutes.
+ That real estate taxes are assessable and lien able only against the individual condominium unit and its
+undivided interest in the common elements, rather than against the project as a whole.
+ That the owner of a PUD unit is a member of the homeowners' association, and that the membership is
+transferable if the unit is sold.
+
+Page 15 of 20
+Property Insurance
+The insurance should be sufficient to cover any losses on the property, that in turn jeopardize the lienholder’s position.
+Such losses can occur for various hazard reasons such as destructive natural disasters or manmade events.
+The insurance coverage should reflect the following:
+ Coverage equal to the lesser of
+o 100% of the replacement cost as established by the property insurer.
+o the original principal balance of the mortgage.
+ Sufficient rent loss coverage of 6 months (if Bridge Plus), equal to the lesser of:
+o 100% of market rent.
+o 100% of rent in place at loan origination (if rented).
+ Minimum Liability coverage of $500,000 if rehab is contemplated.
+ If the property is in a flood zone (verified through a flood certificate), coverage equal to the lesser of:
+o 100% of the replacement cost as established by the property insurer.
+o the original principal balance of the mortgage.
+o FEMA max allowed insurable value.
+ If the property is a Condominium, the insurance agency needs to provide:
+o Master Property Insurance Policy.
+o H06 /Walls-In Policy.
+ Language that includes a mortgagee clause ISAOA/ATIMA and the correct name of the borrowing
+entity/individual name.
+ Insurance coverage should cover the following timelines based on the loan purpose:
+o Purchase: Policy should be in effect by closing and be at least 6 months forward.
+o Refinance or Delayed Purchase: Policy should in effect and with at least 3 months before expiration.
+
+Page 16 of 20
+Borrower Underwriting
+Track Record Documentation
+The sponsor must provide a schedule of previous transactions, current properties owned, and any other property
+transactions a party to. Experience must be verified through one or more of the following methods:
+ Public tax records.
+ National property record databases.
+ Verification of property ownership/sale within federal tax documents.
+ ALTA/HUD-1 Settlement Statements documenting prior transactions.
+The following table describes how experience is qualified:
+Experience Description Qualifying Points
+1Property rehab completed and sold 1.00
+2Property rehab completed and refinanced as rental 1.00
+3Property acquired as rental 0.50
+4Property rehab completed as General Contractor (not owner) 0.50
+Experience needs to comply with the following:
+ In the case of multiple owners in an entity the combined experience of each owner is used to qualify a loan.
+ Eligible experience is within 3 years. Experience outside of 3 years is considered on an exception basis.
+ Each section will require specific verification:
+o Section 1: Proof that a property was acquired and sold within a 2 year timeframe.
+o Section 2: Proof of subject property refinance and rehab completion.
+o Section 3: A rental lease will be required or ownership for more than 1 year.
+o Section 4: Proof of work completed through Permits/Certificate of Occupancy and respective
+Contract between homeowner and General Contractor (active license required).
+
+Page 17 of 20
+Liquidity Requirements
+For a loan to fully qualify under the guidelines the entity needs to support the following levels of liquidity.
+For Classification A and B customers, the minimum requirement is the sum of:
+ 3 Months of Payments.
+ Non-Financed Rehab if Fix and Flip Loan.
+ Down Payments and Closing Costs (if loan purpose is a purchase).
+For Classification C customers, the minimum requirement is the sum of:
+ 6 Months of Payments.
+ Non-Financed Rehab if Fix and Flip Loan.
+ Down Payments and Closing Costs (if loan purpose is a purchase).
+The following are applicable sources of liquidity and must be dated within 2 months of origination:
+ 2 most recent months of bank statements.
+o In case a new account was opened, the borrower needs to verify the source of the funds.
+ 75% of investment accounts in liquid assets (stocks, bonds, etc.).
+ 50% of the value of a retirement plan.
+ 100% of cash out proceeds.
+ Revolving facility with available credit to be drawn such as:
+o Home equity loan.
+o Line of credit (either in individual’s or the entity’s name).
+ Gifts from immediate family member on an exception basis with supporting documents
+o Executed gift affidavit.
+o Source of funds from the grantor.
+ 1031 Exchange letter.
+ Written verification of deposit completed by the financial institution.
+ Executed letter from attorney or title agency verifying holding funds on behalf of the entity.
+
+Page 18 of 20
+Credit & Background
+Eastview requires 51% of the entity owners and guarantors to execute an authorization that allows the lender to run
+the following reports:
+Credit Report
+To calculate an individual’s Credit Decision Score, use the lower of two credit scores or the median of three scores.
+To calculate the loan’s Credit Decision Score, the qualifying Credit Decision Score of the individual with the highest
+percentage of ownership will be utilized. In cases where the entity has owners with an equal percentage of ownership,
+the lesser qualifying Credit Decision Score will be utilized. The following must apply:
+1. Show at least two scores for each guarantor through a hard pull.
+2. Dated within 90 days of loan origination.
+3. Minimum allowed Credit Decision Score is 660 for each individual.
+4. For housing events, the required seasoning is:
+a. Bankruptcy: 4 Years (Discharge or Dismissal: 2 Years).
+b. Foreclosure: 2 Years.
+c. Short Sales / Deeds in lieu: 2 Years.
+d. Mortgage Delinquencies: 1 X 30 X 12.
+Background Report
+1. Dated withing 90 days of loan origination.
+2. No criminal findings or misdemeanors are allowed if they involve financial fraud.
+3. Eastview reserves the right to examine other criminal findings or misdemeanors on an exception basis.
+4. Includes an OFAC search.
+5. For foreign nationals, a background report is mandatory even if the system returns a null check.
+Derogatory findings in either the credit report or background report must comply to the following:
+1. Judgments & Liens:
+a. For judgments/liens over $15,000 the borrower will need to remedy with one of the following ways:
+i. Proof that the liens have been fully paid down.
+ii. Evidence of sufficient liquidity to pay the full lien amount.
+iii. Proof that there are payment plans in place.
+For the subject refinance of a loan, the loan needs to be current at origination and such performance needs to be
+verified through a payoff letter / VOM from the existing lender.
+
+Page 19 of 20
+Holdback of Funds / Future Draw Process
+All Construction Costs must be held back and disbursed only as milestones found in the Construction Budget and
+Timeline are achieved:
+ For Value-Added Soft Costs: the applicable invoices must be provided prior to advancing funds.
+ For Direct Construction Costs: funds are advanced after inspections deem work to have been completed.
+Advances made on Fix and Flip loans at closing or otherwise contrary to the previously described requirements are
+by exception only. Draws are not reimbursed for deposits made, materials stored off site or materials stored on site
+that are not installed and completed.
+Disbursement of holdback funds are to be made on a Reimbursement basis.
+A third-party inspection is required before any funds allocated for the Direct Construction Costs are advanced.
+Sponsors can request a drawdown upon completion of a draw request form detailing the work, which will be disbursed
+based on the percentage of work determined to be completed. A draw request must be accompanied by acceptable
+documentation of lien waivers from the general contractor and/or major subcontractors if warranted.
+Additionally, signed invoices and/or receipts must be provided as proof of payment for items that were not purchased
+by the general contractor/subcontractors if requested.
+Prior to the final draw, Certificate of Occupancy, and proof that all permits are closed in the subject property’s locality
+may be requested for heavy rehab projects. Until these documents are provided, 10% of the construction’s funds may
+be held back.
+Project Feasibility Analysis
+A third-party feasibility analysis is required for specific scenarios:
+1. Budget is greater than $150,000.
+2. There is a change in use / conversion of existing structure.
+3. Expansion of at least 400 square feet or 20% of the existing square footage.
+4. Budget is greater than 100% of purchase price.
+The feasibility analysis shall consist of a detailed review of the plan including:
+1. Budget Review.
+2. Regional costing acceptability.
+3. Line-item cost verification.
+4. Missing items on budget.
+5. Sufficient contingency funds.
+
+Page 20 of 20
+Project Profitability – Bridge Plus (DSCR)
+Each bridge loan that qualifies under the Bridge Plus product will need to fall within the minimum profitability
+thresholds set forth below:
+The minimum DSCR requirement is 1.00x for a rented property and 1.10x for a vacant property. The components of
+a DSCR calculation are set forth below:
+Qualifying Monthly Rent
+DSCR=
+ITIA
+Qualifying Monthly Rent:
+ If the unit is rented at the time of origination, qualifying monthly rent is equal to the lesser of:
+o Lease in-place rent.
+o 105% of Market rent.
+ If the unit is not rented at the time of origination, qualifying monthly rent is equal to the lesser of:
+o 90% of Market rent.
+In case the property is used as Vacation Rental, the qualifying monthly rent is equal to the lesser of:
+ 125% of Market Rent.
+ Average Vacation monthly income over 12-month period.
+To qualify a property for DSCR as a vacation rental the following need to be confirmed:
+ Verification of Online Listing.
+ If not self-managed, evidence of property management agreement.
+ Annual income statement verifying collected rents on a trailing 12-month period.
+Rent is defined in the appraisal, on form 1007 / Market Rent Addendum.
+Monthly ITIA:
+Defined as the sum of interest, taxes, insurance and association fees. See below for a definition of each component:
+ Interest: monthly interest payment based on initial loan amount and original interest rate.
+ Taxes: as defined in the title report.
+ Insurance: as defined in the quote or official binder provided by the agent (includes flood if property located
+in flood zone).
+ Association Fees: as defined in a letter by the HOA.
+Lease Requirements:
+ Only Arm’s Length leases are allowed. Any type of relation between the borrower and the tenant is strictly
+prohibited.
+ Lease term should be no longer than 3 years.
+ Lease should not offer option to purchase to the tenant.
+ No single room occupancy (“SRO”) is allowed.
+ Commercial tenants are not allowed.
+ Month to Market is allowed if the borrower the tenant has lived in the subject property for at least 6 months.
+

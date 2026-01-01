@@ -1,0 +1,560 @@
+DSCR RENTAL
+UNDERWRITING GUIDELINES
+Version Control:1.8 Lisa Kruitbosch
+
+Introduction
+Archwest’s strategic objective is to originate and purchase business-purpose mortgage loans secured by first
+mortgage liens against residential properties as herein described, and to underwrite, document and price those
+loans to generate assets that produce targeted rates of return without exposing Archwest or its investors to
+undue risk.
+Loans are sourced directly, by way of mortgage broker relationships, and through correspondent lenders. Loan
+products include rental loans to real estate investors. Loans are not made for personal, family, or household
+purposes.
+Credit quality is to be managed in balance with other objectives, and in any event, should never be sacrificed or
+mitigated for immediate results. Accordingly, it is incumbent upon the management of Archwest to instill a credit
+culture that fosters and actively supports the extension of credit on sound, fundamental lending principles.
+General Underwriting
+The strengths and weakness of each loan request are carefully assessed to determine the extent to which the
+experience, credit, cash flow and financial condition of the loan borrower individual or entity (“Borrower”) and
+Borrower principals (“Sponsor”) is sufficient for the Borrower to successfully undertake its business plan, the
+burdens of operating costs and contractual debt service obligations, and determine the extent to which the
+characteristics of the local real estate market are favorable.
+All factors that significantly reduce risk should be awarded in the overall credit decision. Just as a thorough
+review of collateral quality as well as the strengths of the Borrower and Sponsor should be considered by the
+underwriter, risks can be balanced by way of prudent loan structure.
+Underwriting Escalations
+These guidelines are intended to define an approach and set forth criteria to be followed for the purpose of
+ensuring that credit is extended in a manner consistent with risk tolerance parameters adopted by the
+organization. Because it is impractical to provide for every circumstance or to pre-judge every nuance that an
+underwriter might encounter in the evaluation of a loan request, it stands to reason that there will be loan
+requests that present the requirement for senior management to review and approve.
+If an underwriter recommends a loan be approved, but the loan does not meet the guidelines as presented in
+this document, they will escalate the loan for review by an SVP or Senior Manager who will review the loan
+request.
+All underwriting escalations will be made available to and be tracked by executive management, who will ensure
+that (i) the number of escalations is minimal, (ii) all escalations are offset by compensating factors such as
+prudent loan structuring in combination with favorable Borrower and/or collateral characteristics, and (iii)
+escalation experience does not exhibit trends that should be addressed through improved underwriting
+management and/or review of the guidelines.
+Borrower and Sponsor Evaluation
+The underwriting of each loan will include the following evaluation of every Borrower and Sponsor(s):
+ Borrowing entities must be duly organized, in good standing and otherwise legally capable of
+undertaking the proposed loan.
+ Borrowers and the Sponsor(s) must not be engaged in business activities that, by their nature, could
+pose reputation risk to Archwest.
+ Financial strength should be consistent with the size and complexity of the financing requested.
+ Credit profile and a history of good character should sufficiently demonstrate ability to be counted on to
+be a responsible secondary source of repayment.
+2
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+Borrower and Principal Underwriting Due Diligence (KYC)
+“Know Your Customer” (KYC) on each Borrower and Sponsor is part of the underwriting process. KYC allows
+Archwest to evaluate a Borrower before extending credit to the Borrower and forming a relationship. The goal of
+the KYC process is to confirm the following:
+Formation/Standing/Identity
+ If an entity, Archwest performs extensive corporate record searches (Thomson Reuters CLEAR Report)
+and applicable Secretary of State website(s) to confirm the entity is active, in good standing.
+ If an individual, Archwest performs an extensive public record search (Thomson Reuters CLEAR
+Report) using the Sponsor’s personal information.
+ Archwest reviews the entity’s formation documents to ensure business purpose, ownership,
+authorization to borrow funds, and execution authority.
+ The underwriter reviews the Borrower’s bank and investment account statements, personal financial
+statements, real estate schedules, background checks, credit reports and other financial documentation
+to confirm that the Borrower meets the cash flow, net worth and liquidity requirements given the size of
+the proposed loan and contemplated construction improvements.
+ If Borrower or Sponsor(s) hold professional licenses, a review is made to determine whether the
+licenses are active, in good standing and whether there has been any disciplinary activity.
+Background Searches
+ A search is conducted for any outstanding items that may impact the Borrower’s ability to perform,
+including the following on the borrowing entity, principals/ key management and affiliates including:
+o Litigation, judgments and liens
+o No active lawsuits
+o No felonies
+o Criminal arrest and infraction records
+o Record of fraud and other financial crimes
+o Bankruptcies
+o Foreclosures
+o OFAC alerts and watchlist
+o UCC filings
+o Death records
+o FEIN/SSN verification
+3
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+SFR Rental – Investor Loan Product Description
+SFR Rental Financing provides experienced real estate investors with liquidity necessary to acquire or refinance
+long term rental properties.
+SFR rental loans are underwritten on the strength of the net operating rental income of the real properties held
+as collateral as well as on the financial resources, real estate investing and property management experience of
+the Borrower/Sponsor
+Loans are underwritten based on four core credit principals of financing Good Quality Properties for which there
+is a Reliably Sustainable Cash Flow, identified Favorable Local Market Conditions, and the verifiable Equity,
+Operational Expertise and Financial Strength of the Borrower/Sponsor.
+Loan Amount $75,000 to $3,500,000 with variances permitted
+Minimum Property Value $100,000
+ Purchase
+o Purchase price is calculated by subtracting the overall
+acquisition price less any concessions (seller paid closing
+costs and up to 3% concessions allowed) (up to 10%
+assignment fee allowed).
+ Delayed Purchase: the property was acquired within 180 days.
+o A delayed purchase requires the lesser of either the original
+purchase price or the current appraised value when
+calculating the loan-to-value ratio; provided however, the
+current appraised value (if higher and supported with a
+second valuation product) can be used to calculate the LTV
+if the seller provided: (1) rehab/ SOW budget (including
+before and after documentation to support the improvements
+of the property); and (2) the internal reconciled value
+Loan Purpose supporting the rehab/ value. If provided, the loan is capped
+at the lesser of 120% LTC or 75% LTV.
+ Rate-Term Refinance
+o Rate/Term refinance < 90 days from the origination date are
+eligible provided cash back to the borrower does not exceed
+2% of the original loan amount or >=$2,000 (whichever is
+less).
+ Cash-Out Refinance:
+o Refinance transactions in which the borrower receives net
+proceeds (excluding third party expenses reflected on the
+HUD) from the refinance that exceeds 2% of the original loan
+amount or >= $2,000 whichever is less.
+o A cash out refinance that occurs >=90 days and <180 days
+requires the original purchase HUD and rehab budget/SOW
+to support the increase in value
+Minimum Properties 1
+25 (multi-property loans must include generic cross-collateralization,
+Maximum Properties
+cross default; substitutions are not permitted)
+Minimum Number of
+1
+Units per Property
+Maximum Number of
+9
+Units per Property
+Single Family Detached Residences
+Permitted Property
+PUD
+Types
+2-4 Unit Residences
+4
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+5-9 Unit Multifamily (with ordinary expense assumptions – see VP of
+Rental UW for pricing)
+Condominiums (non-warrantable may be permitted with clear community
+and association background)
+Townhomes
+See Ineligible Property Types on Schedule 1
+Loan Term 30 years
+Lien Position First (no subordinate financing is permitted during term of the loan).
+30-Year Fixed Rate
+Loan Products
+5/1, 7/1 & 10/1 ARM
+Fixed loans:
+ 30-year amortization term; OR
+ 10-year interest only period + 20-year amortization term
+For 5/1 ARM:
+ 30-year amortization term; OR
+ 5-year interest only period + 25-year amortization term also
+acceptable
+Amortization Period For 7/1 ARM:
+ 30-year amortization term; OR
+ 7-Year interest only period + 23-year amortization term also
+acceptable
+For 10/1 ARM:
+ 30-year amortization term; OR
+ 10-year interest only period + 20-year amortization term also
+acceptable
+Adjustable Rate
+See Exhibit A
+Mortgage Terms
+Step-down options are available as follows:
+ 5%, 4%, 3%, 2%, 1%
+ 4%, 3%, 2%, 1%
+ 3%, 2%, 1%
+ 2%, 1%
+ 1%
+ 0%
+ 5% (60); OR
+ 5% (12), 4% (12), 3% (36); OR
+ 5% (36); OR
+ 5% (24)
+ Prepayment charge of 6 months interest with varying terms between
+12-60 months
+ Notwithstanding the foregoing, the following shall apply:
+Prepayment
+o New Mexico and Alaska – If the property is a 1–4-unit
+business purpose property then prepayment penalties are
+prohibited
+o Pennsylvania – For loans secured by 2 or fewer dwelling
+units AND in an original principal balance less than or equal
+to the annual adjusting dollar limit ($319,777) then
+prepayment penalties are prohibited. However, if the annual
+adjusting dollar exceeds the limit ($319,777) OR loans
+secured by 3 or more dwelling units regardless of dollar
+amount these will be permitted to have a prepay charge
+o Ohio – For loans secured by 1-2 family dwelling unit
+properties and with loan amounts of $112,957 or more are
+subject to a restriction on prepayment penalties (PPP)
+capped at 1% for the first five years of the loans term. Loans
+secured by 1-2 family dwelling unit properties with loan
+5
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+amounts less than $112,957 are not permitted to charge
+prepayment penalties
+ Full recourse to Individual Borrower(s).
+ If Borrower is a legal entity, full recourse warm body by:
+o One or more individuals which in the aggregate own at
+least 51% of the Borrower (non-recourse with customary
+“bad act” carveouts including bankruptcy and
+environmental indemnity permitted with SVP of Credit
+Recourse approval); or
+o All members of the entity with 20% or more controlling
+interest; or
+o A corporate resolution, operating agreement, bylaws or
+shareholder agreement authorizing the signor to execute
+all documents on behalf of the entity.
+o Revocable trust requires trustee and owner of the trust.
+DSCR shall be calculated as monthly gross rental income over monthly
+principal, taxes, interest, insurance and associations (PITIA).
+Gross rental income shall be the lesser of actual monthly rents for leased
+properties per the lease agreement and 100% of monthly market rent
+noted on the appraisal.
+Minimum DSCR
+ 1.2x FICOs <700
+ 1.0x FICOs >700
+5-9 Unit Multifamily (see VP of Rental UW for pricing)
+Minimum DSCR
+ 1.2x NCF DSCR with ordinary expense assumptions for FICOS
+> 720
+Multi-Collateral >10-properties, or >$2M to include NCF DSCR (see
+VP of Rental UW for pricing)
+Minimum DSCR
+ 1.2x NCF DSCR portfolio loan level with ordinary expense
+assumptions for FICOS > 720
+Minimum DSCR
+NCF DSCR Calculation: Net Cash Flow (NCF) divided by mortgage
+payment, after accounting for all property operating revenues, expenses,
+and capital expenditure reserves
+ Net Cash Flow is calculated as:
+o Gross Rent Income
+o (Less) Operating Expenses – Includes property
+management, marketing & leasing, repairs &
+maintenance, insurance, HOA, property taxes, turnover,
+other expenses
+o (Less) Capital Expenditures
+ Additional requirements:
+o Repairs and maintenance:
+ $500 per unit for properties with more than 1 unit
+ $500 per newly constructed single unit property
+ $700 per single unit property
+o Capital Expenditures:
+ $300 per unit for properties with more than one
+unit
+ $400 per newly constructed single unit property
+ $600 per single unit property
+6
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+Maximum LTV  See Exhibit B
+ Corporations
+ Limited Liability Companies
+ LPs
+Borrower
+ Revocable Trusts
+ Non-profit organizations are ineligible borrowing entities
+ Series LLCs are ineligible borrowing entities
+ Individuals at least 21 years old (US Citizens, US Legal Permanent
+Sponsor(s) Resident (Green Card Holders), Non-US Residents/Foreign
+Nationals with a domestic bank account.
+ Minimum 680-mid FICO score for each Guarantor
+ Minimum of 3 credit lines; minimum 1 active credit lines; at least 1
+trade line with 24+ month rating and 2 lines must be rated for 12
+months and may be open or closed
+ An acceptable 12-24 month housing history not reporting on credit
+may also be used as a tradeline
+ Generally, no more than 2x30 in the last 24 months however, if any
+mortgage delinquencies within 24 months an LOE will be required
+ No active, discharged or dismissed bankruptcies (all chapters) in the
+past 3 years
+ Payoff demand (refinance transactions): No more than 30-day
+unpaid interest represented at the time of closing.
+ No derogatory housing credit event (foreclosure, short sale, deed-in-
+Guarantor Credit History
+lieu) completed in past 3 years
+ All outstanding combined liens, judgments, collections/charge-offs or
+other material liens > $10,000 against the borrowing entity and/ or
+the guarantor must be paid in full or in satisfactory status (evidence
+of being current on payment plan for a minimum of 6 months prior to
+close) subject to below:
+o Any liens attached to title must be paid prior to/at closing
+o All government liens (federal, state or local) must be
+resolved
+o Any judgments, liens, collections, or charge-offs that exceed
+the statute of limitations can be excluded
+o No felonies
+o No active lawsuits
+ Down payment if the property is being acquired, closing costs
+and required Debt Service Reserve.
+ Debt service reserve should be the ITIA / PITIA multiplied by the
+standard number of months of reserve requirements
+o 6-9 months (depending on LTV)
+o <=70% LTV = 6 months
+o >70% LTV = 9 months
+Guarantor Liquidity o 12 months for foreign nationals no matter the LTV
+Requirements  Borrower may provide 2-month bank statements with normal
+liquidity sourcing insuring qualifications are met and may utilize
+proceeds from cash out to meet these thresholds
+ Home Equity Line of Credit (HELOC) funds cannot be used to
+meet reserves requirements or used for cash to close
+ Gift Funds are ineligible source of liquidity verification
+ Payments reserves (PITIA) collected on the HUD can be used
+towards liquidity requirements
+ See additional requirements in Exhibit C
+ All US States, except: ND, MN, VT, NV, AK, HI and UT (wholesale
+Eligible Markets with exception approval). US territories are ineligible.
+ Major Markets
+7
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+ No rural properties. Rural is generally defined if CFPB Rural and
+Underserved Designation website equals “yes”; provided however, to
+the extent the designation is “yes” and the property is less than a 50
+minute commute to a secondary market location that has a minimum
+population of 250,000 based on MSA population then the SVP of
+Credit may designate as a non-rural property.
+ An amount sufficient to pay:
+o All property taxes by the 30th day prior to the date such
+taxes become initially due, and
+o Initial insurance premium for a policy expiring within 2
+Escrows Required months of loan origination date
+o Monthly payment should be inclusive of principal, interest,
+taxes, and insurance (PITIA).
+o An account may not be escrowed if approved by the SVP of
+Credit.
+ Minimum 1.20x DSCR with ordinary expense assumptions (see VP
+of Rental UW for pricing)
+5+ Unit Multifamily  Maximum leverage 75% for purchases and 70% for refinances
+ Occupancy rate is determined by the number of units leased divided
+by the total number of units, may not be less than 80% occupied.
+ Leverage Reduction of 5% for Section 8 and Subsidized Leases
+Section 8 and
+ Section 8, Section 42 (properties/loans) and Housing Choice
+Section 42
+Voucher Programs (HCV) are permitted with SVP of Credit approval.
+ Borrowers that intend to self-manage the property must meet one of
+the following:
+o 2 years of experience managing income producing
+Property Management properties; or
+o A certification or evidence of equivalent coursework in real
+estate property management; or
+o New managers are permitted with a 700 minimum FICO
+ All properties required to be in lease ready condition with no
+renovations or repairs required
+ Properties must have a property condition rating of C-1 to C-4 as
+Property Condition
+reflected in the appraisal
+Deferred Maintenance
+ Deferred maintenance items identified in 3rd party reports:
+o Are not to exceed 3% of the value of the subject property
+o >3% must be completed prior to closing
+ If any unit is tenant occupied, lease agreements must be obtained
+and reviewed to confirm there is no clause within the lease with an
+option to purchase
+ Purchase transactions: leases are not required. 100% of appraisal
+market rents to be utilized for DSCR calculation.
+Occupancy  Refinance transactions:
+Requirements o Single Family Properties require an in place lease
+agreement at origination. 90% of appraisal market rents with
+5% reduction in LTV applied for vacant SFR properties.
+o For 2-3 unit or 4 unit properties, there is no more than one
+vacant unit at origination >80% occupancy for multifamily
+properties.
+ Leased Properties are defined as those with:
+o An active lease with a minimum initial term of 12 months,
+between unrelated parties
+o New lease requires proof of receipt of security deposit or first
+Leased/Unleased
+month rent.
+Properties
+o Copy of the current lease and the two (2) most recent
+consecutive rental payments via check deposit, bank record,
+certified tenant rental payment form, or property
+management general ledger and payment history log, third-
+8
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+party payment processor verification bank records to verify
+an arm’s length and bona fide landlord-tenant arrangement.
+o Tenant estoppels are permitted in lieu of leases
+ Month to Month Leases
+o Permitted if rolled from initial lease term or if evidence of
+three (3) months of verified rental payments have been
+received.
+ All leases must be third party lease between unrelated parties with
+no members of the borrower or family members leasing or occupying
+the property
+ Each leased property must be used for residential purposes
+ No individual room leases, Single Room Occupancy (SRO), or
+subleases, boarder leases not permitted
+ Leases must be in U.S. dollars
+ No commercial use allowed
+ No purchase or sale-leaseback options are permitted
+ No cash-for-deeds
+ No leases with a term of >3 years
+ Leased Units:
+o Lower of in-place rent and appraisal market rent.
+ Unleased Units:
+o Purchases: 100% of market rent from valuation report
+Underwritten Rents
+o Refinances: 90% of market rent from valuation report with
+5% LTV reduction
+ Properties with no proof of rent collections or receipt of security
+deposit are considered as unleased
+ Rents will be capped at 100% of monthly market rents for a 12 month
+lease, even if using Airbnb/ VRBO generates significantly higher
+cash flows
+ No more than (10%) of production can be Airbnb/ VRBO
+ Maximum LTV – 70%
+Airbnb/VRBO/Vacation/  For refinances and purchases, the originator must confirm the rent
+Seasonal Rentals/Short patterns using the AIRDNA tool located at www.airdna.com. The
+Term Rentals documentation (rentalizer tool) must be property specific and will
+need to include the annual revenue generated from the property,
+nightly rent rates and occupancy percentage information for at least
+the last 12 months. For newly purchased properties, the rentalizer
+tool will need to have the noted information for all months that are
+available since purchase.
+9
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+SFR Rental Portfolio and Single Property Loan Collateral Valuation Protocol
+An independent third-party appraisal completed within 120 days of loan closing will be obtained to support every
+loan made or purchased as set forth below (180 days is acceptable with recertification of value provided by
+appraiser):
+ Loan amount < $2,000,000 (1-4 Unit)
+o One full independent appraisal required
+o Market rent estimate included on appraisal
+o Secondary valuation product is required. The secondary valuation product value must be used
+to the extent the variance exceeds -10%
+ Loan amount > $2,000,000 (1-4 Unit)
+o Two full independent appraisals required
+o Market rent estimate included on appraisal
+o Lower of two appraised values to be used in LTV calculation
+ 5-9 Unit Multifamily
+o Full commercial Narrative appraisal with valuations based on both cash flow/income
+capitalization approach and sales comparison approach, both specifying comparable
+o Appraisal must include photos/inspections of 25% of units
+10
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+Exhibit A
+Adjustable Rate Mortgage Terms
+ Index 12 month term SOFR
+ Margin 4.5% to 6%
+ARM Cap Structure Initial Rate Reset Periodic Reset Lifetime Reset
+5/1 ARM 2.00% 2.00% 5.00%
+7/1 ARM 2.00% 2.00% 5.00%
+10/1 ARM 5.00% 2.00% 5.00%
+11
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+Exhibit B
+Underwriting Matrix (LTV/LTC)
+Credit Score Purchase Refinance Refinance
+(Rate / Term) (Cash Out)
+720+ 80% 80% 75%
+700-719 75% 75% 70%
+680-699 75% 75% 70%
+5+ Units 75% 70% 70%
+Foreign National 65% 65% 60%
+700-719 FICOs: >1.20x DSCR 5% increase in LTV
+Foreign Nationals: >1.30x DSCR 5% increase in LTV
+STR AirBnB / VRBO properties: 5% reduction in LTV
+Section 8 or Subsidized Leases: 5% reduction in LTV
+Vacant Refinance: 5% reduction in LTV using 90% of appraisal market rents
+Luxury Rentals (>$1M UPB for single asset properties): >1.20x DSCR, 10% reduction in LTV, 12-month lease,
+with no active property listing (see VP of Rental UW for pricing).
+12
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+Exhibit C
+Documentation used to verify liquidity must be dated within 90 days of the loan origination date.
+When bank statements are used, large deposits must be evaluated. A large deposit is defined as any single
+deposit that is more than 175% of the average total monthly deposits over $10,000, exception when bank
+transaction clearly notes reason for deposit (examples: loan draw, sale proceeds, transfer between borrower
+accounts).
+Liquidity may be verified from the following sources for the borrower and/or guarantor(s):
+1. Bank, money market or securities account statement.
+2. 75% of any stock, bonds, mutual funds
+3. 60% of the cash value of a life insurance or annuity policy
+4. 50% of the value of 401(k) or IRA plans and adjusted to 70% if the borrower is over 59 and a half years
+old.
+5. Cash-Out Refinance will allow for 50% of the cash back to the borrower to be used as liquidity
+6. Bank or brokerage account held in the name of a Trust
+a. Requires copy of the full Trust Agreement that provides beneficiary details and access to funds
+in the Trust’s bank and/or brokerage account; or
+b. Requires formal or official documentation from the bank substantiating that the applicant is the
+beneficiary and has unlimited access to funds in the Trust account
+7. Business bank or brokerage account
+a. Requires a copy of the full Operating Agreement that details ownership of the entity and access
+to funds in the entity’s bank/brokerage account; or
+b. Requires formal or official documentation from the bank substantiating that the applicant is an
+authorized signor and has access to business account funds
+8. For purposes of verifying liquidity, any bank, brokerage, retirement, or other statement used must
+include the following:
+a. Name of the institution
+b. Validation of account ownership: Borrower(s)/Guarantor(s) name and business name, when
+applicable
+c. Account number to include at least three digits of the account number
+d. Legible dates
+e. Statements with ALL pages evidencing at least one-month consecutive activity
+1031 Exchange: Like-Kind Exchanges Assets for the down payment from a “like-kind exchange,” also known as
+a 1031 exchange, are eligible if properly documented and in compliance with Internal Revenue Code Section
+1031.
+13
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+
+Schedule 1
+Ineligible Properties
+ Manufacturer, modular or mobile homes (properties with VIN numbers or otherwise not attached to a
+permanent foundation)
+ Cooperatives
+ Raw land, working farms or ranches
+ Properties subject to purchase options
+ Vacant land or land development properties
+ Acreage greater than 10 acres
+ Single family residences or townhomes <700 square feet, or 2-4 unit multifamily residences with the
+average of all units <500 square feet and no individual unit <400 square feet, or condominiums <500
+square feet
+ Properties which are not in compliance with local zoning regulations (including as reflected on the
+appraisal or residential evaluation)
+ Properties with known adverse environmental conditions (other than lead paint, radon or asbestos in
+each case which do not present a health hazard, do not require remediation and have been verified
+contained per EPA guidelines prior to funding)
+ Properties with underground oil tanks are not permitted without environmental assessment
+ Total or partially condemned property (including threatened or pending eminent domain)
+ Mixed use properties
+ Assisted living facilities
+ Log homes
+ Houseboats
+ Condotels
+ Co-op/timeshare hotels
+ Boarding houses
+ Dome or geodesic homes
+ Homes on Indian reservations
+ Hawaii properties located in lava zones one and/or two
+ Property occupied by Borrower/Guarantor
+ Senior living
+ Rehab housing
+ Student housing
+ Corporate housing and/or leases made to an entity
+ Properties with inaccessible roads
+ Continuing care facilities
+ Mandatory country club membership
+ Gas or oil leases
+ Ground leases
+14
+Version Control: 1. Archwest DSCR Guidelines_7.9.25_V1.8
+

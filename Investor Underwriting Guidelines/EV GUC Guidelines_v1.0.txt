@@ -1,0 +1,539 @@
+Ground Up Construction Loan (“GUC”)
+Underwriting Credit Guidelines
+(1-4 Units)
+(Effective August 2024)
+Version 1.0
+
+Page 2 of 20
+Contents
+Disclosures .................................................................................................................................................... 3
+List of Underwriting Documents .................................................................................................................. 4
+Loan Programs and Qualifications ................................................................................................................ 5
+Definitions .................................................................................................................................................... 6
+Eligible Loan Characteristics ........................................................................................................................ 7
+Property Underwriting ............................................................................................................................... 8
+Valuation Methodology ............................................................................................................................ 8
+Property Requirements ............................................................................................................................ 11
+Title Requirements .................................................................................................................................. 12
+Property Insurance .................................................................................................................................. 13
+Borrower Underwriting ............................................................................................................................ 14
+Track Record Documentation ................................................................................................................. 14
+Liquidity Requirements .......................................................................................................................... 15
+Credit & Background .............................................................................................................................. 16
+Project Underwriting ................................................................................................................................ 17
+Holdback of Funds / Future Draw Process ............................................................................................. 17
+Project Feasibility Analysis .................................................................................................................... 19
+General Contractor Review ..................................................................................................................... 20
+
+Page 3 of 20
+Disclosures
+Origination Policy
+This Underwriting Guide establishes the minimum requirements that must be met to originate short term Ground Up
+Construction loans (“GUC”) by Eastview as a loan buyer or table funder. Every subject loan is subject to a full
+diligence review executed by Eastview. Eastview retains the right to reject a loan for any reason not specified in the
+guidelines as it sees fit. All loans underwritten under this program are business purpose loans with a fully executed
+affidavit from the borrowers/guarantors.
+Applicable Law
+Any originator, seller, or any third-party originator or broker engaged by the Seller must fully comply with all federal,
+state, and local laws applicable to the origination and sale of mortgage loans (“Applicable Law”). It is the Seller’s sole
+responsibility to ensure that all loans it originates comply with Applicable Law.
+Fair Lending
+Eastview strictly complies with all applicable federal, state, and local requirements related to fair lending, including
+the Equal Credit Opportunity Act and the Fair Housing Act (together, the “Fair Lending Requirements”). Accordingly,
+in connection with its decision to purchase / table fund loans, Eastview will not discriminate on any prohibited basis.
+Eastview will also not knowingly purchase loans from Sellers engaged in practices that violate Fair Lending
+Requirements. To the extent a Seller is found to be engaging in practices that may violate Fair Lending Requirements,
+Eastview may terminate its contractual relationship with such Seller or take any other action that it deems appropriate.
+State Licensing
+The Seller must comply with all applicable state license and registration requirements in connection with mortgage
+loan origination and any other related business activities, which include without limitation:
+• Ensuring that each loan officer/originator/broker involved in the origination of loans delivered to Eastview
+is appropriately licensed.
+• Maintaining appropriate organizational licensure based on the type and location of the activities it engages
+in.
+
+Page 4 of 20
+List of Underwriting Documents
+All Products – Ordered by Lender: o Operating Agreement / Partnership
+Agreement / Bylaws
+ Appraisal Report o Certificate of Good Standing
+ Secondary Valuation o EIN Verification
+ Feasibility Analysis
+ Credit Report
+ Background Report
+ OFAC Check
+ Preliminary Title Report Loan Purpose: Purchase
+ Flood Certificate
+ Purchase Agreement
+All Products - Provided by the borrower:
+Loan Purpose: Refinance
+ Loan Application / Credit Authorization
+ Payoff Letter / VOM
+ ID or Passport
+ Proof of Liquidity Closing Documents
+ Insurance
+ Track Record  Business Purpose Affidavit
+ Condo Questionnaire  Deed of Trust or Mortgage
+ Construction Budget  Note
+ Plans (Preliminary or Approved)  Loan Agreement
+ Permits (Preliminary or Approved)  Guarantee
+ Construction Contract (if applicable)  Closing Instructions and Closing Protection
+ Entity Documents Letter
+o Certificate of Formation / Filed  Spousal Consent
+Articles of Organization
+
+Page 5 of 20
+Loan Programs and Qualifications
+Our current product offering focuses on infill vertical development on land that is entitled. This product is not eligible
+for investors that are targeting horizontal development (viewed as supporting infrastructure and/or utility/access-way
+projects) or non-entitled land development. All products require a Borrower Classification which is derived by the
+number of Verified Experience as shown in the table below. In order to determine the # of Verified Experience Score
+please refer to section Borrower Underwriting / Track Record Documentation.
+Borrower Classification Total Experience Threshold
+A+ 10+ (min 4 GUC)
+A 5+ (min 2 GUC)
+B 1+ (min 740 FICO)
+Initial Loan Amount Loan Amount
+Loan Purpose Borrower Classification As-Is LTV LTC TLTC LTARV
+A+ 75.0% 75.0% 90.0% 70.0%
+Purchase A 70.0% 70.0% 85.0% 70.0%
+B 65.0% 65.0% 80.0% 65.0%
+A+ 70.0% N/A N/A 70.0%
+Refinance
+A 65.0% N/A N/A 70.0%
+(Rate & Term)
+B 60.0% N/A N/A 65.0%
+A+ 65.0% N/A N/A 65.0%
+Refinance
+A 60.0% N/A N/A 65.0%
+(Cash Out)
+B 55.0% N/A N/A 60.0%
+Underwriting Description Leverage Reductions
+Non-Entitled Land -100%
+No Permits and Approved Plans -10%
+HPA decline between 0% - 10% -5%
+HPA decline greater than 10% -15%
+200% < ZHVI Multiplier < 300% -5%
+ZHVI Multiplier > 300% -15%
+Underwriting Description Leverage Caps (LTV/LTC)
+FICO 660-699 / Foreign National 60%
+Loan Amount between $1.5M and $2.0M 70%
+
+Page 6 of 20
+Definitions
+Initial Loan Amount: Total proceeds disbursed at closing. Does not include any construction escrow.
+Loan Amount: Initial Loan Amount plus construction escrow, if applicable.
+Cost Basis: The total closing costs as disclosed in the HUD / Settlement statement without including any origination
+points paid to the lender or the broker (if applicable). Cost basis can include assignments fees up to lesser of 10% of
+land’s purchase price or $40,000. Regarding previously completed construction the borrower needs to provide
+before/after photos verifying the completed work.
+Refinance Cost Basis: The sum of the original property purchase price and any previously completed construction
+cost for which the borrower needs to provide before/after photos verifying the completed work.
+Total Cost Basis: The sum of Cost Basis, the construction budget and Interest Reserves (if applicable)
+Initial Loan to Cost (“LTC”): Initial Loan Amount divided by the Cost Basis of the subject property.
+Initial Loan to Value (“As-Is LTV”): Initial Loan Amount divided by As-Is appraised value.
+Loan to Total Cost Basis (“TLTC”): Loan Amount divided by Total Cost Basis
+Loan to After-Repair Value (“LTARV”): Loan Amount divided by After-Repair appraised value.
+Loan Purpose:
+ Purchase: The property was acquired within 6 months of loan origination.
+ Refinance (Rate & Term): The property was acquired more than 6 months before loan origination and the
+borrower’s net receivable funds at closing represent less than or equal to 2% of the loan amount or less than
+$2,000.
+ Refinance (Cash Out): The property was acquired more than 6 months before loan origination and the
+borrower’s net receivable funds at closing represent more than 2% of the loan amount or more than or
+equal to $2,000.
+
+Page 7 of 20
+Eligible Loan Characteristics
+Minimum Loan Amount $150,000
+Maximum Loan Amount $1,500,000 (up to $2,000,000 on an exception basis)
+Minimum Qualifying Credit Score 660
+Loan Term 12-24 Months
+Loan Structure Interest Only
+Rate Type Fixed Rate
+Interest Accrual Dutch / Single Funding (With Construction Escrow)
+Or Non-Dutch / Multiple Draws
+Interest Reserves Required to allow investor to qualify for 90% TLTC
+Lien Only first liens are allowed
+Origination Points May not exceed 5% of the loan amount
+Borrowing Entity The following structures are allowed:
+- LLC
+- Limited Partnership
+- Corporation
+- Irrevocable Trust
+- Individual
+Property Ownership Fee Simple. Leasehold is not permitted
+Recourse All loans should have executed personal guarantees by at least 51% of the
+entity’s ownership
+Not Permitted States North Dakota, South Dakota, Hawaii, and Alaska
+Seller’s Concession May not exceed 5% of the property purchase price
+Maximum HPA Variance - 10.0%
+Maximum ZHVI Multiplier +300.0%
+Release Provisions For cross-collateralized loans the release provision for a partial lien
+release is calculated at 120% of the pro-rata allocated UPB of the subject
+property
+Plans & Permits The subject project will require plans and permits approved by the local
+municipality. Projects without approved plans will be underwritten on an
+exception basis and will require a third-party architect or zoning-attorney
+verifying that the proposed plans are viable according to local
+municipality building and zoning requirements.
+The 10% leverage reduction for “No Permits and Approved Plans” will be
+released to the borrower once the approved plans and permits get
+submitted to the lender.
+
+Page 8 of 20
+Credit Underwriting
+Property Underwriting
+Valuation Methodology
+Eastview requires independent third-party valuations for all loans tabled funded or aggregated. Eastview reserves the
+right to review all valuation reports and determine if the subject property value is supported.
+Valuation assignments must be obtained in a manner that maintains third-party independence and does not unduly
+influence the appraiser/broker to meet a predetermined value. Eastview reserves the right to restrict the use of any
+specific appraiser/broker and/or appraisal management company at its discretion.
+The age and price of the subject property should fall within the age and price range of properties in the subject
+neighborhood. Comparable properties should be selected from the same neighborhood when possible. Selection of a
+comparable outside the subject neighborhood should be addressed within the report. For condominiums, at least one
+comparable should be from outside the subject project. Ideally, comparable sales should be within six months of the
+report date. Older comparable sales that are the best indicator of value should be addressed in comments by the
+appraiser/broker.
+Valuations need to comply to the following:
+1. For a SFR form FNMA 1004 / FH 70, for 2-4 units form FNMA 1025 / FH 72 and for condos form FNMA
+1073 / FH 465.
+2. The valuation needs to provide both As-Is and After-Repair values.
+3. The valuation should be dated no more than 120 days prior to the Note date.
+Appraisal Requirements:
+- Appraisers must meet all industry standards and be State Certified.
+- State Licensed Appraisers and Trainees are not permitted.
+- Appraisals can’t be restricted.
+- All real estate appraisals must be performed according to the Uniform Standards of Professional Appraisal
+Practice (USPAP) and Fannie Mae guidelines, including Universal Appraisal Dataset (UAD) requirements.
+A valuation review is required on every loan file unless a second appraisal is obtained. The Secondary Review will
+need to be within 10% of the As-Is value and 10% of the After-Repair value (if applicable). If the variance is less than
+10%, the appraisal value will be used to underwrite the loan. If the variance is greater than 10% the lesser of the two
+values will be used to underwrite the loan.
+
+Page 9 of 20
+Area Conformity Assessment
+Publicly available Zillow data will be used in conjunction with the housing trends provided on the appraisal(s) to
+determine if the subject property is in a declining market.
+For underwriting purposes, we will look at the following metrics:
+ Zillow Home Value Index (“ZHVI”): this metric indicates the median home value on the subject zip code.
+ Home Price Appreciation (“HPA”): this metric indicates the percentage of change of the median home
+value on the subject zip code.
+To protect against an unhealthy and illiquid market, Eastview restricts leverage and lending in total for properties
+located in red zip codes. Such reductions are set forth in the leverage reduction table.
+The After-Repair value will be used for comparison reasons against the ZHVI.
+
+Page 10 of 20
+Condominium Requirements
+For each condominium, Eastview requires the borrower to obtain a fully executed Condominium Questionnaire from
+the Association. The applicable form can be derived directly through Fannie Mae (Form 1076).
+A condominium is considered non-warrantable if any of the following applies:
+ The project is not yet completed.
+ The developer has not turned over control of the HOA to the owners.
+ A single person/entity owns more than 10% of all units.
+ HOA permits short-term rentals.
+ The majority (>50%) of the units are purposed as rentals (non-owner occupied).
+ There is pending litigation associated with the HOA.
+ Commercial space accounts for more than 25% of the building square footage.
+ More than 15% of units are in arrears with their association dues.
+If Fannie Mae’s guidelines change or if there is a provision not included in the bullet points above that
+deems a condominium warrantable then Eastview will revert to the newest guidelines and Fannie Mae’s
+eligibility in order to qualify the dwelling as warrantable or non-warrantable.
+
+Page 11 of 20
+Property Requirements
+The property needs to satisfy the following criteria:
+ Only the following property types are allowed:
+o Single Family Residence.
+o Townhome.
+o Condominium.
+o 2-4 Units.
+ Minimum square footage after construction is:
+o SFR or Townhome: 600
+o Condo or 2-4 Unit: 500 per unit
+ Properties not located in Rural areas (as defined in the appraisal)
+ Ineligible properties include:
+o Mobile or manufactured homes.
+o Unentitled land
+o Properties with escalated liens as set forth in the title report with local authorities.
+o Properties with environmental hazards such as underground oil tanks.
+o Condotels / Timeshares.
+o Property currently involved in litigation or with zoning violations that can’t be resolved prior at
+closing.
+o Properties encumbered by purchase options.
+o Properties located in lots larger than 5 acres (on an exception basis).
+
+Page 12 of 20
+Title Requirements
+The following title insurance requirements are applicable to loans purchased:
+ The title should be fee-simple.
+ No liens are accepted on the property.
+ The insurance should provide sufficient gap coverage.
+ Each dwelling should be its own tax parcel.
+ Each dwelling should comply to zoning regulation and have sufficient access to public.
+ The policy is produced in the correct form:
+o The 2006 American Land Title Association (ALTA) standard form.
+o An ALTA short form if it provides coverage equivalent to the 2006 ALTA standard form.
+o In states in which standard ATLA forms of coverage are, by law or regulation, not used, the state
+promulgated standard or short form which provides the same coverage as the equivalent ALTA
+form.
+ The amount of title insurance coverage must at least equal the original principal amount of the mortgage.
+The title policy must protect Eastview by insuring:
+ That the mortgage is superior to any lien for unpaid common expense assessments. (In jurisdictions that give
+these assessments a limited priority over a first mortgage lien, the policy must provide assurance that those
+assessments have been paid through the effective date of the policy.).
+ Against any impairment or loss of title of the first lien caused by any past, present, or future violations of any
+covenants, conditions, or restrictions of the master deed for the project. (It must specifically insure against
+any loss that results from a violation that existed as of the date of the policy.).
+ That the unit does not encroach on another unit or on any of the common elements, areas, or facilities. (The
+policy also must ensure that there is no encroachment on the unit by another unit or by any of the common
+elements, areas, or facilities.).
+ That the mortgage loan is secured by a unit in a condominium project that has been created in compliance
+with the applicable enabling statutes.
+ That real estate taxes are assessable and lien able only against the individual condominium unit and its
+undivided interest in the common elements, rather than against the project as a whole.
+ That the owner of a PUD unit is a member of the homeowners' association, and that the membership is
+transferable if the unit is sold.
+
+Page 13 of 20
+Property Insurance
+The insurance should be sufficient to cover any losses on the property, that in turn jeopardize the lienholder’s position.
+Such losses can occur for various hazard reasons such as destructive natural disasters or manmade events.
+The insurance coverage should reflect the following:
+ Coverage equal to the lesser of
+o 100% of the replacement cost as established by the property insurer.
+o The original principal balance of the mortgage.
+ Minimum Liability coverage of $1,000,000.
+ Builder’s Risk policy equal to the term of the loan.
+ If the property is in a flood zone (verified through a flood certificate), coverage equal to the lesser of:
+o 100% of the replacement cost as established by the property insurer.
+o The original principal balance of the mortgage.
+o FEMA max allowed insurable value.
+ If the property is a Condominium, the insurance agency needs to provide:
+o Master Property Insurance Policy.
+o H06 /Walls-In Policy.
+ Language that includes a mortgagee clause ISAOA/ATIMA and the correct name of the borrowing
+entity/individual name.
+ Insurance coverage should cover the following timelines based on the loan purpose:
+o Purchase: Policy should be in effect by closing and be at least 6 months forward.
+o Refinance or Delayed Purchase: Policy should in effect and with at least 3 months before expiration.
+
+Page 14 of 20
+Borrower Underwriting
+Track Record Documentation
+The sponsor must provide a schedule of previous transactions, current properties owned, and any other property
+transactions a party to. Experience must be verified through one or more of the following methods:
+ Public tax records.
+ National property record databases.
+ Verification of property ownership/sale within federal tax documents.
+ ALTA/HUD-1 Settlement Statements documenting prior transactions.
+The following table describes how experience is qualified:
+Experience Description Qualifying Points Timeline
+1 Property rehab completed and sold 1.00 <= 48 Months
+2 Property rehab completed and retained as rental 0.75 <= 48 Months
+3 Property acquired as rental 0.50 <= 48 Months
+4 Ground up construction and sold 1.00 <= 48 Months
+5 Ground up construction and retained as rental 0.75 <= 48 Months
+6 Property rehab completed and sold as GC for 3rd party investor 0.50 <= 48 Months
+7 Property rehab completed and sold 0.75 > 48 Months
+8 Property rehab completed and retained as rental 0.50 > 48 Months
+9 Property acquired as rental 0.25 > 48 Months
+10 Ground up construction and sold 0.75 > 48 Months
+11 Ground up construction and retained as rental 0.50 > 48 Months
+12 Property rehab completed and sold as GC for 3rd party investor 0.25 > 48 Months
+Experience needs to comply to the following:
+ In the case of multiple owners in an entity the combined experience of each owner is used to qualify a loan.
+ Each section will require specific verification:
+o Section 1, 7: Proof that a property was acquired and sold within a 2 year timeframe.
+o Section 2, 8: If the property is owned less than 1 year, a rental lease will be required. If the
+property is owned more than 1 year, confirmation of ownership through a Property Report. Proof
+of the rehab completed will also need to be provided.
+o Section 3, 9: If the property is owned less than 1 year, a rental lease will be required. If the
+property is owned more than 1 year, confirmation of ownership through a Property Report.
+o Section 4, 10: Proof that a property was built and sold within a 2 year timeframe.
+o Section 5, 11: Proof that a property was built within a 2 year timeframe. A rental lease will be
+required.
+o Section 6, 12: Proof of work completed for 3rd parties along with the respective GC license.
+
+Page 15 of 20
+Liquidity Requirements
+For a loan to fully qualify under the guidelines the entity needs to support the following levels of liquidity.
+For Classification A+ and A customers, the minimum requirement is the sum of:
+ 3 Months of Payments.
+ Non-Financed Construction Cost.
+ Down Payments and Closing Costs (if loan purpose is a purchase).
+ Monthly payment associated with payment plan in place regarding outstanding judgments or personal liens
+in excess of $15,000.
+For Classification B customers, the minimum requirement is the sum of:
+ 6 Months of Payments.
+ Non-Financed Construction Cost.
+ Down Payments and Closing Costs (if loan purpose is a purchase).
+ Monthly payment associated with payment plan in place regarding outstanding judgments or personal liens
+in excess of $15,000.
+The following are applicable sources of liquidity and must be dated within 2 months of origination:
+ 2 most recent months of bank statements.
+o In case a new account was opened, the borrower needs to verify the source of the funds.
+ 75% of investment accounts in liquid assets (stocks, bonds, etc.).
+ 50% of the value of a retirement plan.
+ 100% of cash out proceeds.
+ Revolving facility with available credit to be drawn such as:
+o Home equity loan.
+o Line of credit (either in individual’s or the entity’s name).
+ Gifts from immediate family member on an exception basis with supporting documents
+o Executed gift affidavit.
+o Source of funds from the grantor.
+ 1031 Exchange letter.
+ Written verification of deposit completed by the financial institution.
+ Executed letter from attorney or title agency verifying holding funds on behalf of the entity.
+
+Page 16 of 20
+Credit & Background
+Eastview requires 51% of the entity owners and guarantors to execute an authorization that allows the lender to run
+the following reports:
+Credit Report
+To calculate an individual’s Credit Decision Score, use the lower of two credit scores or the median of three scores.
+To calculate the loan’s Credit Decision Score, the qualifying Credit Decision Score of the individual with the highest
+percentage of ownership will be utilized. In cases where the entity has owners with an equal percentage of ownership,
+the lesser qualifying Credit Decision Score will be utilized. The following must apply:
+1. Show at least two scores for each guarantor through a hard pull.
+2. Dated within 90 days of loan origination.
+3. Minimum allowed Credit Decision Score is 660 for each individual.
+4. For housing events, the required seasoning is:
+a. Bankruptcy: 4 Years (Discharge or Dismissal: 2 Years).
+b. Foreclosure: 2 Years.
+c. Short Sales / Deeds in lieu: 2 Years.
+d. Mortgage Delinquencies: 1 X 30 X 12.
+Background Report
+1. Dated withing 90 days of loan origination.
+2. No criminal findings or misdemeanors are allowed if they involve financial fraud.
+3. Eastview reserves the right to examine other criminal findings or misdemeanors on an exception basis.
+4. Includes an OFAC search.
+5. For foreign nationals, a background report is mandatory even if the system returns a null check.
+Derogatory findings in either the credit report or background report must comply to the following:
+1. Judgments & Liens:
+a. For collective judgments/liens over $15,000 the borrower will need to remedy with one of the
+following ways:
+i. Proof that the liens have been fully paid through official release letter.
+ii. Proof that there are payment plans in place that are current.
+iii. If the liens are still outstanding, the incremental amount over the $15,000 limit will need
+to be paid at closing.
+For the subject refinance of a loan, the loan needs to be current at origination and such performance needs to be
+verified through a payoff letter / VOM from the existing lender.
+
+Page 17 of 20
+Project Underwriting
+Holdback of Funds / Future Draw Process
+All Construction Costs must be held back and disbursed only as milestones found in the Construction Budget and
+Timeline are achieved:
+ For Value-Added Soft Costs: the applicable invoices must be provided prior to advancing funds.
+ For Direct Construction Costs: funds are advanced after inspections deem the work to have been completed.
+For Soft Costs the following must apply:
+1. Total costs must not exceed 15% of the total budget.
+2. Eligible soft costs include plans & permits, architectural, impact, survey & stakeout, condo documentation,
+contractor, and inspection from local government.
+Advances made on loans at closing or otherwise contrary to the previously described requirements are by exception
+only. Draws are not reimbursed for deposits made, materials stored off site or materials stored on site that are not
+installed and completed. Disbursement of holdback funds are to be made on a Reimbursement basis.
+A third-party inspection is required before any funds allocated for the Direct Construction Costs are advanced.
+Sponsors can request a drawdown upon completion of a draw request form detailing the work, which will be disbursed
+based on the percentage of work determined to be completed. A draw request must be accompanied by acceptable
+documentation of lien waivers from the general contractor and/or major subcontractors if warranted.
+Additionally, signed invoices and/or receipts must be provided as proof of payment for items that were not purchased
+by the general contractor/subcontractors if requested. This is important as these entities can file a Mechanic’s Lien on
+your property if they are not paid for completed work. The Lender safeguards against liens by requesting lien releases
+(both Conditional and Unconditional) and sometimes invoices. The Conditional Lien Releases/Invoices show who is
+to be paid and what amount. The Unconditional Lien Releases show that these entities have been paid and that lien
+rights have been waived.
+First and Interim Draws:
+The following forms/documents are needed for review and approval of your first draw. All of the forms listed are
+included in this guide:
+Construction Loan Advance Form: This form lists what funds are being requested, from which line(s) in your
+construction budget, who is being paid with these funds, and what type of support (lien releases, invoices) are being
+submitted in support of the request. This form must be signed/dated by the General
+
+Page 18 of 20
+Contractor and Borrower on EACH draw request. Original signatures are NOT required; email/fax copies are
+acceptable.
+Transfer Form: Use this form to transfer funds from one line item in the budget to another line. Additional
+clarification/information may be required in support of the transfer request.
+Change Orders: If any Change Orders (changes to the original scope of work on the project) have been negotiated
+and approved, please provide these with your draw request. The Change Order should detail the additional work being
+completed; the dollar amount associated with the changes and must be signed/dated by the borrower and contractor.
+Any Change Orders to the project must be reviewed and accepted by Eastview.
+Permits/Approved Plans: The contractor is to provide permits at the time of the first draw. Additionally, approved
+and certified plans are required with the first draw.
+Invoices/Conditional Lien Releases: An Invoice/Conditional Lien release is required from each payee owed more
+than $1,000 for the current draw request. An Invoice/Conditional Lien Release states that once paid the stated amount,
+the payee will waive lien rights associated with the project.
+Unconditional Lien Releases: An Unconditional Lien Release is required from each payee owed more than $1,000
+from the previous draw. An Unconditional Lien Release states that a payee has been paid the stated amount and thus
+their lien rights for this amount are waived. The Unconditional Lien Releases should match the Conditional Lien
+Releases submitted with the previous draw (by payee and amount).
+Upon receipt of your draw request, an inspection will be ordered and the draw input and reviewed by our draw
+administrators. A Request for Additional Information Notification will be sent to all contacts on the project (normally
+the Borrower, General Contractor) listing any additional documents needed to complete the request.
+Final Draw
+Certificate of Occupancy or Final Sign Off: This document is issued by the city/county/municipality stating that
+the project/home has passed all code inspections and is authorized for occupancy.
+Final Conditional Lien Release: The General Contractor should supply a Final Conditional Lien Release. This
+release will state that the General Contractor, once funds for the final draw are received, has been paid in full and
+waives ALL lien rights on the project.
+
+Page 19 of 20
+Project Feasibility Analysis
+The main purpose of a Project Feasibility Report is to verify that the budget provided is sufficient to complete the
+scope of work for the project. A third-party feasibility report is required for all loans.
+In order to properly review the project, the following documents are needed:
+1. Itemized Budget: This should be completed by the contractor and itemize the line numbers and amounts for
+all categories in the scope of work. The budget will be reviewed to determine if the budget for each line is
+sufficient to complete the scope of work. If any scope of work is missing from the budget, the third party
+vendor will recommend adding a new line to the budget and provide an estimated budget amount for this
+line. If a 10% contingency isn’t included in the line, Eastview will recommend adding these funds to the
+budget.
+2. Construction Contract: The third party vendor can review the construction contract between the borrower
+and contractor. This is not a requirement for the third party vendor to complete the report. If provided, the
+third party vendor will verify that the contract is fully executed, the contract amount matches the budget, and
+there are no funding concerns in the contract.
+3. Plans: For all ground-up projects Eastview requires copies of the plans. The plans do not need to be fully
+approved by the permit office, that can be collected during the fund control draw process. The third party
+vendor will review the plans against the budget to ensure all line items are represented in the budget.
+4. Appraisal: The Appraisal is used as a starting point for the status inspections in the future along with giving
+the processor a view of the current status of the construction project. The third party vendor will also use the
+information on these forms to validate the scope of work for the project.
+5. Permits: If permits have already been pulled, the third party vendor will require a copy of them. Typically,
+permits are not available at this stage as the borrower needs the loan to purchase the property or needs funds
+to start construction. The third party vendor will search for any open permits on the city and county permit
+websites if the permit office provides this information online.
+6. Site Visit / Inspection: For all loans with a construction budget of $1,000,000 or more, Eastview will require
+a site visit / inspection.
+
+Page 20 of 20
+General Contractor Review
+For specific loans, Eastview will require a general contractor to complete the construction project. If a general
+contractor is required to complete the project, a contractor review will be required from the same third party vendor
+that completed the Project Feasibility Analysis. The table below summarizes when a general contractor is needed:
+Borrower Construction Contractor
+Classification Budget Requirement
+A+ Any Amount --
+A >= $1M GC Required
+A < $1M --
+B Any Amount GC Required
+The purpose of a Contractor Review report is to vet the contractor for a project. The goal is to ensure that the contractor
+has completed similar type projects in the past, the contractor has the proper insurance and license documents, and
+has a satisfactory business credit rating. To complete the report, we will need the following documents:
+1. Contractor Profile Form: The contractor will fill out Eastview’s form and provide some basic information
+about their organization.
+2. Contractor/Builders License: Third party vendor will verify that the builder has a license and that it is
+current. Some states or counties do not require an official license for general contractors. If this is the case,
+we will need this in writing from the contractor and we will verify that this statement is true.
+3. Form W9: Third party vendor uses this form to verify the company and compares it against the builders
+credit report.
+4. Contractor Driver’s License: Third party vendor will complete an online background check on the person
+and company.
+5. Workman’s Compensation Insurance: Third party vendor will verify that the contractor has workman’s
+compensation insurance and that it hasn’t expired.
+6. General Liability Insurance: Third party vendor will verify that the contractor has general liability
+insurance and that it hasn’t expired.
+7. Business Credit Report: Third party vendor will attempt to pull a business credit report.
+

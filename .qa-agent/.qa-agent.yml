@@ -1,0 +1,419 @@
+# INSPIRE QA Agent Configuration
+# Autonomous Testing & Quality Assurance for USDV Capital Loan Origination System
+
+# ============================================================================
+# AUTO-INVOCATION SETTINGS
+# ============================================================================
+watch:
+  # Directories to watch for changes (triggers test runs)
+  paths:
+    - app/
+    - components/
+    - lib/
+    - mock/
+    - tests/
+  
+  # File patterns to trigger tests
+  patterns:
+    - "**/*.ts"
+    - "**/*.tsx"
+    - "**/*.js"
+    - "**/*.jsx"
+  
+  # Ignore patterns (won't trigger tests)
+  ignore:
+    - "**/*.test.ts"
+    - "**/*.test.tsx"
+    - "**/*.spec.ts"
+    - "**/*.spec.tsx"
+    - "**/node_modules/**"
+    - "**/.next/**"
+    - "**/dist/**"
+    - "**/build/**"
+  
+  # Debounce delay (ms) - wait for file to stop changing before triggering
+  debounce: 500
+  
+  # Whether to auto-invoke on file save
+  enabled: true
+
+# ============================================================================
+# TEST EXECUTION SETTINGS
+# ============================================================================
+execution:
+  # Test execution order (run fastest first for quick feedback)
+  order:
+    - unit
+    - integration
+    - e2e
+  
+  # Fast-fail: Stop on first failure category
+  fast_fail: false
+  
+  # Parallel execution
+  parallel:
+    unit: true
+    integration: true
+    e2e: false  # E2E tests typically run sequentially
+  
+  # Timeout settings (milliseconds)
+  timeouts:
+    unit: 5000      # 5 seconds per unit test
+    integration: 15000  # 15 seconds per integration test
+    e2e: 60000      # 60 seconds per E2E test
+    total: 300000   # 5 minutes total timeout
+  
+  # Test selection strategy
+  selection:
+    # Smart selection: only run tests affected by changed files
+    smart_selection: true
+    
+    # File-to-test mapping patterns
+    mapping:
+      # App Router pages → Integration + E2E tests
+      "app/**/*.tsx":
+        - integration
+        - e2e
+        test_pattern: "**/tests/{integration,e2e}/**/*{file_stem}*.{test,spec}.{ts,tsx}"
+      
+      # Components → Unit + Integration tests
+      "components/**/*.tsx":
+        - unit
+        - integration
+        test_pattern: "**/tests/{unit,integration}/**/*{file_stem}*.{test,spec}.{ts,tsx}"
+      
+      # Type definitions → Unit tests (type validation)
+      "lib/types/**/*.ts":
+        - unit
+        test_pattern: "**/tests/unit/types/**/*{file_stem}*.{test,spec}.{ts,tsx}"
+      
+      # Utility functions → Unit tests
+      "lib/utils/**/*.ts":
+        - unit
+        test_pattern: "**/tests/unit/utils/**/*{file_stem}*.{test,spec}.{ts,tsx}"
+      
+      # Context providers → Integration tests
+      "lib/context/**/*.tsx":
+        - integration
+        test_pattern: "**/tests/integration/context/**/*{file_stem}*.{test,spec}.{ts,tsx}"
+      
+      # Mock data → Unit tests (validation)
+      "mock/**/*.ts":
+        - unit
+        test_pattern: "**/tests/unit/mock/**/*{file_stem}*.{test,spec}.{ts,tsx}"
+      
+      # Calculation functions → Unit tests (critical for underwriting)
+      "lib/calculations/**/*.ts":
+        - unit
+        test_pattern: "**/tests/unit/calculations/**/*{file_stem}*.{test,spec}.{ts,tsx}"
+
+# ============================================================================
+# TEST FRAMEWORK CONFIGURATION
+# ============================================================================
+frameworks:
+  # Unit & Integration Tests
+  vitest:
+    config_file: "vitest.config.ts"
+    command: "npm run test"
+    coverage_command: "npm run test:coverage"
+    watch_command: "npm run test:watch"
+    
+  # E2E Tests
+  playwright:
+    config_file: "playwright.config.ts"
+    command: "npm run test:e2e"
+    watch_command: "npm run test:e2e:ui"
+    enabled: true
+  
+  # Alternative E2E framework (if using Cypress instead)
+  # cypress:
+  #   config_file: "cypress.config.ts"
+  #   command: "npm run test:e2e"
+  #   enabled: false
+
+# ============================================================================
+# AUTO-FIX SETTINGS
+# ============================================================================
+auto_fix:
+  # Enable automatic fixing of common issues
+  enabled: true
+  
+  # Maximum auto-fix attempts per test run
+  max_attempts: 3
+  
+  # Categories of errors that can be auto-fixed
+  fixable_errors:
+    # Import errors
+    - "Cannot find module"
+    - "Module not found"
+    - "Import statement"
+    
+    # Type errors (safe fixes only)
+    - "Type 'undefined'"
+    - "Property does not exist"  # Only if clearly a typo
+    
+    # Snapshot mismatches (update snapshots)
+    - "Snapshot mismatch"
+    
+    # Test timeout increases (for flaky tests)
+    - "Timeout"
+    
+    # Fixture/mock setup issues
+    - "Cannot read property"
+    - "is not a function"  # Only for mock functions
+  
+  # Error patterns that should NOT be auto-fixed (require human review)
+  unfixable_patterns:
+    - "Logic error"
+    - "Business rule violation"
+    - "Calculation incorrect"
+    - "API contract changed"
+    - "Permission denied"
+    - "Authentication failed"
+  
+  # Actions to attempt (in order)
+  actions:
+    - update_imports          # Fix import paths
+    - update_snapshots        # Update Jest/Vitest snapshots
+    - fix_mock_setup         # Fix mock/vi.mock() calls
+    - increase_timeout       # Increase timeout for slow tests
+    - add_missing_types      # Add TypeScript types (careful)
+    - fix_test_fixtures      # Fix test data/fixtures
+
+# ============================================================================
+# TEST GENERATION SETTINGS
+# ============================================================================
+generation:
+  # Enable test generation from guides/templates
+  enabled: true
+  
+  # Template locations
+  templates:
+    unit: ".qa-agent/templates/unit.test.template.ts"
+    integration: ".qa-agent/templates/integration.test.template.ts"
+    e2e: ".qa-agent/templates/e2e.test.template.ts"
+  
+  # Test guide locations (for generating tests from documentation)
+  guides:
+    - "docs/testing-guide.md"
+    - "_PRDs/**/*.md"  # Extract test requirements from PRDs
+  
+  # Coverage gaps threshold (generate tests if coverage < X%)
+  coverage_threshold: 80
+  
+  # File patterns to analyze for test generation
+  analyze_patterns:
+    - "app/**/*.tsx"
+    - "components/**/*.tsx"
+    - "lib/**/*.ts"
+  
+  # Domains for INSPIRE-specific test generation
+  domains:
+    - underwriting        # Underwriting calculations (LTV, DSCR, etc.)
+    - loan_sizing        # Loan sizing logic
+    - pipeline           # Pipeline management
+    - document_handling  # Document classification, storage
+    - borrower_eligibility  # Pre-qualification rules
+    - pricing            # Rate calculations, LLPA
+
+# ============================================================================
+# REPORTING SETTINGS
+# ============================================================================
+reporting:
+  # Output formats
+  formats:
+    - markdown      # docs/qa-reports/qa-report-{timestamp}.md
+    - json          # docs/qa-reports/qa-report-{timestamp}.json
+    - html          # docs/qa-reports/qa-report-{timestamp}.html (optional)
+  
+  # Report location
+  output_dir: "docs/qa-reports"
+  
+  # Metrics to include in reports
+  metrics:
+    - total_tests
+    - passed_tests
+    - failed_tests
+    - skipped_tests
+    - coverage_percentage
+    - execution_time
+    - flaky_tests
+    - slow_tests
+  
+  # Detailed breakdowns
+  breakdowns:
+    by_file: true          # Test results grouped by file
+    by_type: true          # Unit vs Integration vs E2E
+    by_status: true        # Passed vs Failed vs Skipped
+    by_duration: true      # Fast vs Slow tests
+    by_coverage: true      # Coverage by file/component
+  
+  # Notification settings (future)
+  notifications:
+    slack: false
+    email: false
+    webhook: false
+
+# ============================================================================
+# INSPIRE-SPECIFIC TEST CONFIGURATIONS
+# ============================================================================
+inspire_specific:
+  # Critical test areas for loan origination
+  critical_paths:
+    - "app/pipeline/**"           # Pipeline management
+    - "components/pipeline/**"    # Pipeline components
+    - "lib/calculations/**"       # Underwriting calculations
+    - "lib/types/**"              # Type safety (critical for financial data)
+  
+  # Test data fixtures
+  fixtures:
+    deals: "tests/fixtures/deals.json"
+    borrowers: "tests/fixtures/borrowers.json"
+    loans: "tests/fixtures/loans.json"
+    properties: "tests/fixtures/properties.json"
+  
+  # Domain-specific test helpers
+  helpers:
+    calculations: "tests/helpers/calculations.ts"      # LTV, DSCR helpers
+    loan_sizing: "tests/helpers/loan-sizing.ts"       # Loan sizing helpers
+    pipeline: "tests/helpers/pipeline.ts"             # Pipeline state helpers
+    documents: "tests/helpers/documents.ts"           # Document mock helpers
+  
+  # Test scenarios from PRDs
+  prd_scenarios:
+    phase_1_2: "_PRDs/inspire-phase-1-2-prd.md"      # Intake & Application
+    phase_3_4: "_PRDs/inspire-phase-3-4-prd.md"      # Sizing & Quotes
+    phase_5_6: "_PRDs/inspire-phase-5-6-prd.md"      # Diligence Collection
+    phase_7: "_PRDs/inspire-phase-7-prd.md"          # AI Analysis
+    phase_8: "_PRDs/inspire-phase-8-prd.md"          # Pipeline & Closing
+
+# ============================================================================
+# COVERAGE SETTINGS
+# ============================================================================
+coverage:
+  # Enable coverage collection
+  enabled: true
+  
+  # Coverage thresholds (fail if below)
+  thresholds:
+    statements: 80
+    branches: 75
+    functions: 80
+    lines: 80
+  
+  # Files/directories to exclude from coverage
+  exclude:
+    - "**/*.test.{ts,tsx}"
+    - "**/*.spec.{ts,tsx}"
+    - "**/node_modules/**"
+    - "**/.next/**"
+    - "**/dist/**"
+    - "**/build/**"
+    - "**/mock/**"              # Mock data doesn't need coverage
+    - "**/types/**"             # Type definitions (generated)
+    - "**/stories.tsx"          # Storybook stories
+  
+  # Minimum coverage per file type
+  file_thresholds:
+    components: 70      # UI components
+    utils: 90           # Utility functions (should be well-tested)
+    calculations: 95    # Financial calculations (critical!)
+    types: 0            # Type definitions (no runtime code)
+    contexts: 75        # React contexts
+
+# ============================================================================
+# PERFORMANCE SETTINGS
+# ============================================================================
+performance:
+  # Track slow tests
+  track_slow_tests: true
+  slow_test_threshold: 1000  # milliseconds
+  
+  # Performance budgets
+  budgets:
+    unit_test_max: 100       # 100ms per unit test
+    integration_test_max: 500  # 500ms per integration test
+    e2e_test_max: 30000      # 30 seconds per E2E test
+  
+  # Flaky test detection
+  flaky_detection:
+    enabled: true
+    runs: 5              # Run test 5 times to detect flakiness
+    threshold: 0.8       # Consider flaky if fails 20%+ of runs
+
+# ============================================================================
+# CI/CD INTEGRATION
+# ============================================================================
+ci_cd:
+  # GitHub Actions integration
+  github_actions:
+    enabled: true
+    workflow_file: ".github/workflows/qa.yml"
+    
+    # Run on these events
+    triggers:
+      - pull_request
+      - push
+      - schedule  # Nightly runs
+    
+    # PR comment with test results
+    pr_comments: true
+    
+    # Block PR merge if tests fail
+    block_on_failure: true
+  
+  # Branch protection rules
+  branch_protection:
+    require_tests_pass: true
+    require_coverage_threshold: true
+    coverage_threshold: 75
+
+# ============================================================================
+# DEBUGGING & DIAGNOSTICS
+# ============================================================================
+debugging:
+  # Verbose logging
+  verbose: false
+  
+  # Save test artifacts
+  save_artifacts: true
+  artifacts_dir: "tests/artifacts"
+  
+  # Save screenshots on E2E failures
+  screenshots_on_failure: true
+  screenshots_dir: "tests/artifacts/screenshots"
+  
+  # Save videos of E2E test runs
+  videos_on_failure: true
+  videos_dir: "tests/artifacts/videos"
+  
+  # Save console logs
+  console_logs: true
+  logs_dir: "tests/artifacts/logs"
+
+# ============================================================================
+# ADVANCED SETTINGS
+# ============================================================================
+advanced:
+  # Cache test results
+  cache: true
+  cache_dir: ".qa-cache"
+  
+  # Retry failed tests
+  retry:
+    enabled: true
+    max_retries: 2
+    retry_delay: 1000  # 1 second delay between retries
+  
+  # Test tagging/filtering
+  tags:
+    # Tags for test filtering
+    - "@critical"       # Critical path tests (always run)
+    - "@slow"           # Slow tests (skip in watch mode)
+    - "@integration"    # Integration tests
+    - "@e2e"            # E2E tests
+    - "@unit"           # Unit tests
+    - "@underwriting"   # Underwriting-specific tests
+    - "@pipeline"       # Pipeline-specific tests
+    - "@calculations"   # Calculation tests
+

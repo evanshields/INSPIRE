@@ -1,0 +1,311 @@
+RTL Program Overview
+Experience Level Loan / Project Type LTAIV LTC LTARV
+Light Rehab - (Purchase*/ Refi) 90*/ 85 95*/ 90 75
+Institutional
+Heavy Rehab 85 85 75
+10+
+GUC 85 85 75
+($10m)
+Bridge (No Rehab) 80 80 N/A
+Light Rehab 85 85 75
+Experienced
+Heavy Rehab 85 85 70
+3-9
+GUC 85 85 70
+($5m)
+Bridge (No Rehab) 75 75 N/A
+Light Rehab 75 80 70
+No Experience
+Heavy Rehab N/A N/A N/A
+0 - 2
+GUC N/A N/A N/A
+($0m)
+Bridge (No Rehab) 70 70 N/A
+*Purchase - LTAIV greater than 85 AND/OR LTC greater than 90 reviewed case by case
+Pricing Matrix
+Base Rates Loan Level Adjusters
+Light Rehab 9.250 Heavy Rehab 9.500 *Midstream 0.25 Multifamily : 1.00
+Bridge (No Rehab) 9.250 GUC 10.000 Cash Out 0.50 FICO < 700 : 0.25
+*Midstream to be reviewed case by case
+Loan Limits Credit Limits
+Min Loan Amount $125,000 Min FICO 660
+Min Loan Amount (GUC) $150,000 Min FICO (w/o Full Guaranty) 700
+Max Loan Amount $5,000,000 Mortgage History 0x60x24 & 1x30x24
+Max Cash-Out $500,000 BK Seasoning 60 Months
+Max Cash-Out Bridge 65% LTV $1,500,000 Foreclosure Seasoning 60 Months
+Max Cash-Out Bridge LTV <= 50% LTV UnlimitedDIL/Short Sale Seasoning 60 Months
+Cash-Out Bridge is not allowed for no experience borrowers *Max Guarantor Exposure $10,000,000
+*Greater than $10M is permitted with an Approved Global UW
+MSAs
+5% LTC Reduction Ineligible Areas Elevated Risk Areas*
+Properties in these MSAs are subject to a 5% reduction to LTC: Bay Western Florida including Port Charlotte, Cape Coral, Jersey City, Philadelphia, NYC (suburbs)
+Area, CA; Austin, Boise, Baltimore, Chicago (suburbs), Detroit, Lehigh Acres, NYC 5 Boroughs, and Chicago (city and Texas (case-by-case for YLM prelim
+Sacramento, and San Jose (case-by-case basis for prelim approval). limit) approval)
+Eligible properties in state of FL are subject to a 5% reduction in
+LTC/LTARV & LTAIV on no-rehab bridge loans.
+* Submit for YLM Prelim Approval
+Overlays
+> 4 Unit Properties Max LTAIV/LTC = 80%, Experienced only, Unit cap of 20 (ALL MF loans require case-by-case review/approval); GUC not allowed
+Max Initial Draw to land = 60% (70% with issued building permits and reviewed case by case), Experienced (5+
+GUC Projects)/Institutional
+For 10+ unit/property projects - see *GUC Development Project Overlay
+Defined as a project w/ 10+ units where the property types are SFR 1-4 family or a New Condo project
+Max LTC/LTV of 80%
+Min 700 FICO
+Institutional Experience required
+FL/TX allow on case-by-case basis
+GUC Development Project Commercial Appraisal required with full market analysis
+List of additional documentation required on a commercial project of this scope:
+- Plans - Permitted drawings preferred
+- Development budget with soft & hard cost breakdown
+- Phase I Environmental Site Assessment (ESA)
+- Zoning confirmation (approval by city for project/plan)
+$10M outstanding. If non-guarantor owner 20%+ can be included in total calc. Reviewed on case-by-case basis, additional UW
+Max Guarantor Exposure
+items will be required including, but not limited to, Global UW documents (see Appendix A for specific details )
+FICO If < 680, borrower must be experienced and loans are subject to 10% reduction to each of LTC/LTAIV/LTARV; Cash out not allowed
+Days on Market Avg is < 180 and minimum 25% density
+If property is in a declining market, there is a 10% reduction to each of LTC/LTARV
+At Churchill's discretion, leverage may be based on a lower CH valuation and/or an additional 3rd party valuation may be required
+Value
+If property has been listed, listing details (past and present) will be considered in value determination
+If loan amount is greater than $3M, a second valuation (defined below) is required to support value w/in 10% variance. If the
+variance is greater than 10% on either, a full 2nd appraisal is required and the lesser of the 2 values will be used.
+0 Experience If the borrower has 0 experience, the LTC is maxed at 30% budget/AIV
+RTL Program Overview 7.09.2025 Page 1
+
+Definitions
+Purchase: lesser of Purchase Price or Appraisal AIV
+As-Is Value (AIV)
+Refi: appraisal AIV (lesser of purchase price or AIV if acquired within 6 months of Origination date)
+After Repair Value (ARV) Appraised estimated sales value after improvements
+Direct Costs Labor, construction fees, materials
+Hard Costs AIV + Direct Costs
+Value-Add Soft Costs Indirect construction + Interest Reserve + transaction costs (ex: Engineering, environmental, legal fees, permits, legal
+Total Project Cost Hard Costs + Soft Costs
+Loan to Cost (LTC) Total Loan Amount / Total Project Cost
+Loan to As-Is Value (LTAIV) Origination Date Disbursement / As-Is Value
+Rehab costs are less than 50% of the As-Is Value (as defined above)
+Light Rehab
+If work being done increases GLA by 25%+, loan will be treated as Heavy Rehab
+Heavy Rehab Rehab costs are greater than or equal to 50% of the As-Is Value (as defined above)
+Secondary Valuation Acceptable formats includes CDA, AVM, Hose Canary report (or similar), Exterior BPO, Appraisal
+Borrower receives net proceeds that exceed the lesser of 2% of the Total Loan Amount of $10,000 (HUD should reflect subject
+Cash Out
+property payoffs, partner buyouts and subject property debt only)
+Delayed Finance Financing a property without existing debt within 6 months of purchase
+Program Guidelines
+Products Fix & Flip, Bridge, Ground up Construction
+Loan Terms 9 - 18 months, fixed rate interest, interest only
+Extensions IC Approval only
+Lien Type Valid first mortgage or deed of trust
+1-4 Residential Condos considered on a case-by-case basis
+Eligible Property Types
+Multi-Family (on exception basis, no GUC permitted) PUD & Modular (high quality and secured only)
+- Rural Property - Land Trust - Log Home - Multi-fam with units > 20
+- Cooperative - Mixed Use - Live-Work Project - Lease Estate
+- Agricultural - Ground Lease - Assisted Living - Industrial Zoning
+- Raw unimproved land - Mobile Home - Condotel - Student Housing
+Ineligible Property Types
+- Log Home - Timeshare - Boarding House - Deed Restrictions
+- Indian/Tribal Property - Property in litigation - Geothermal Home - Fractional Ownership
+- Rent Control Regulated - Private Transfer - Tiny Homes (< 600 - Subject to Purchase Option
+- Non Real Estate - Hawaii Properties in Lava Zone 1 or 2 - Acreage is > 5 Acres
+Each ADU will count as one unit. If the total unit count, inclusive of ADUs exceeds 4, additional review is required
+Accessory Dwelling Unit (ADU)
+If the county has specific parameters, including liens on the subject property, CH must approve in advance
+If property has been or is listed for sale in the last 12 months:
+- Listed history will be evaluated and loan may be subject to a leverage reduction and an additional 3rd party valuation
+- Properties listed for 120+ days require an additional 3rd party valuation and a minimum 5% leverage reduction
+Bridge (no rehab)
+Targeted DSCR of 1.00 (subject to IC approval - DSCR calculated as: Monthly Rental Income / Monthly PITIA )
+If cash out - 5% leverage reduction applies & if TLA is greater than $2M, exception approval is required
+Certificate of Occupancy is required (exceptions reviewed case-by-case and require approval)
+Upfront budget review & permit validation report are required
+Ground up Construction Midstream construction requires an inspection report to confirm costs spent to date
+- If project has been stalled and no work has been done in 3 months, the loan is ineligible
+Refinance A 12 month VOM is required - loan must be current and not more than 1x30 (exceptions on case-by-case basis)
+Eligible: A legal entity domiciled in the United States including - LLC, LP, Corporation, Sole Proprietor or Revocable Trust
+Borrowing Entity
+Ineligible: Natural person (non-entity borrowers), irrevocable trusts, cooperatives and community land trusts
+Full recourse guaranty, in most cases, is provided by any owner with 20+% ownership
+Guaranty Minimum ownership required to Guaranty is 51% (exceptions reviewed by IC on case-by-case)
+A Guaranty is required from any individual where liquidity, FICO, or experience is used to qualify
+US Citizen, Permanent Resident, Non-Permanent Resident Alien and Foreign Nationals
+Residency If Foreign National - must provide current (non-expired) Passport and a valid VISA (other details may be required on a case-by-case
+basis)
+Track record detail inclusive of all completed projects, REO currently owned and details of current projects
+Qualifying track record must include:
+- At least one verified exit of a like and kind project is required (exceptions require strong mitigating factors and/or possible
+- Individual must be a Guarantor to count in track record
+- Exit project is w/in 36 months of Origination date
+- Entity/Individual must have been on title
+Other qualifying track record details:
+- If using General Contractor experience - provide proof of projects completed, including contract/permits, and copy of GC license
+Borrower/Guarantor Experience (if GC is not an owner, GC must provide a Collateral Assignment of Construction Contract, not applicable on bridge)
+- If using JV experience - must demonstrate the Entity/Individual contributed in a role outside of capital contribution
+- If the property is listed for sale AND the Certificate of Occupancy is provided, it can count towards the # of Projects and will NOT
+count towards total value
+- Rental properties, must be verifiable with an active lease to count towards any experience (including bridge loans with no
+rehab). For rehab loans - rental properties must ALSO include verifiable rehab work has been completed to count towards
+experience
+Ineligible track record types - Vacant lots, midstream projects, subject property, personal residences, non resi, unconfirmed rentals
+RTL Program Overview 7.09.2025 Page 2
+
+Required on the subject loan:
+- Cash to close
+- 6 months of payments (less any interest reserve)
+- 10% of any rehab budget financed
+Liquidity / Reserves
+- Any portion of the budget that is NOT financed in the loan
+For any Guarantors who have active loans in Churchill's portfolio:
+- 3 months of payments for all loans (less any interest reserve), total based on UPB at time of Origination
+Cannot use identical bank statement for multiple loan closings within the month
+Lessor of rent from lease in place or market rent
+Gross Potential Rent (GPR) - If using in place rent - 1 month proof of rent receipt is required
+- If using market rent - must be included in valuation report or 3rd party vendor
+Net Cash Flow (NCF) Applicable when exit strategy is ‘Rent’. NCF = GPR-(OpExp%*GPR)
+ARV (Rehab Loans) or AIV (Bridge) OpExp% Min Debt Yield
+< $150k 40% 7%
+Operating Expense Percent
+$151-$500k 35% 6%
+>$500k 30% 5%
+Borrower Equity Minimum of 10% of Total Costs
+If the exit strategy is "sell", net profit estimate to be greater than $0.00 (exceptions on case-by-case basis)
+Borrower Exit Strategy
+If the exit strategy is "rent", estimated exit DSCR minimum of 1.00x.
+Cross Collateralized Loan Must include partial releases at a release price at least 120% of the allocated UPB (or other amount as approved by IC)
+To include the Assignment fee in loan financing, it may not exceed lesser of 10% of purchase price or $40,000 and is included in
+Assignment Fees
+If the subject sold w/in 24 months, transaction may be treated as wholesale at CH discretion
+Non-Arms Length Transactions Considered on case-by-case basis and require exception approval
+Age of Documents No older than 90 days from Origination date
+Origination Fees Origination Fees may not exceed 4%
+Borrower Requirements
+Application for all Guarantors, inclusive of declarations and citizenship status
+Valid (non-expired) Driver’s License/Government issued ID
+Background reports for all Principals with 20+% ownership, the Borrowing Entity and all sub-entities (excludes any Entity that was
+formed < 90 days from Origination)
+Credit report on all Principles with 20+% ownership and/or anyone signing a Guaranty
+Borrower Docs 2 months liquidity statements
+Borrower experience & REO
+Ownership documentation is required on all sub-entities of the borrowing entity (Operating Agreement, Certificate of Shares, Trust
+Entity Docs (required for borrowing entity)
+- Operating Agreement - Articles of Organization - EIN (IRS Form or W9)
+- Certificate of Good Standing - Certificate of Formation - Signing Authority Doc (if applicable)
+Ineligible if the borrower has been convicted of a felony and / or a misdemeanor conviction related to financial or fraud related
+The Borrower is generally free from material open judgments and material pending litigation
+Background Report
+Google search for Entity and all Owners must be completed, confirming no current financial or criminal issues. Final approval
+subject to IC approval
+Most recent two (2) months consecutive statements, quarterly statements or similar documentation is required for each account
+being used to qualify and Borrower/Guarantor must have access to account
+Liquidity Statements Any large deposit must be sourced (defined as a deposit amount outside of typical amounts)
+Investment accounts are subject to a 40% haircut
+Ineligible accounts include, but are not limited to, Crypto currency, gift funds, additional lien on the subject
+Property Requirements
+﻿﻿FIRREA compliant appraisal report either from an Appraisal Management Company (AMC), or if not, a CDA is required with non-
+AMC report
+If a CDA is provide for additional value support, the variance must be within 10% or an additional appraisal is required
+Appraisal should include:
+- Report must list the Originator as the Lender (transferred appraisals are not permitted)
+Appraisal - Valuation must indicate the "As-Is' value and the "After Repair" value, where applicable
+﻿﻿ - Comparable properties should be within 1.5 miles of the subject property
+- At least 3 comparables required that support all values provided
+- Appraiser must review purchase contract, budget and/or plans as applicable
+Secondary valuation (AVM or other) may be required and qualifying value(s) may be adjusted, at Churchill's discretion
+Ineligible Reports: GP Appraisals, reports not in the Originators name
+Provided for each property and dated within 90 days
+Flood Cert
+If property is located in a Flood Zone, the proper flood insurance is provided
+Itemized budget for each property/unit
+Budget / Plans / Specs / Permit Approved plans for all GUC and midstream construction loans
+Permit validation report required on all GUC above 60% LTAIV, midstream & heavy rehab projects
+A budget review is required on all GUC loans
+Budget Feasibility/Review
+A budget feasibility report is required on all Heavy rehab loans
+A recent inspection report is required for all midstream construction projects or for validating costs spent to date
+Inspection Report
+See Asset Management Manual for post-funding inspection type requirements
+RTL Program Overview 7.09.2025 Page 3
+
+Dated within 60 days of origination
+Title insurance amount covers the total loan amount and reflects the Originator, inclusive of ISAOA/ATIMA
+Marked up copy showing final title policy will be clear
+Preliminary Title If Refi, the following applies:
+- Borrower is currently vested as the owner (if not, a copy of the QCD or Warranty Deed is provided)
+- All liens are addressed and a payoff, VOM, and unexecuted release has been provided
+No mortgages, deeds of trust and/or liens shall be shown as existing in subordinate position on FTPOL
+Fully executed purchase agreement showing the borrowing Entity as the purchaser
+Purchase Agreement If assignment exists, copies of both purchase agreements are required
+Seller paid closing costs are not permitted. If included in the contract, the Purchase Price will be reduced by the SPCC
+HUD / Closing Statement for refinances that were purchased w/in the last 12 months
+Other
+Exit Strategy = Rent - 1007 or other 3rd party market rent report is required
+Applicable insurance and coverage provided as needed for project, effective prior to or on origination date
+Borrower Entity is listed as insured
+Insurance (all types)
+Originator name includes ISAOA/ATIMA language
+Lender must be named as additional insured on the policy
+Coverage must be the lesser of full replacement cost or the loan amount, inclusive of any renovations
+Property Insurance
+All-risk or special form policies are preferred
+Required when transitional period involves significant renovations or rehab
+Builder's Risk Insurance (if Coverage should equal the completed project's replacement cost or loan amount
+applicable) Policy should remain in place until construction/rehab is completed
+If construction has not started at time of origination, builder's risk is required prior to the first draw
+General Liability Insurance At least $1 million per occurrence and $2 million in aggregate
+Required if the property is located in a FEMA-designated Special Flood Hazard Area (SFHA)
+Coverage must cover the lesser of the replacement cost, loan amount or the maximum available under the National Flood
+Flood Insurance
+Insurance Program (NFIP)
+If construction has not started at time of origination, flood insurance is required when the foundation has been poured
+Windstorm or Hurricane
+Required when property is located in an area prone to windstorm or hurricane activity (if not included in standard property policy)
+Insurance
+Referred to as an HO-6 or a “Walls In” policy that is in place to protect interior and contents of a condo
+Condo Insurance
+The HOA insurance policies typically only cover the complex’s common elements or shared structures.
+Earthquake Insurance: For properties in high-risk seismic zones
+Other Insurance (as applicable) Terrorism Insurance: For properties in high-risk urban areas or by lender discretion
+Pollution Liability: If environmental risks are a concern (e.g., if the property’s prior use poses contamination risk)
+Closing Document Requirements
+Final HUD-1/Settlement StatementLoan Agreement Wire Affidavit (if rehab holdback)
+Promissory Note Environmental Indemnity
+Closing Package Mortgage/Deed of Trust Title Commitment/Final Title Policy
+Guaranty Closing Protection Letter
+Loan for Business Purpose Affidavit General Warranty Deed or Quit Claim Deed (if applicable)
+Must be without recourse to Churchill Funding I LLC
+Allonge & Assignment
+Documents must match Note/Mortgage
+Approved 3rd Party Vendors & Relationships
+1-4 Family
+Service Link Fastapp Red Bell / Radian Clear Capital
+Single Source ValuationLink Appraisal Nation Mercury Network
+Accurate Group Incenter AM Pro Teck LRES
+Valuation
+Other nationally accredited AMCs are acceptable
+Multifamily / Mixed-Use
+BBG Bowery Valuation CBRE Cushman & Wakefield
+JLL Newmark Knight Frank Colliers Valbridge Property Advisors
+AMS Commercial Real Estate Buildzig Built CCDI
+CFSI Loan Management CM&D Contech CREtelligent
+Property Inspection / Budget
+Granite NWCC Trinity Varian
+Review
+Build Analysis Newbanks Newmark Knight Frank NVMS
+Partner ESI
+AEI Consultants CBRE (IVI) CREtelligent EDR Risk Ratings Report
+PCA / Environmental Screenings
+GRS Group Partner ESI
+APPENDIX A
+Required for Borrower/Guarantor with $10M + exposure
+Comprehensive Project Listing (full REO schedule), of all properties owned with the following for each
+- Summary property listing (address, date acquired, acquisition cost, status, exit plan, etc.)
+Global Underwriting - Total costs spent to date and remaining
+Requirements - Financing summary (total debt, UPB, interest rate, maturity, remaining rehab holdback, if applicable, completion timing, etc.)
+Entity Organization Chart - complete details outlining all entities that comprise the complete Entity structure (should tie to the REO
+schedule provided)
+Additional items as requested by Churchill's credit team
+RTL Program Overview 7.09.2025 Page 4
+

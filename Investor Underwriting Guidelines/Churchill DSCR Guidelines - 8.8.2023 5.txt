@@ -1,0 +1,872 @@
+Churchill Residential
+Investor Loan Guidelines
+As of
+August 8th, 2023
+1 | version 2.0
+
+TABLE OF CONTENTS
+TABLE OF CONTENTS ....................................................................................................................................................................................... 2
+REGULATORY COMPLIANCE ......................................................................................................................................................................... 3
+DEFINED TERMS ........................................................................................................................................................................................... 3
+OVERVIEW ...................................................................................................................................................................................................... 5
+1. General .............................................................................................................................................................................................. 5
+2. Loan Details ....................................................................................................................................................................................... 6
+3. Key Ratios .......................................................................................................................................................................................... 7
+BORROWER REQUIREMENTS ........................................................................................................................................................................ 7
+4. Borrowing Entities ............................................................................................................................................................................ 8
+PROPERTY DETAILS ..................................................................................................................................................................................... 10
+5. Property – Single Unit, 1-4 ............................................................................................................................................................ 10
+6. Property – 5-10 Units ..................................................................................................................................................................... 12
+7. SFR, 1 – 4 Unit Matrix .................................................................................................................................................................... 13
+APPENDIX ..............................................................................................................................................................................................14
+APPENDIX A: LEGAL AND INSURANCE .............................................................................................................................................. 14
+APPENDIX B: TITLE INSURANCE REQUIREMENTS ............................................................................................................................ 16
+APPENDIX C: BORROWER LIQIUDITY ................................................................................................................................................ 18
+APPENDIX D: ARMS-LENGTH TRANSACTIONS .................................................................................................................................. 19
+APPENDIX E: REQUIRED DOCUMENT LIST ...................................................................................................................................... 19
+APPENDIX F: AGE OF DOCUMENTATION .......................................................................................................................................... 21
+APPENDIX G: INELIGIBLE PROPERTIES ............................................................................................................................................. 22
+2 | version 2.0
+
+REGULATORY COMPLIANCE
+1.A. Loan Purpose
+Loans are not made for personal, family, or household purposes. Borrowers are required to sign a business purposes
+affidavit or similar document which confirms that the loan purpose complies with this paragraph. The sole purpose of
+the property being financed is to be leased as income producing property to non- borrower tenants (as outlined below).
+1.B. Bank Secrecy and USA Patriot Acts
+The Bank Secrecy Act (“BSA”) requires financial institutions to assist US government agencies to detect and prevent
+money laundering. Churchill Residential has and will continue to use implemented anti- money laundering policies and
+procedures to comply with applicable federal law. As a part of this policy, Churchill Residential must screen all borrowers
+and guarantors against the list of specially designated nationals maintained by the US Department of the Treasury and
+OFAC pursuant to the USA PATRIOT Act, amendments to the Bank Secrecy Act and its implementing regulation and
+investigate name matches as required by law.
+1.C. State Law
+Churchill Real Estate has and will continue to comply with applicable state law governing lending practices and will
+continue to maintain the applicable state lending licenses to the extent required.
+DEFINED TERMS
+PURCHASE A purchase transaction is one in which the proceeds are used to finance the acquisition of
+a property. If the property was purchased with debt by the borrower within 30 days prior
+to loan origination date as reflected on the executed note, it may be permitted as a
+purchase. If property was purchased without debt, see delayed purchase.
+DELAYED PURCHASE Financing of properties owned free & clear (without existing debt) and acquired within six
+(6) months prior to the loan origination date. Settlement statement to confirm no
+mortgage was used. New loan amount cannot exceed 120% of documented cost basis.
+CASH OUT REFINANCE In the event the borrower is refinancing existing debt on the property, the borrower receives
+net proceeds (excluding third party expenses reflected on the HUD) from the refinancing
+that exceed 2% of the original loan amount. A refinance that occurs within 180 days of
+acquisition without existing debt is to be considered a Delayed Purchase.
+RATE/TERM REFINANCE In the event the borrower is refinancing existing debt of the property which was
+purchased more than 30 days prior to origination and in order to change the rate and/or
+term of previous loan and receives net proceeds (excluding third party expenses reflected
+on the HUD) from the refinancing that are less than 2% of the original loan amount. If
+original purchase date is less than 180 days from origination date, the new loan amount
+cannot exceed 120% of cost basis.
+DEBT SERVICE COVERAGE The DSCR is calculated as the property rent divided by the qualifying payment. See section
+RATIO “DSCR” 3.3 for calculations.
+LONG TERM RENTAL A rental subject with a leased term of twelve (12) months or greater, not to exceed thirty-
+six (36) months. Can be subject to a shorter term, to include month-to-month on an
+exception basis.
+SHORT TERM RENTAL A rental subject with a leased term of less than six (6) months, such as a daily, weekly,
+monthly, or vacation rental.
+3 | version 2.0
+
+LOAN TO COST Loan amount at origination date divided by the borrower’s cost basis at the origination
+date.
+LENDABLE VALUE The lower of the most recent appraisal value of the property or, if the property has been
+purchased in the last six months, the purchase price of the property. If the transaction is a
+refinance, the purchase price may not be used (see definition above for Delayed
+Purchase).
+NOTE: properties purchased in the last 24 months that have experienced significant value
+improvement will be carefully reviewed.
+COST BASIS Cost basis is inclusive of purchase price, verified borrower paid rehab amounts expended
+to date, and customary borrower paid arms-length closing costs/ fees, including broker
+commissions, title, escrow, other closing costs and the amount of taxes, HOA dues, fees,
+assessments, and liens paid by the borrower or its affiliates in connection with the
+acquisition to date.
+Cost basis is the acquisition cost of the subject property by the applicant plus verifiable
+“hard” and “soft” rehabilitation costs incurred by the applicant. Hard costs include direct
+construction costs (e.g., lumber, paint, nails, and concrete). Soft costs are indirect
+construction costs, such as architectural plans, engineering, and legal outlays, and
+permits. Closing costs, contingency reserves, builder overhead and like costs are not
+included in the cost basis.
+If Cost Basis is required for the calculation of Loan Amount, then the borrower must
+provide evidence of their costs. Acceptable documentation includes but is not limited to:
+(a) HUD-1 or other settlement statement, (b) Purchase contract, (c) Recorded deed, or (e)
+Documentation deemed acceptable by the underwriter, such as renovation or
+rehabilitation documentation (e.g., contracts, invoices, cancelled checks, bank
+statements, and mechanic’s lien waiver)
+LOAN TO AS-IS VALUE Loan amount at the origination date divided by the lower of the as-is appraised value or
+the purchase price.
+PRINCIPAL Any U.S citizen with 20% or more ownership interest in an entity or a foreign national
+with 10% or more ownership interest in an entity. Such mentioned principals are subject
+to provide a form of identification, credit, OFAC and background check. Only the
+guarantor’s credit score will be used for qualifying purposes.
+MULTIFAMILY Class A – A property either (a) built within the last 10 years or (b) a property with a physical
+CLASSIFICATIONS age greater than 10 years but has been substantially renovated, typically located in popular
+and desirable areas. Commands rents within the range of Class ‘A’ rents within the
+submarket, with high-end exterior/interior amenities as dictated by other Class ‘A’ products
+in the market that tend to cater to a higher credit rated tenant.
+Class B – A property either (a) built within the last 20 years or (b) an older property that has been
+recently renovated that commands rents within the range of Class ‘B’ rents in the submarket.
+Good quality construction with little deferred maintenance, well maintained, but less luxurious
+amenities than Class A qualifications
+Class C – A property either (a) over 30 years old with improvements showing little signs of
+deferred maintenance or (b) physical age greater than 20 years with minimal improvements,
+with most appliances/amenities being ‘original’ or considered outdated. Commands rents below
+Class ‘B’ rents in the submarket. Typically rented out of necessity
+4 | version 2.0
+
+OVERVIEW
+1. General
+Minimum Loan Amount* Maximum Loan Amount Minimum Property Value
+Single Unit $125,000.00 $2,500,000.00 $100,000.00
+2-4 Unit $125,000.00 $2,500,000.00 $100,000.00
+5-10 Unit $250,000.00 $2,500,000.00 See Multi Matrix
+Crossed Portfolio $250,000.00 $3,000,000.00 No Minimum*
+* Churchill reserves the right to determine if individual properties are suitable for a Crossed loan based on minimum property value assessed.
+* Loans below minimum amount required may be approved on an exception basis upon Churchill Review.
+Min. Number of Properties Max. Number of Properties Min. Units per Property Max. Units per Property
+1 20 1 10
+Eligible Property Types*
+Single family detached residences
+Planned Unit Development (PUD) – Exposure is limited to 20% of the units in a project. For project
+with < 4 units, exposure is limited to no more than one unit.
+Property Types 2 – 10-unit residences
+Condominiums (warrantable only) – Exposure is limited to 20% of the units in a project. For
+projects with ≤ 4 units, exposure is limited to no more than one unit.
+Townhomes
+Square Footage Minimum 600 sq. ft
+* See Appendix G for non-eligible property types
+Permitted Collateral
+One or more properties owned fee simple or leased fee* by the borrower which meet the property requirements
+* Properties subject to ground rent in a leasehold estate permitted pending Churchill approval
+Property Location
+Major markets
+Secondary market locations must have a minimum population of 250,000 based on MSA population
+Rural locations ineligible
+Borrower Exposure
+Maximum $7.5mm
+Liens
+First Lien Mortgage
+Additional debt secured by the property is not permitted
+Unpaid or delinquent taxes or assessments on the subject property, or federal tax judgements which could impair the
+priority of the mortgage are not permitted
+Listed Properties
+Properties listed within the last 6 months are subject to the following:
+*Evidence that is has been taken off market
+*Provide reason for listing and proof of intent to rent
+5 | version 2.0
+
+2. Loan Details
+Loan Purpose
+Purchase
+Business Purpose
+Rate/Term Refinance
+Loans for:
+Cash Out Refinance (where net cash to borrower at settlement > 2% of loan amount)
+Products IO Mos Amortization Term Caps Margin
+30YR Fixed - 360 360 - -
+30YR Fixed IO* 120 240 360 - -
+5/6 ARM - 360 360 2/2/5 6.00%
+40YR Fixed IO* 120 360 480
+7/6 ARM - 360 360 5/2/5 6.00%
+7/6 ARM IO* 120 240 360 5/2/5 6.00%
+10/6 ARM - 360 360 5/2/5 6.00%
+10/6 ARM IO* 120 240 360 5/2/5 6.00%
+* Interest Only loans subject to max LTV of 75%
+*Day-count convention: 30/360
+Adjustable-Rate Mortgage ("ARM") Terms
+Index 1-month SOFR
+Margin/Floor 6.00%/Start Rate
+Initial Rate & Periodic Rate Reset: None
+Floors
+Lifetime Floor: Original/Initial Note Interest Rate
+Prepayment Penalty
+5-year penalty with 5%, 4%, 3%, 2%, 1% stepdown fee structure; OR
+4-year penalty with 4%, 3%, 2%, 1% stepdown fee structure; OR
+3-year penalty with 3%, 2%, 1% stepdown fee structure; OR
+2-year penalty with 2%, 1% stepdown fee structure; OR
+1-year penalty with 1% fee
+0-year penalty is allowed without exception
+Crossed-Collateralized Properties
+Maximum 20 properties per loan (> 20 on case-by-case basis)
+Portfolio Size
+All properties must be within the same state
+May permit partial releases at a release price equal to at least 120% of the allocated loan amount for
+Release Prices each property. Allocated loan amounts must be determined proportional to the appraised values of
+each property
+6 | version 2.0
+
+All closing documents must provide the following language in regards to REMIC language:
+Notwithstanding anything to the contrary in this Security Instrument, if the Loan is held by a “real
+estate investment conduit” (a “REMIC”) within the meaning of Section 860D of the Internal
+Revenue Code of 1986, as amended (the “Code”), and following the release of any real property
+collateral the ratio of the value of the real property collateral securing the loan is greater than 125%
+Required REMIC (based solely on the value of the real property and excluding personal property or going concern
+Language value, if any, as determined by Lender in its sole discretion, using any commercially
+reasonable method permitted to a REMIC under the Code) to the outstanding principal balance of
+the loan (such amount, the “REMIC LTV”), then Borrower shall pay down the principal balance of
+the Loan by an amount equal to the greater of (A) the amount of principal required to be paid pursuant
+to this Section 23 above and (B) the least of the following amounts: (1) if the released property is sold in
+an arm’s length transaction with an unrelated third party, the net proceeds of such sale; (2) the fair
+market value of the released property at the time of the release, as determined by Lender in its sole
+discretion using any commercially reasonable method permitted to a REMIC under the Code; and (3) an
+amount such that the REMIC LTV does not increase due to the release.
+7 | version 2.0
+
+3. Key Ratios
+Loan to Cost ("LTC")
+Total loan amount divided by cost basis* (see defined term for cost basis)
+Loan to As-Is Value ("LTV")
+* Appraised As-Is Value
+Total loan amount
+divided by the lower * If purchased < 6 months with no improvements, lesser of AIV or 120% cost basis*
+of:
+* Purchase Price (if purchase transaction)
+*If the property has been owned for 90 days or less at the time of loan origination (assuming there is an existing lien on the property),
+the applicable LTV/LTC will be constrained to the lesser of the 120% of cost basis and appraised value. The seasoning period extends to
+180 days if the property is owned and was bought free and clear.
+* If property has completed improvements owned within 3 – 6 months and supplemented with sufficient documentation to support
+increase in value, the appraised value may be used subject to Churchill approval.
+Debt Service Coverage Ratio ("DSCR")
+1.00x for SFRs, 1 - 4 Unit, and STRs
+Minimum DSCR 1.15x for 5 - 10 Units & Crossed-Collateralized Properties
+Anything below may be approved with compensating factors per CH review
+DSCR Calculated as: Gross Monthly Rental Income / Monthly (P)ITIA
+Rental Income is calculated by the lesser of:
+* Actual monthly in-place rent per lease agreement
+Gross Rental Income * Monthly market rent per the appraisal
+Calculation: *If executed lease reflects higher monthly rent than appraisal, it may be used with sufficient
+evidence of receipt (min. 3 consecutive months), subject to Churchill approval
+* For STRs, see Short Term Rental Requirements
+* Monthly mortgage principal and interest payment at origination
+PITIA Calculation:
+(ITIA if I/O Term)
+* Monthly property tax payment
+* Monthly home insurance payment (wind, flood, etc. if applicable)
+PITIA Calculation:
+(ITIA if I/O Term) * Monthly HOA payment
+8 | version 2.0
+
+BORROWER DETAILS
+4. Borrowing Entities
+Legal Entities
+* Domiciled in the United States
+Eligible Borrowers
+* LLCs, LPs, Revocable Trusts, Corporations, and Individuals*. Irrevocable Trusts ineligible.
+All members of borrowing entity must be disclosed
+Personal ID for members with > 20% ownership (driver's license, passport, other government-
+issued photo identification)
+Credit Report for members with > 20% ownership (not used for qualifying unless guarantor)
+Validation of Valid Certificates of Formation (Articles of Organization/Formation)
+Borrowing Entity
+Valid Operating Agreement/Partnership Agreement/Bylaws
+Valid Certificate of Good Standing (if entity is not newly formed)
+Background Report & OFAC for borrower(s) and borrowing entity
+Executed W9/Entity EIN
+The LP must be wholly owned directly by the Partners
+Newly formed LP’s will be accepted for refinance and purchase transactions
+If the borrower on a refinance transaction has been added to title through a transfer from the LP
+For Limited to an individual borrower(s), or from an individual borrower(s) to the LP, then the borrower (LP
+Partnerships, or individual) must have been 100% of the owner(s) collectively prior to and after the transfer.
+following apply: If the LP is not an LP newly formed for the loan applied for, then the underwriter will obtain and
+review background check report or other similar report to determine that the LP is not subject to
+litigation, bankruptcy proceedings, liens, or other adverse matters that in the judgment of the
+underwriter will impair the loan applied for
+*Individuals accepted subject to compensating factors.
+Recourse & Guaranty Structure
+Full Recourse Warm Body Guaranty by:
+*one or more individuals which in aggregate own at least 51% of the borrowing entity is
+required (non-recourse with customary "bad-act" carveouts including bankruptcy permitted
+If Borrower is a Legal
+if approved on exception basis); OR
+Entity:
+* Guarantor(s) on the loan must have previously obtained a mortgage prior to the origination
+of the subject loan (see documentation requirements below)
+* Full Recourse is required for multifamily transactions
+Guarantor Requirements
+At least one guarantor must have a minimum of twelve (12) months of verified real estate
+investment experience, excluding any borrower primary or secondary homes. Acceptable forms
+of documentation include (a) previous Purchase HUDs, (b) verifications of mortgage, (c) property
+Documentation/ details report. Other documents supporting borrower’s experience can be accepted on a case-by-
+Experience case basis.
+First time investors, excluding primary mortgage as track record history, are subject to a 5%
+reduction in LTV.
+US Citizens
+US Legal Permanent Residents (Green Card Holders)
+Eligibility Must be at least 21 years of age
+Non-US Residents/Foreign Nationals w/o a US Credit Report, subject to:
+* Valid Passport and US Visa (if not subject to Visa Waiver Program)
+*LTV Restrictions as indicated on Matrices
+9 | version 2.0
+
+Credit pull must be obtained from CIS DataVerify, CoreLogic, SAS or Similar Engine (dated no
+more than 90 days from the Note)
+Minimum of two (2) credit lines showing 24 months or more with activity in the past 12 months,
+or minimum of three (3) showing 12 months or more of activity in the past 12 months
+0x30x12 on mortgage loans per the credit report. No mortgage late payment in the last 12
+months
+Credit Requirements
+No bankruptcy in past 3 years
+No derogatory housing credit event (foreclosure, short sale, deed-in-lieu) in past 3 years
+Judgments, tax liens, charge-offs, non-medical collections must be paid in full or in satisfactory
+status and borrower must provide evidence of being current on payment plan for a minimum of
+6 months prior to close. Evidence must be provided for any lien that is considered
+unenforceable.
+660 minimum qualifying FICO for SFR, 1 - 4 Unit
+680 minimum qualifying FICO for 5 - 10 Unit, Crossed-Collateralized Loans
+Determined As:
+*Mid score if 3 scores are available
+Credit Score
+*Low score if 2 scores are available
+* Qualifying Credit Score is of the highest middle score
+* Permanent Resident Aliens and Non-Permanent Residents who have a U.S. Social Security
+Number must meet all credit requirements outlined in the guidelines, provided that the
+minimum credit score is as above
+A background check or fraud screen, from Lexis/Nexis, Checkpoint, or another comparable
+provider, within 90 days of loan origination
+Background check must include litigation, criminal history, judgment, and lien searches
+Background * Prior criminal convictions shown on the background report are subject to further review by
+Requirements Churchill
+(req. for each member
+An OFAC check must be conducted within 45 days of loan origination
+of an entity if ownership
+is > 20%) For any Principal with a tax lien (federal, state, property or personal), evidence of
+release/satisfaction prior to the closing
+Individuals acting as Guarantors must be at least 21 years old and have an ownership interest in
+the subject property
+* Bankruptcies, foreclosures, short sales, or deeds-in-lieu within the last 36 months
+* Included on the OFAC list
+No Guarantor,
+* Any delinquent mortgage payment at the time of origination, 30-day late mortgage payment in
+Borrower, or Principal
+the preceding 12 months, more than one 30-day mortgage payment delinquency in the
+may have the
+preceding 12 to 24 months, and any 60+ day late mortgage payment within the preceding 24-
+following finding:
+month period per the credit report
+* No forbearance plan entered within the preceding 24-month period per the credit report
+Liquidity Requirements
+Down payment if property is being acquired at origination
+Closing costs
+Reserves must be A minimum of six months of payments including scheduled principal and interest, taxes,
+sufficient to cover: insurance, and association fee, if applicable (PITIA).
+50% of the amount of cash out proceeds are an acceptable source of liquidity (for SFR, 1- 4 Unit)
+*Foreign Nationals must provide minimum 12 months proof of liquidity
+*LTV Restrictions as indicated on Matrices
+10 | version 2.0
+
+PROPERTY DETAILS
+5. Property – Single Unit, 1-4
+Third Party Reports
+Market rent estimate (Form 1007) included in appraisal
+Loan Amounts All appraisals must include a copy of the appraiser’s certificate in the report
+< $1,500,000 Collateral Desktop Analysis, < 10% variance
+If Appraisal/CDA variance exceeds 10%, second full independent appraisal required
+Two full independent appraisals required
+Loan Amounts
+Market rent estimate (Form 1007) included in appraisal
+> $1,500,000
+Lower value between two appraisals will be used to determine AIV
+One full, independent USPAP/FIRREA compliant appraisal required. A full Interior/exterior
+appraisal is required on all assets and the Appraiser must be engaged through an approved
+Appraisal Management Company ("AMC"). Non-AMC reports approved pending CH review
+Market rent estimate (Form 1007) included in appraisal
+Required for all
+Appraisals dated within 120 days of closing date are required. Appraisals within 120 - 180 days
+Appraisals
+with recertification of value provided by appraiser acceptable on an approval basis
+All appraisals must include a copy of the appraiser’s certificate in the report
+Secondary Valuation (CDA) required with < 10% variance
+* Lower of two appraised values to be used in LTV calculations
+* Appraisal must be marked 'As Is' - if 'Subject To', 1004D must be provided to show repairs were
+completed
+For avoidance of doubt, short term or specialized use rental rates are not acceptable for use as
+market rent.
+Property Condition and Deferred Maintenance
+All properties required to be in lease ready condition with no renovations or repairs required
+Properties must have a property condition rating of C-1 to C-4 as reflected in the appraisal
+Condition
+Properties must have a quality rating of Q1-Q5 as reflected in the appraisal
+C5, C6, or Q6 are ineligible
+Are not to exceed 3% of the value of the subject property
+Deferred
+Maintenance can only be for cosmetic items (paint, chipped wood, etc) and not related to
+Maintenance
+structural components or anything that would affect property being habitable
+Occupancy Requirements
+Borrowers/Guarantors are required to sign a business purposes affidavit/certification that
+Business Purpose
+confirms the property is not owner occupied. Property may not also be occupied by any relative
+Properties are not required to be leased at the time of origination for purchases. Churchill may
+Purchase Transactions have the right to request an executed copy of the lease within 3 months of closing. If the
+borrower is unable to provide a lease, it may be deemed as an event of default.
+Single family properties must be leased at the time of closing and the borrower must provide
+evidence that the property has been leased
+Refinance For 2 – 4-unit properties, there shall be no more than one vacant unit at origination. Any vacant
+Transactions unit must provide evidence of active intent to rent the unit
+* If property recently completed renovation and a scope of work can be provided to support
+vacancy, exception for unoccupied unit(s) may be allowed
+11 | version 2.0
+
+Leased v. Unleased Properties
+A current, active lease with a minimum initial term of at least 12 months, between unrelated
+Leased Definition
+parties OR;
+Month-to-month leases
+No Current Tenant/Vacant
+Unleased Definition Unleased properties may be allowed for refinance loans subject to a reduction in max LTV
+* Experienced, repeat borrowers and bridge loans considered on an exception basis.
+Lease Requirements
+Be a third-party lease with no members of the borrower or family members leasing or occupying
+the property
+Be fully executed by both the lessor and lessee
+Used only for residential purposes
+Have monthly rent amount in U.S. dollars
+Initial lease term of at least 12 months
+All leases must:
+* must also have at least three-month remaining term. Request of new lease may be
+requested for leases near expiration
+Month-to-month leases permitted with evidence of rent collected
+Ground leases acceptable in areas where such leases are customary, and subject to the ground
+lease length being longer than the loan by five years or more. Ground rent must be included in
+the PITIA used for the calculation of DSCR, if applicable
+Vacation or seasonal rentals allowed with Churchill approval
+No individual room leases, Single Room Occupancy (SRO), or board leases permitted
+No commercial use allowed
+Ineligible Lease Types No purchase or sale-leaseback options are permitted
+No cash-for-deeds
+No leases with a term of > 3 years
+Underwritten Rents
+Lower of in-place rent and market rent from valuation report* (see DSCR Qualifying Calculations)
+New leases require evidence of first month’s rent and security deposit paid as stated in the
+Leased Units executed lease agreement. (Leases unable to provide 3 months’ rent)
+* If requested by Churchill, in order to verify occupancy for refinance transactions, at least three
+(3) months of rental income from in-place leases or month-to-month leases must be provided
+Unleased Units 90% of market rent from valuation report is used to calculate qualifying rent if vacant
+Cross-Collateralized Qualifying rent is calculated on a per property level. Lesser of in-place and market-rent is used
+Units for each applicable property in a crossed-collateralized portfolio.
+Short Term Rentals
+Occupancy must be no less than 50% over a 12-month period (through rent roll and/or third-
+Requirements
+party report such as AirDNA)
+12 | version 2.0
+
+If not a purchase, the borrower must provide documentation generated by a third party, such as
+a leasing service, property manager, or CPA, which proves that the property is generating
+consistent cashflow for a minimum of at least twelve (12) months. Documentation cannot be
+older than 90 days of the loan origination date.
+* Borrower generated statements are only accepted at Churchill’s discretion
+The property must have its rent patterns confirmed using the AIRDNA ‘Rentalizer’ tool located at
+www.airdna.com (or other comparable resource). The documentation and report should
+specifically validate nightly rent rates and occupancy information for the geographic area
+For refinance transactions, Properties must have been an active listing for at least 12 months
+(with supporting documentation). Properties without a minimum of twelve (12) months proof of
+operating history are subject to a reduction in LTV at Churchill’s discretion.
+Qualifying Calculations for STRs
+The lesser of (a) the monthly income from the 12-month operating statement or (b) 100% of the
+Refinances
+monthly market rent as stated on the appraisal is utilized.
+Purchases 100% of the monthly market rent as stated on the appraisal is utilized.
+6. Property – 5-10 Units
+FICO Purchase R/T Cash Out
+740+ 75 75 70
+720 - 739 75 75 70
+700 - 719 75 75 70
+680 - 699 70 70 65
+* Minimum DSCR >= 1.15x
+Product Requirements
+Property Types 5-10 Units
+Minimum: $250,000
+Loan Amount
+Maximum: $2,500,000
+Reserve
+Cash-out proceeds cannot be used towards reserves
+Requirements
+Multifamily or Commercial Appraisal only on 'As Is' basis using both a cashflow/income
+capitalization and sales comparison approach that meets FIRREA requirements. Narrative form
+accepted.
+Appraisals must have minimum 3 occupied units inspected + all down units OR if there is a
+Appraisal/Desk
+vacant unit, min. 2 units + all vacant and down units inspected
+Review Requirements
+Market Rent Addendum (Form 1007) must be included in appraisal
+Commercial BPO or CDA with variance not to exceed 10% of appraised value
+Declining property value as indicated on appraisal subject to 10% max LTV reduction
+Minimum per Unit Minimum $50,000/unit unless located in specific MSA (lower of As-Is value or Cost Basis
+Value Approach)
+Property Condition Must be C4 or higher as determined on the appraisal
+Maximum 2 vacant units at time of origination
+Vacancy Qualify using 90% of market rent for vacant or down units
+Properties located in a submarket with a vacancy rate > 10% are not eligible
+13 | version 2.0
+
+Borrower Qualifications
+Minimum twelve (12) months of multifamily experience OR strong track record of SFR/1-4-unit
+Experience experience. Other borrower experience subject to Churchill review.
+First time investors and foreign national borrowers not eligible.
+Additional Multifamily Required Documentation (in addition to SFR required document list)
+Rent Roll & Property Net Cash Flow Statement (3 mo.)
+Environmental Screening or Environmental Database Review required for all loans
+Property Condition Assessment (“PCA”) required for any transaction that indicates a structural concern or as requested by
+Churchill
+A Phase 1 Assessment ("Phase 1 ESA") is required if the Environmental Database Review returns additional or elevated
+risk factors that require further inspection or if there is a property change of use (i.e., formerly commercial converted into
+a multifamily)
+A Seismic Assessment is required if the following is true: appraisal indicates any seismic concern or located in a seismic
+zone; loan amounts > $2mm
+A certificate of occupancy may be requested for all units that have undergone any construction or rehabilitation work
+within the last twelve (12) months
+MSAs Minimum Unit Value Requirements
+Los Angeles
+Miami
+$75K AIV per Unit
+New Orleans
+Oakland
+Atlanta
+Baltimore
+Chicago/Gary
+$100K AIV per Unit
+Cleveland
+New Jersey
+Philadelphia
+14 | version 2.0
+
+7. SFR, 1 – 4 Unit Matrix
+Product DSCR
+Max ($000s) FICO/LTV DSCR>= 1.00x
+Purch. & R/T Cash-Out
+740 80 75
+720 80 75
+1,500 700 80 75
+680 80 75
+660 75 70
+740 75 65
+720 75 65
+2,000 700 75 65
+680 70 65
+660 65 60
+740 75 65
+2,500
+720 75 65
+700 75 65
+680 70 65
+2,500 FN 65 60
+Product DSCR, Crossed
+Max ($000s) DSCR>= 1.15x
+FICO/LTV
+Purch. R/T Cash-Out
+740 75 70
+3,000
+720 75 70
+680 70 65
+*Experienced Investors Only
+15 | version 2.0
+
+APPENDIX
+APPENDIX A: LEGAL AND INSURANCE
+Loan Collateral
+First Priority mortgage/deed of trust for each property
+Loan Collateral First Priority blanket assignment and subordination of leases and rents
+Assignment and subordination of property management agreement (if applicable)
+Reserves and Escrows
+Borrower shall deposit with lender an amount sufficient to pay:
+*All property taxes by the 30th day prior to the date such taxes become initially due
+At Loan Origination:
+*Initial insurance premium for a policy expiring within 1 month of loan origination date
+* 1/12 of projected annual property taxes that the servicer estimates will be payable
+with respect to the property(s) during the next ensuing twelve (12) months, and
+* An amount equal to 1/12 of the Insurance Premium(s) that servicer estimates will
+On Each Payment
+be payable for renewal or replacement of the insurance policies upon the
+Date:
+expiration thereof
+* Subject to traditional and periodic escrow account analysis, performed by the
+servicer
+Crossed-Collateralized Loans (Multi-Property Loans)
+Cross-collateralization and cross default required if multiple properties are represented
+Cross Default
+No Substitution permitted
+Insurance Requirements
+Insurance carrier must be rated no less than A-VIII by A.M. Best. Coverage must be equal to the
+Insurance Carrier lesser of the unpaid principal balance on the mortgage or 100% of the Insurance value of the
+Improvements.
+Lender Lender must be included as additional mortgagee/loss payee/additional insured per guidelines
+Full policy and declarations in addition to insurance invoice with premium amount required
+Property insurance - "Causes of Loss - Special Form" or "All Risk" hazard insurance
+Documentation Evidence of Liability Insurance
+Business Interruption/Rent Loss insurance for a minimum of 6 months
+Flood/Earthquake/Windstorm insurance as applicable per state and local requirements
+Flood Insurance
+A flood certification is required on all loans. If any property is identified as having special flood
+hazards (located in an SFHA requiring flood insurance), and flood insurance is available, the
+borrower must obtain a flood insurance policy meeting the guidelines set forth in the Federal
+Emergency Management Agency. Flood insurance should cover no less than the least of (i) the
+maximum principal balance of the mortgage loan, (ii) the full insurable value of the mortgaged
+General
+property, and (iii) the maximum amount of insurance available under the National Flood
+Insurance Act of 1968.
+Flood insurance should generally be in the standard policy form issued under the National Flood
+Insurance Program
+The declaration page of the policy is acceptable evidence of flood insurance coverage
+For loans where Flood Insurance is required, the mortgage loan must have one of the following:
+Required * A complete flood insurance policy containing a standard mortgagee clause
+16 | version 2.0
+
+Documentation *A complete application to the National Flood Insurance Program (NFIP) with
+evidence that the first-year premium on the policy has been paid
+The amount of flood insurance required is the lessor of:
+* The unpaid principal balance of the mortgage, or
+Insurance Calculation * The maximum amount of coverage available under the NFIP for the type of
+improvements, or
+* The replacement cost of the improvements.
+APPENDIX B: TITLE INSURANCE REQUIREMENTS
+Title Insurance
+Good and marketable fee simple lender's title free of any liens in an amount equal to 125% of
+the loan's note amount from a US domiciled title insurer which satisfies the financial ratings
+guidelines in the Fannie Mae Family Selling Guide. 100% insured acceptable with CH approval.
+Each property must be comprised of at least one parcel which constitutes a separate tax lot and
+does not constitute a portion of any other tax lot not a part of such property
+General
+Each property must have adequate rights of access to public utilities and public rights of way
+Requirements
+Title insurance should include customary "gap" coverage
+Title insurance should be written on 2006 American Land Title Association (ALTA) standard form
+There should be no subordinate debt, liens for delinquent charges, unpaid assessments for HOA
+dues, or improvements
+Title Requirements for Condominiums & PUDs
+If the project is part of a condominium association, the homeowners’ association must maintain
+a master or blanket type of insurance policy, with premiums being paid as a common expense. If
+the policy is a blanket/master policy, Churchill Residential must receive a certified copy of the
+Declarations page of the policy that shows the subject property/properties is/are clearly
+identified in the Blanket/Master policy. Individual insurance policies are NOT required on
+individual condominium units.
+Hazard insurance for entire condominium project must be verified through review of the
+following documents:
+* Master Liability Insurance Policy
+* Master Property Insurance Policy
+* Rent-Loss Insurance
+* H06/Walls-In-Policy
+Condominiums must be covered by an insurance policy which protects against fire, and all other
+Condominium hazards that are normally covered by the standard extended coverage endorsement, and all
+Requirements other perils customarily insured against by similar types of projects, including those covered by
+the standard “all risk” endorsement.
+Policies covering the common elements for a condominium project must cover all elements
+except for those that are normally excluded from coverage, such as land, foundation and
+excavations. Fixtures and building service equipment that are considered part of the common
+elements, as well as common personal property and supplies, should be covered.
+The “master” or blanket policy covering common elements of a condominium project must
+cover all of the general and limited common elements that are normally included in coverage
+such as fixtures, building service equipment and common personal property and supplies
+belonging to the homeowner association
+The condominium owner’s association must maintain blanket “all risk” coverage for the
+following:
+* General and limited common elements within the condominium project
+* Fixtures, machinery, equipment, and supplies maintained for the service of the condominium
+project
+17 | version 2.0
+
+* Fixtures, improvements, alterations, and equipment within the individual condominium units
+Coverage must be for 100% of the insurable value of the common elements or property
+described above and provide loss or damage settlement on a replacement cost basis
+The deductible for fire, water (not caused by flooding) or wind damage to the insured
+improvements may not exceed 5% of the limit maintained for building coverage
+Construction Code Endorsement – if there is a construction code provision that would require
+changes to undamaged portions of the subject project’s building even if only part of the building
+is destroyed by and insured hazard
+Steam Boiler and Machinery Coverage Endorsement – if the project has central heating and
+cooling. The minimum coverage per accident must be at least equal to the lessor of $2 million or
+Title Policy the insurance value of the building(s) containing the boiler or machinery. Separate stand-alone
+Endorsements boiler and machinery coverage may be purchased in lieu of obtaining this endorsement
+(Condominiums and Additionally, policies covering a condominium project should provide that:
+PUDs)
+* Insurance trust agreements will be recognized
+* The right of subrogation against unit owners will be waived
+* The insurance will not be prejudiced by any acts or omissions of individual until owners that
+are not under the control of the homeowner association; and
+The policy will be primary, even if a unit owner has other insurance that covers the same loss
+For condominium projects, master policy is sufficient if coverage equals either 1) 80% of the
+replacement or 2) the maximum insurance available from NFIP per unit (currently $250,000)
+For PUD units, master policy must cover any common element buildings and any other common
+property located in an SFHA.
+Additional
+* The unit allocation from the master policy must meet the one-to-four-unit coverage
+requirements
+* The same flood insurance for individual PUD units that is required for other one-to-four-unit
+properties
+18 | version 2.0
+
+APPENDIX C: BORROWER LIQIUDITY
+Borrower Liquidity
+Documentation used to verify liquidity must be dated within 60 days of the loan origination
+date. When bank statements are used, large deposits must be evaluated. Large deposits are
+General
+defined as any single deposit that represents more than 75% of the monthly average deposit
+balance. All balances must be stated in U.S Dollars.
+Bank, money market or securities account statement for cash and cash equivalents.
+Cash value of a life insurance or annuity policy
+70% of the vested value of 401(k) or IRA plans, after reduction for outstanding loans
+70% of publicly traded stocks, bonds, and mutual funds outside of a retirement plan
+Annuities - 60% of the vested value If borrower Is younger than 59 1/2. Borrowers aged >= 59
+1/2 may
+Apply 70% of securitized assets (stocks, bonds, mutual fund shares) and 100% of non-market
+sensitive assets (money market shares, cash)
+Bank or brokerage account held in the name of a Trust
+Acceptable
+* Requires copy of the full Trust Agreement that provides beneficiary details and access to
+Verification of
+funds in the Trust’s bank and/or brokerage account
+Liquidity
+* OR requires formal or official documentation from the bank substantiating that the applicant
+is the beneficiary and has unlimited access to funds in the Trust account
+Business bank or brokerage account
+* Requires a copy of the full Operating Agreement that details ownership of the entity and
+access to funds in the entity’s bank/brokerage account
+* OR requires formal or official documentation from the bank substantiating that the applicant
+is an authorized signor and has access to business account funds
+Cash-out proceeds may be used towards reserves on a case-by-case basis.
+Assets for down payment from a "like kind exchange", also known as a 1031 exchange, are
+eligible if the property is documented and in compliance with IRS Code Section 1031.
+Name of the institution
+Validation of account ownership
+Borrower(s)/Guarantor(s) name and business name, when applicable
+Following must be Account number to include at least three digits of the account number
+included to verify Visible and legible dates
+Assets:
+Statements with ALL pages evidencing at least two months consecutive activity
+Electronic submission such as scans, photos and faxes are acceptable so long as they are legible
+and
+* Include all the above criteria
+Editable forms, such as Microsoft Excel workbooks, are NOT acceptable
+19 | version 2.0
+
+APPENDIX D: ARMS-LENGTH TRANSACTIONS
+Non-Arm's Length Transactions
+A non-arm’s length transaction occurs when the borrower/guarantor has a direct relationship or
+Definition business affiliation with the subject property Seller, Builder, Developer, or any other party
+directly related to the transaction.
+* Family sales
+Examples
+* Property in an estate
+(included, but not
+* Flip transaction
+limited to)
+* Employer/employee sales
+* Buyer(s)/Borrower(s) representing themselves as an agent in the real estate transaction
+* Seller(s) representing themselves as agent in the real estate transaction
+Eligible Non-Arms
+A borrower may act as an Interested party to a sales transaction for the subject property;
+Transactions
+however, borrower may not use any payment for services rendered from the sales transaction of
+the subject property towards the reserve’s requirements.
+Churchill Residential will conduct a thorough review of the title report and the payment history pattern when a non-
+arm’s length transaction is suspected.
+APPENDIX E: REQUIRED DOCUMENT LIST
+Required Document List
+Term Sheet
+Signed Loan Application
+Identification of Borrower - Driver’s License, Passport, other Gov’t Issued ID
+Recent & consecutive 2 Months Bank/Asset Statements (Entity/Names must tie)
+Borrower Experience Verification for at least 12 months
+Operating Agreement/Bylaws
+Borrower Documents
+Articles of Incorporation/Filing Documents
+Certificate of Good Standing (if entity not recently formed)
+EIN AND W9
+Credit Report – All individuals on entity with 20% or greater ownership interest
+Background Report & OFAC – All individuals on entity with 20% or greater ownership interest
+Background Report & OFAC – For Existing Borrowing Entity
+Purchase Contract/HUD (if requested for refinances and required for purchases)
+Appraisal with market rent addendum
+CDA Report (variance < 10%)
+Evidence of Insurance
+* GL & dwelling insurance, annual premium, min. 6 months Loss of Rent Coverage, fire, flood,
+Property Documents hurricane, or other if applicable
+Executed Lease Agreements (Original and Renewals)
+Proof of Payment (3 mo. verification for all MTM leases, security deposit and first month’s rent
+new leases)
+Flood Certification
+Recent Tax Certificates or Tax Bills
+20 | version 2.0
+
+Evidence of Insurance
+If Applicable:
+Completed Condominium Questionnaire
+Copy of the Condominium Master Insurance Policy/Certificate
+For HOAs, HOA statement with proof of good standing/payment plan being current
+Property Management Agreement (if managed by 3rd party)
+AirDNA Report (if Short-Term Rental)
+Escrow Instructions
+* Signed by Title Agent
+* Churchill address used for shipping
+Title Commitment
+Loan policy - must be >= to Loan Amount
+HUD-1/Settlement Statement
+Promissory Note
+* With all relevant riders
+Allonge to Promissory Note
+Loan Documents – Mortgage Deed of Trust
+Fully Executed Assignment to Mortgage
+Loan Agreement
+Guaranty
+Business Purpose Affidavit
+Environmental Indemnity
+General Warranty Deed
+Signed ACH with Voided Check
+First Payment Letter
+Closing Protection Letter
+Assignment of Rents & Leases if Purchase where lease will continue
+21 | version 2.0
+
+APPENDIX F: AGE OF DOCUMENTATION
+Maximum Age of Documentation
+Documentation Type
+from Note Date
+VOM Listed in the Credit Report 90 Days
+VOM (Outside Form) No more than 60 Days
+CREDIT REPORT 90 Days
+BACKGROUND CHECK 90 Days
+OFAC CHECK 45 Days
+BANK STATEMENTS 90 Days
+APPRAISAL 120 Days
+TITLE 90 Days
+CERTIFICATE OF GOOD STANDING 90 Days
+FLOOD CERTIFICATE 90 Days
+If expiration is < 2 months (60 days),
+INSURANCE renewal is required
+POWER OF ATTORNEY 90 Days
+22 | version 2.0
+
+APPENDIX G: INELIGIBLE PROPERTIES
+The following property types are NOT eligible for financing:
+Non-warrantable condominiums
+Manufacturer, modular or mobile homes (properties with VIN numbers or otherwise not attached to a permanent
+foundation)
+Cooperatives
+Raw land, working farms or ranches
+Rural areas as indicated on the appraisal
+Properties subject to purchase options
+Vacant land or land development properties
+Acreage greater than 1 acre
+Properties with less than minimum square footage requirement as mentioned in section 1.9
+Properties which are not in compliance with local zoning regulations (including as reflected on the appraisal or residential
+evaluation)
+Properties with known adverse environmental conditions (other than lead paint, radon or asbestos in each case which do
+not present a health hazard, do not require remediation and have been verified contained per EPA guidelines prior to
+funding).
+Properties with underground oil tanks are not permitted without environmental assessment
+Total or partially condemned property (including threatened or pending eminent domain)
+Properties that are not in a lease ready condition or appraisal condition of C5, C6
+Mixed use properties
+Assisted living facilities
+Log homes
+Houseboats
+Condotels or Timeshares
+Boarding houses
+Dome or geodesic homes
+Homes on Indian reservations
+Hawaii properties located in lava zones one and/or two
+Property occupied by Borrower/Guarantor, or any member of the borrowing entity.
+Properties with deed restrictions. They may only be approved on a case-by-case basis (e.g., age- restricted communities)
+23 | version 2.0
+

@@ -1,0 +1,513 @@
+Debt Service Coverage Ratio (“DSCR”) Loan
+Underwriting Credit Guidelines
+Version 7.2
+Effective: November 2025
+
+Page 2 of 19
+Contents
+Disclosures .................................................................................................................................................... 3
+Leverage Matrices ......................................................................................................................................... 4
+Definitions..................................................................................................................................................... 5
+Eligible Loan Characteristics ........................................................................................................................ 6
+Valuation Methodology ................................................................................................................................ 8
+Debt Service Coverage Ratio (“DSCR”) – (SFR, Townhome, 2-4 Unit, Condo) ...................................... 10
+Debt Service Coverage Ratio (“DSCR”) – (Multifamily) .......................................................................... 11
+Lease Requirements .................................................................................................................................... 12
+Property Requirements ................................................................................................................................ 13
+Condominium Requirements ...................................................................................................................... 14
+Liquidity Requirements .............................................................................................................................. 15
+Title Requirements ...................................................................................................................................... 16
+Credit & Background Underwriting ........................................................................................................... 17
+Property Insurance ...................................................................................................................................... 18
+List of Underwriting Documents ................................................................................................................ 19
+
+Page 3 of 19
+Disclosures
+Origination Policy
+This Underwriting Guide establishes the minimum requirements that must be met to originate long term
+rental (DSCR) loans by Eastview as a loan buyer or table funder. Every subject loan is subject to a full
+diligence review executed by Eastview. Eastview maintains the right to reject a loan for any reason not
+specified in the guidelines as it sees fit. All loans underwritten under this program are business purpose
+loans with a fully executed affidavit from the borrowers/guarantors.
+Applicable Law
+Any originator, seller, or any third-party originator or broker engaged by the Seller must fully comply
+with all federal, state, and local laws applicable to the origination and sale of mortgage loans (“Applicable
+Law”). It is the Seller’s sole responsibility to ensure that all loans it originates comply with Applicable
+Law.
+Fair Lending
+Eastview strictly complies with all applicable federal, state, and local requirements related to fair 6
+lending, including the Equal Credit Opportunity Act and the Fair Housing Act (together, the “Fair
+Lending Requirements”). Accordingly, in connection with its decision to purchase / table fund loans,
+Eastview will not discriminate on any prohibited basis. Eastview will also not knowingly purchase loans
+from Sellers engaged in practices that violate Fair Lending Requirements. To the extent a Seller is found
+to be engaging in practices that may violate Fair Lending Requirements, Eastview may terminate its
+contractual relationship with such Seller or take any other action that it deems appropriate.
+State Licensing
+The Seller must comply with all applicable state license and registration requirements in connection with
+mortgage loan origination and any other related business activities, which include without limitation:
+• Ensuring that each loan officer/originator/broker involved in the origination of loans delivered
+to Eastview is appropriately licensed.
+• Maintaining appropriate organizational licensure based on the type and location of the activities
+it engages in.
+
+Page 4 of 19
+Leverage Matrices
+Leverage Grid Max As Is LTV Max LTC
+Purchase 80% 80%
+FICO: 780+ Refinance (No Cash Out) 80% N/A
+Refinance (Cash Out) 80% N/A
+Purchase 80% 80%
+FICO: 760 - 779 Refinance (No Cash Out) 80% N/A
+Refinance (Cash Out) 80% N/A
+Purchase 80% 80%
+FICO: 740 - 759 Refinance (No Cash Out) 80% N/A
+Refinance (Cash Out) 80% N/A
+Purchase 80% 80%
+FICO: 720 - 739 Refinance (No Cash Out) 80% N/A
+Refinance (Cash Out) 80% N/A
+Purchase 80% 80%
+FICO: 700 - 719 Refinance (No Cash Out) 80% N/A
+Refinance (Cash Out) 75% N/A
+Purchase 75% 75%
+FICO: 680 - 699 Refinance (No Cash Out) 75% N/A
+Refinance (Cash Out) 70% N/A
+Purchase 70% 70%
+FICO: 660 - 679 Refinance (No Cash Out) 70% N/A
+Refinance (Cash Out) 65% N/A
+Purchase 70% 70%
+Foreign National Refinance (No Cash Out) 70% N/A
+Refinance (Cash Out) 65% N/A
+Leverage Reductions
+Property classified as "unleased" & Loan Purpose as "Refinance" -10%
+Non-Warrantable Condominium (doesn’t apply to pending litigations) -10%
+Property Type: 5-9 Units -5%
+Market Specific: Chicago / Detroit / Baltimore / Flint -5%
+
+Page 5 of 19
+Definitions
+Loan to Cost (“LTC”): Loan Amount divided by the cost basis of the subject property.
+ Cost Basis: The total closing costs as disclosed in the HUD / Settlement statement without
+including any origination points paid to the lender or the broker (if applicable). Cost basis can
+include assignments fees up to the lesser of 5% of property’s purchase price or $40,000.
+Regarding completed rehabilitation, the borrower needs to provide before/after photos verifying
+the completed work and supporting invoices.
+Loan to Value (“LTV”): Loan Amount divided by “As Is” appraised value.
+Loan Purpose:
+ Purchase: The property was acquired within 6 months of loan origination
+ Refinance: The property was acquired more than 6 months of loan origination
+o Cash Out: The borrower’s net receivable funds at closing represent more than 2% of the
+loan amount or more than or equal to $2,000.
+o Rate & Term: The borrower’s net receivable funds at closing represent less than or equal
+to 2% of the loan amount or less than $2,000.
+Leased/Unleased Property - Refinance: A property qualifies as leased based on the criteria set forth of
+the table below. Unleased refinances are subject to a leverage reduction as described above. For cross-
+collateralized portfolios we require the majority of the properties to be leased in order for the loan not to
+be subject to a “vacant refinance” leverage reduction.
+Loan Purpose Property Type Units required to be leased
+SFR/Townhome/Condo/PUD 1
+2 Unit 1
+3 Unit 2
+4 Unit 2
+Refinance 5 Unit 3
+6 Unit 3
+7 Unit 4
+8 Unit 4
+9 Unit 5
+
+Page 6 of 19
+Eligible Loan Characteristics
+Minimum Loan Amount $100,000
+Maximum Loan Amount $3,000,000
+Loan Term 360 Months
+Minimum DSCR 1.00x
+Lien Only first liens are allowed
+Prepayment Penalty Structure Option between the five following structures:
+- 7 Years (84 Months) Minimum Interest
+- 7 Years 7% / 6% / 5% / 4% / 3% / 2% / 1%
+- 5 Years (60 Months) Minimum Interest
+- 5 Years: 5% / 4% / 3% / 2% / 1%
+- 3 Years: 3% / 2% / 1%
+- 2 Years: 2% / 1%
+- 1 Year: 1%
+The penalty is based on the applicable percentage based on the year
+the loan is being paid off. The amount charged is based on the
+outstanding balance and not the original loan amount
+Borrowing Entity The following structures are allowed:
+- LLC
+- Limited Partnership
+- Corporation
+- Trust
+- Individual
+Property Ownership Fee Simple. Leasehold is not permitted
+Rate Type Fixed and Adjustable Rates are permitted. The following methodology
+applies to Adjustable-Rate Mortgages (“ARM”):
+- Fixed Period: 5 (“5/1”) or 7 (“7/1”) years
+- Adjustment: Annually
+- Margin: 5.00%
+- Index: 30-day average SOFR
+- Caps (5/1): 2 / 2 / 5
+- Caps (7/1): 5 / 2 / 5
+
+Page 7 of 19
+- Floor: 5.00%
+- Lookback Days: 45
+- ARM Rounding Method: Up
+- ARM Rounding Factor: 0.125%
+Interest Only Term 10 Years. Other option terms are permitted with management
+approval. All IO loans are based on accelerated amortization. No
+balloon payments will be due at the end of the term
+Recourse All loans should have executed personal guarantees by 100% of the
+entity’s ownership.
+Closing Escrows The lender needs to collect escrows at closing that equal to the sum of:
+- 2 months of taxes
+- 2 months of insurance
+- Any tax payment due in the next 90 days
+- Any open taxes, unless paid at closing by Title
+Not Permitted States North Dakota, South Dakota, Hawaii and Alaska
+Limited Recourse/Bad Boy Carveout If the borrower selects this structure, then the maximum exposure that
+Exposure Eastview allows to this specific borrower is $10 million or 10
+properties. Additionally, this structure requires a Pledge of Equity in
+the underlying entity
+
+Page 8 of 19
+Valuation Methodology
+Eastview requires appraisals for all loans tabled funded or aggregated. Eastview reserves the right to
+review all valuation reports and determine if the subject property value is supported.
+Appraisers must meet all industry standards and be State Certified. State Licensed Appraisers and
+Trainees are not permitted. All real estate appraisals must be performed according to the Uniform
+Standards of Professional Appraisal Practice (USPAP) and Fannie Mae guidelines, including Universal
+Appraisal Dataset (UAD) requirements.
+Appraisal assignments must be obtained in a manner that maintains appraiser independence and does not
+unduly influence the appraiser to meet a predetermined value. Eastview reserves the right to restrict the
+use of any specific appraiser and/or appraisal management company at its discretion.
+The age and price of the subject property should fall within the age and price range of properties in the
+subject neighborhood. Comparable properties should be selected from the same neighborhood when
+possible. Selection of a comparable outside the subject neighborhood should be addressed within the
+report. For condominiums, at least one comparable should be from outside the subject project. Ideally,
+comparable sales should be within six months of the report date. Older comparable sales that are the best
+indicator of value should be addressed in comments by the appraiser.
+The appraisal should be dated no more than 120 days prior to the Note date, after 120 days, a new
+appraisal report is required, or a recertification of the value completed by the same appraiser.
+Properties for which the appraisal indicates condition ratings of C5 or C6 as determined under the
+Uniform Appraisal Dataset (UAD) guidelines are not permitted.
+An appraisal review is required on every loan file unless a second appraisal is obtained. An Enhanced
+Desk Review is required from one of the following choices:
+ ARR from Pro Teck
+ CDA from Clear Capital
+Additionally, in case there is any ambiguity on the rent estimates, Eastview, at its sole discretion, may
+require a RentRange report to confirm the rental values. For AirBnB / Vacation Rentals, a RentRange
+report is always required.
+The Secondary Review will need to be within 10% of the As Is appraisal value. Eastview will also be
+conducting an internal review of the appraisal. If the variance is less than 10%, the As Is appraisal value
+
+Page 9 of 19
+will be used to underwrite the loan. If the variance is greater than 10% the lesser of the 3 values will be
+used to underwrite the loan. The same methodology / 10%-Rule will apply for the RentRange report and
+the Appraisal Market Rent when a RentRange report is needed.
+Properties should always be rent-ready. Any repair or maintenance required by the appraiser must be
+completed prior to loan purchase unless it represents less than 5% of the purchase price/as is value. In
+such case the borrower will have 60 days to complete such work, or the loan will be triggered to a
+defaulted status. Confirmation of the completed work will be subject to form 1004D populated from the
+subject appraiser that escalated the original maintenance concerns.
+Single Family Property Condominium 2-4 Units 5-8 Units
+Loan Amount Appraisal Loan Amount Appraisal Loan Amount Appraisal Loan Amount Appraisal
+Appraisal Type Requirement Form Requirement Form Requirement Form Requirement Form
+Full Interior Appraisal N/A 1004 / 1007 N/A 1073 / 1007 N/A 1025 / 1007 N/A MAI / Narrative
+HYBRID Appraisal <$750,000 1004 / 1007 Not Permitted N/A Not Permitted N/A Not Permitted N/A
+
+Page 10 of 19
+Debt Service Coverage Ratio (“DSCR”) –
+(SFR, Townhome, 2-4 Unit, Condo)
+Each loan will require a DSCR calculation to qualify. The components of a DSCR calculation are set
+forth below:
+Qualifying Monthly Rent
+DSCR=
+PITIA
+Qualifying Monthly Rent:
+ If the unit is rented at the time of origination, qualifying monthly rent is equal to the lesser of:
+o Lease in-place rent
+o 105% of Market rent
+ If the unit is not rented at the time of origination, qualifying monthly rent is equal to:
+o 100% of Market rent
+In case the property is used as a Vacation Rental, the qualifying monthly rent is equal to the lesser of:
+ 125% of Market Rent
+ Average vacation monthly income over 12-month period
+In order to qualify a property for DSCR as a vacation rental the following need to be confirmed:
+ Verification of Online Listing
+ If not self-managed, evidence of property management agreement
+ Annual income statement verifying collected rents on a trailing 12-month period.
+Rent is defined in the appraisal, on form 1007 / Market Rent Addendum. In case a RentRange report was
+ordered, the 10% rule applies as defined in the Valuation section.
+Monthly PITIA:
+Defined as the sum of principal, interest, taxes, insurance and association fees. See below for a definition
+of each component:
+ Principal: monthly principal payment based on initial loan amount and original interest rate.
+ Interest: monthly interest payment based on initial loan amount and original interest rate.
+ Taxes: as defined in the title report.
+ Insurance: as defined in the quote or official binder provided by the agent (includes flood if
+property located in flood zone).
+ Association Fees: as defined in a letter by the HOA.
+
+Page 11 of 19
+Debt Service Coverage Ratio (“DSCR”) –
+(Multifamily)
+Each loan will require a DSCR calculation to qualify. The components of a DSCR calculation are set
+forth below:
+Qualifying Monthly Rent
+DSCR=
+Total Expenses
+Qualifying Monthly Rent:
+ If the unit is rented at the time of origination, qualifying monthly rent is equal to the lesser of:
+o Lease in-place rent
+o 105% of Market rent
+ If the unit is not rented at the time of origination, qualifying monthly rent is equal to the lesser of:
+o 100% of Market rent
+In case the property is used as AirBnB/Vacation Rental, the qualifying monthly rent is equal to the lesser
+of:
+ 125% of Market Rent
+ Average AirBnB monthly income
+In order to qualify a property for DSCR as a vacation rental the following need to be confirmed:
+ Verification of Online Listing
+ If not self-managed, evidence of property management agreement
+ Annual income statement verifying collected rents on a trailing 12-month period
+Rent is defined in the appraisal, on form 1007 / Market Rent Addendum. In case a RentRange report was
+ordered, the 10% rule applies as defined in the Valuation section
+Total Expenses:
+Defined as the sum of the following line items:
+ Principal: monthly principal payment based on initial loan amount and original interest rate.
+ Interest: monthly interest payment based on initial loan amount and original interest rate.
+ Taxes: as defined in the title report or the appraisal
+ Insurance: as defined in the quote or official binder provided by the agent (includes flood if
+property located in flood zone)
+ Operating Expenses: any additional actual expenses as summarized in the appraisal (i.e. utilities,
+maintenance & repairs, replacement reserves, general administration, trash removal, etc.)
+
+Page 12 of 19
+Lease Requirements
+Each lease agreement needs to satisfy the following criteria:
+ Only Arm’s Length leases are allowed. Any type of relation between the borrower and the tenant
+is strictly prohibited.
+ Lease term should be no longer than 3 years.
+ Lease should not offer option to purchase to the tenant.
+ No single room occupancy (“SRO”) is allowed.
+ Commercial tenants are not allowed.
+ Month to Market is allowed if the borrower the tenant has lived in the subject property for at least
+6 months.
+
+Page 13 of 19
+Property Requirements
+The property needs to satisfy the following criteria:
+ Only the following property types are allowed:
+o Single Family Residence.
+o Townhome.
+o Condominium.
+o 2-4 Units.
+o Multifamily 5-9 Units.
+ Minimum square footage is:
+o SFR or Townhome: 600
+o Condo or 2-9 Units: 500 per unit
+ Properties not located in the following areas:
+o ZHVI multiplier of >3x
+o HPA of < -10%
+o Rural areas (as defined in the appraisal)
+ Ineligible properties include:
+o Mobile or manufactured homes.
+o Raw land.
+o Properties with escalated liens as set forth in the title report with local authorities.
+o Properties with environmental hazards such as underground oil tanks.
+o Properties zoned as commercial use.
+o Condotels
+o Properties greater than 10 acres
+o Tenants in Common (TIC)
+o Agricultural properties
+o Timeshares and log homes
+o Properties with deed/resale restrictions
+
+Page 14 of 19
+Condominium Requirements
+For each condominium, Eastview requires the borrower to obtain a fully executed Condominium
+Questionnaire from the Association. The applicable form can be derived directly through Fannie Mae
+(Form 1076).
+A condominium is considered non-warrantable if any of the following applies:
+ The project is not yet completed.
+ The developer has not turned over control of the HOA to the owners.
+ A single person/entity owns more than 10% of all units.
+ HOA permits short-term rentals.
+ The majority (>50%) of the units are purposed as rentals (non-owner occupied).
+ There is a pending litigation associated with the HOA.
+ Commercial space accounts for more than 25% of the building square footage.
+ More than 15% of units are in arrears with their association dues.
+If Fannie Mae’s guidelines change or if there is a provision not included in the bullet points above that
+deems a condominium warrantable then Eastview will revert to the newest guidelines and Fannie Mae’s
+eligibility in order to qualify the dwelling as warrantable or non-warrantable.
+
+Page 15 of 19
+Liquidity Requirements
+For a loan to fully qualify under the guidelines the entity needs to support the following levels of
+liquidity.
+For loans with DSCR >1.00, the minimum requirement is the sum of:
+ 6 Months of PITIA Payments.
+ Down Payments and Closing Costs (if loan purpose is a purchase).
+ Any outstanding judgments or personal liens in excess of $5,000.
+For loans with DSCR <1.00, the minimum requirement is the sum of:
+ 9 Months of PITIA Payments.
+ Down Payments and Closing Costs (if loan purpose is a purchase).
+ Any outstanding judgments or personal liens in excess of $5,000.
+In case any of the guarantors has an existing payment plan on any unpaid taxes or open liens, the monthly
+payment should be calculated as part of the necessary liquidity.
+The following are applicable sources of liquidity and must be dated within 2 months of origination:
+ 2 most recent months of Banks statement / Investment Accounts.
+o In case a new account was opened, the borrower needs to verify the source of the funds.
+ 50% of the value of a retirement plan.
+ 100% of cash out proceeds.
+ Written verification of deposit completed by the financial institution.
+ Executed letter from attorney or title agency verifying holding funds on behalf the entity.
+For any judgments over the $5,000 the borrower needs to either provide (i) evidence that the full
+judgement has been paid, (ii) evidence of sufficient liquidity to pay the full lien amount or (iii) monthly
+payment plan in place that is also taken into consideration in the monthly payment calculation
+
+Page 16 of 19
+Title Requirements
+The following title insurance requirements are applicable to loans purchased:
+ The title should be fee-simple.
+ No liens are accepted on the property.
+ The insurance should provide sufficient gap coverage.
+ Each dwelling should be its own tax parcel.
+ Each dwelling should comply to zoning regulation and have sufficient access to public.
+ The policy is produced in the correct form:
+o The 2006 American Land Title Association (ALTA) standard form.
+o An ALTA short form if it provides coverage equivalent to the 2006 ALTA standard form.
+o In states in which standard ATLA forms of coverage are, by law or regulation, not used,
+the state promulgated standard or short form which provides the same coverage as the
+equivalent ALTA form.
+o For Adjustable-Rate Mortgages, the policy must include ALTA Endorsement 6-06.
+ The amount of title insurance coverage must at least equal the original principal amount of the
+mortgage.
+The title policy must protect Eastview by insuring:
+ That the mortgage is superior to any lien for unpaid common expense assessments. (In
+jurisdictions that give these assessments a limited priority over a first mortgage lien, the policy
+must provide assurance that those assessments have been paid through the effective date of the
+policy.)
+ Against any impairment or loss of title of the first lien caused by any past, present, or future
+violations of any covenants, conditions, or restrictions of the master deed for the project. (It must
+specifically insure against any loss that results from a violation that existed as of the date of the
+policy.)
+ That the unit does not encroach on another unit or on any of the common elements, areas, or
+facilities. (The policy also must insure that there is no encroachment on the unit by another unit or
+by any of the common elements, areas, or facilities.)
+ That the mortgage loan is secured by a unit in a condominium project that has been created in
+compliance with the applicable enabling statutes.
+ That real estate taxes are assessable and lien able only against the individual condominium unit
+and its undivided interest in the common elements, rather than against the project as a whole.
+ That the owner of a PUD unit is a member of the homeowners' association, and that the
+membership is transferable if the unit is sold.
+
+Page 17 of 19
+Credit & Background Underwriting
+Eastview requires 100% of the entity owners and guarantors to execute an authorization that allows the
+lender to run the following reports:
+1. Credit Report
+a. Needs to show at least two scores for each guarantor.
+b. Needs to be dated within 90 days of loan origination.
+c. Minimum Credit Score is 660 for each entity owner / guarantor.
+d. The qualifying credit score per guarantor is the median of the three scores reported or the
+lesser of the two if two are reported.
+e. For housing events, the required seasoning is:
+i. Bankruptcy: 4 Years
+ii. Bankruptcy Discharge or Dismissal: 2 Years
+iii. Foreclosure: 4 Years
+iv. Short Sales / Deeds in lieu: 4 Years
+v. Mortgage Delinquencies: 1 X 30 X 12
+In order to calculate the loan’s underlying credit score, the qualifying credit score of the individual with
+the highest percentage of ownership will be utilized. In cases where the entity has owners with equal
+percentage of ownership, the higher qualifying credit score will be utilized.
+On an exception basis, Eastview will approve a recourse structure of no less than 51% of the entity
+members. In such cases, the underlying credit score of the loan will be the highest median score of the
+guarantors.
+Additionally, per the List of Underwriting Documents section of the guidelines, Eastview requires a
+payoff letter for all refinances in order to confirm the past performance of the subject loan we are
+refinancing.
+The following guidance should be adhered to:
+a. If the subject loan that Eastview is refinancing appears on the credit report, Eastview will rely
+primarily on the Credit Report to determine if the 1 X 30 X 12 delinquency has been met.
+b. If the subject loan Eastview is refinancing does not appear on the credit report, Eastview will
+rely on the Payoff Letter to determine if the 1 X 30 X 12 delinquency has been met.
+i. The primary check on the Payoff Letter will be to check for any past due
+default interest. If there is default interest due on the Payoff Letter, a VOM will
+be required, specifying the past performance and aiding Eastview to determine
+if the 1 X 30 X 12 delinquency has been met.
+ii. If there is no default interest due, there is no requirement to order a VOM, and
+Eastview is confirming that the 1 X 30 X 12 delinquency has been met.
+2. Background Report
+a. Needs to be dated withing 90 days of loan origination.
+b. No criminal findings or misdemeanors are allowed if they involve financial fraud.
+c. Eastview reserves the right to examine other criminal findings or misdemeanors on an
+exception basis.
+d. Needs to include an OFAC search.
+e. For foreign nationals, a background report is mandatory even if the system returns a null
+check.
+f. Borrower can’t be a party to a lawsuit.
+
+Page 18 of 19
+Property Insurance
+The insurance should be sufficient to cover any losses on the property, that in turn jeopardize the
+lienholder’s position. Such losses can occur for various hazard reasons such as destructive natural
+disasters or manmade events.
+The insurance coverage should reflect the following:
+ Coverage equal to the lesser of
+o 100% of the replacement cost as established by the property insurer.
+o the original principal balance of the mortgage.
+ Sufficient rent loss coverage of 6 months, equal to the lesser of:
+o 100% of market rent.
+o 100% of rent in place at loan origination.
+ If the property is in a flood zone (verified through a flood certificate), coverage equal to the lesser
+of
+o 100% of the replacement cost as established by the property insurer.
+o the original principal balance of the mortgage.
+ If the property is a Condominium, the insurance agency needs to provide:
+o Master Property Insurance Policy.
+o H06 /Walls-In Policy.
+ Language that includes a mortgagee clause.
+
+Page 19 of 19
+List of Underwriting Documents
+The following documents are required for Underwriting:
+Ordered by Lender:
+ Appraisal Report
+ ARR from Pro Teck / CDA from Clear Capital
+ SitusAMC (Recon Review) / Summit Valuation Solutions (SVR – Summit Validation Report)
+ RentRange (if applicable)
+ Credit Report
+ Background Report
+ OFAC Check
+ Preliminary Title Report
+ Insurance
+ Flood Certificate
+Provided by the Lender & Executed by Borrower
+ Credit Report Authorization
+Provided by the borrower:
+ Loan Application
+ ID or Passport
+ Proof of Liquidity
+ Property Lease (if applicable)
+ Condo Questionnaire (if applicable)
+ Purchase Agreement
+ Vacation Rental Specifics
+o Annual Income Statement
+o Proof of Online Listing
+o Property Management Agreement (if not self-managed)
+ Entity Documents
+o Certificate of Formation / Filed Articles of Organization
+o If not single-sponsor: Operating Agreement / Partnership Agreement / Bylaws
+o Certificate of Good Standing
+Provided by Current Lender that is getting refinanced from subject loan:
+ Payoff Letter / VOM
+Closing Documents
+ Business Purpose Affidavit
+ Deed of Trust or Mortgage
+ Note
+ Loan Agreement
+ Guarantee
+ Closing Instructions and Closing Protection Letter
+ Spousal Consent
+
