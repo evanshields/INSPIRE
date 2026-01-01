@@ -683,7 +683,7 @@
                         <nav class="-mb-px flex space-x-8 overflow-x-auto" aria-label="Tabs">
                             <button onclick="switchSettingsTab('settings-profile')" class="settings-tab-btn active border-primary text-primary whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Profile</button>
                             <button onclick="switchSettingsTab('settings-team')" class="settings-tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Team</button>
-                            <button onclick="switchSettingsTab('settings-investors')" class="settings-tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Investors</button>
+                            <button onclick="switchSettingsTab('settings-investors')" class="settings-tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Investor Profiles</button>
                             <button onclick="switchSettingsTab('settings-integrations')" class="settings-tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Integrations</button>
                             <button onclick="switchSettingsTab('settings-templates')" class="settings-tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Templates</button>
                             <button onclick="switchSettingsTab('settings-app-preview')" class="settings-tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Loan Application</button>
@@ -813,9 +813,15 @@
                     <!-- Tab: Investors -->
                     <div id="settings-investors" class="settings-tab-content hidden">
                         <div class="space-y-6">
+                            <!-- Page Header -->
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-900">Investor Profiles</h3>
+                                <p class="text-sm text-gray-500 mt-1">Manage investor account information, contacts, and guideline documents.</p>
+                            </div>
+
                             <div class="bg-card border border-border rounded-lg shadow-sm p-6">
                                 <div class="flex justify-between items-center mb-4">
-                                    <h3 class="text-lg font-bold">Investor Configuration</h3>
+                                    <h4 class="font-semibold text-gray-900">Active Investors</h4>
                                     <button class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">+ Add Investor</button>
                                 </div>
                                 <div class="space-y-4">
@@ -1483,89 +1489,999 @@
                         </div>
                     </div>
 
-                    <!-- Tab: Sizing (Phase 3 Preview) -->
+                    <!-- Tab: Sizing Configuration -->
                     <div id="settings-sizing" class="settings-tab-content hidden">
                         <div class="space-y-6">
-                            <!-- Description Header -->
-                            <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                                <p class="text-sm text-blue-800">
-                                    <strong>Phase 3: Deal Sizing Preview</strong> — Preview pages for deal sizing, manual overrides, and rate lock management. For development/testing purposes.
-                                </p>
+                            <!-- Page Header -->
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-900">Sizing Configuration</h3>
+                                <p class="text-sm text-gray-500 mt-1">Configure leverage limits, borrower classification, and investor parameters for deal sizing calculations.</p>
                             </div>
 
-                            <!-- Preview Pages -->
+                            <!-- Active Investors -->
                             <div class="bg-card border border-border rounded-lg shadow-sm p-6">
-                                <h4 class="font-semibold text-gray-900 mb-4">Preview Pages</h4>
-                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                    <button onclick="navigateTo('deal-sizing')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                        <div class="font-semibold text-gray-900 mb-1">P3-01: Deal Sizing View</div>
-                                        <div class="text-sm text-gray-500">Sizing results, leverage metrics, pricing</div>
-                                    </button>
-                                    <button onclick="navigateTo('deal-sizing-edit')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                        <div class="font-semibold text-gray-900 mb-1">P3-02: Manual Sizing Override</div>
-                                        <div class="text-sm text-gray-500">Edit sizing with exception justification</div>
-                                    </button>
-                                    <button onclick="navigateTo('rate-lock')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                        <div class="font-semibold text-gray-900 mb-1">P3-03: Rate Lock Management</div>
-                                        <div class="text-sm text-gray-500">Lock rates and manage lock periods</div>
-                                    </button>
+                                <div class="flex items-center justify-between mb-4">
+                                    <h4 class="font-semibold text-gray-900">Active Investors</h4>
+                                    <button class="text-sm text-primary hover:text-blue-700 font-medium">+ Add Investor</button>
                                 </div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                    <!-- Eastview Card -->
+                                    <div class="border border-border rounded-lg p-4 hover:border-primary transition-colors">
+                                        <div class="flex items-center justify-between mb-3">
+                                            <div class="flex items-center">
+                                                <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+                                                    <span class="text-blue-600 font-bold text-sm">EV</span>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold text-gray-900">Eastview</div>
+                                                    <div class="text-xs text-gray-500">DSCR Primary</div>
+                                                </div>
+                                            </div>
+                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primary/20 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                        </div>
+                                        <div class="text-xs text-gray-500 space-y-1">
+                                            <div class="flex justify-between"><span>Products:</span><span class="text-gray-700">DSCR, RTL</span></div>
+                                            <div class="flex justify-between"><span>Max Loan:</span><span class="text-gray-700">$3,000,000</span></div>
+                                        </div>
+                                        <button onclick="switchSettingsTab('settings-investors')" class="mt-3 text-xs text-primary hover:text-blue-700 font-medium">Edit full profile →</button>
+                                    </div>
+                                    <!-- ArchWest Card -->
+                                    <div class="border border-border rounded-lg p-4 hover:border-primary transition-colors">
+                                        <div class="flex items-center justify-between mb-3">
+                                            <div class="flex items-center">
+                                                <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-3">
+                                                    <span class="text-green-600 font-bold text-sm">AW</span>
+                                                </div>
+                                                <div>
+                                                    <div class="font-semibold text-gray-900">ArchWest</div>
+                                                    <div class="text-xs text-gray-500">RTL Primary</div>
+                                                </div>
+                                            </div>
+                                            <label class="relative inline-flex items-center cursor-pointer">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none peer-focus:ring-2 peer-focus:ring-primary/20 rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                        </div>
+                                        <div class="text-xs text-gray-500 space-y-1">
+                                            <div class="flex justify-between"><span>Products:</span><span class="text-gray-700">Fix & Flip, Bridge, GUC</span></div>
+                                            <div class="flex justify-between"><span>Max Loan:</span><span class="text-gray-700">$3,000,000</span></div>
+                                        </div>
+                                        <button onclick="switchSettingsTab('settings-investors')" class="mt-3 text-xs text-primary hover:text-blue-700 font-medium">Edit full profile →</button>
+                                    </div>
+                                    <!-- Add New Card -->
+                                    <div class="border-2 border-dashed border-gray-200 rounded-lg p-4 flex items-center justify-center hover:border-primary hover:bg-gray-50 transition-colors cursor-pointer">
+                                        <div class="text-center">
+                                            <div class="w-10 h-10 bg-gray-100 rounded-lg flex items-center justify-center mx-auto mb-2">
+                                                <svg class="w-5 h-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/></svg>
+                                            </div>
+                                            <div class="text-sm text-gray-500">Add Investor</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- RTL Leverage Matrices -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">RTL Leverage Limits</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Maximum LTV, LTC, and LTARV by borrower classification</p>
+                                    </div>
+                                    <select class="text-sm border border-gray-300 rounded-md px-3 py-1.5 focus:ring-primary focus:border-primary">
+                                        <option>ArchWest (Primary)</option>
+                                        <option>Eastview</option>
+                                    </select>
+                                </div>
+                                <div class="overflow-x-auto">
+                                    <table class="min-w-full divide-y divide-border">
+                                        <thead class="bg-gray-50">
+                                            <tr>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Classification</th>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">FICO Range</th>
+                                                <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">Max As-Is LTV</th>
+                                                <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">Max LTC</th>
+                                                <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">Max LTARV</th>
+                                                <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="bg-white divide-y divide-border">
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">A+</span></td>
+                                                <td class="px-4 py-3 text-sm text-gray-600">720+ / 10+ deals</td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="90%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="90%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">A</span></td>
+                                                <td class="px-4 py-3 text-sm text-gray-600">700+ / 5+ deals</td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="85%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="85%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="70%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">B</span></td>
+                                                <td class="px-4 py-3 text-sm text-gray-600">680+ / 2+ deals</td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="70%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">C</span></td>
+                                                <td class="px-4 py-3 text-sm text-gray-600">660+ / 0+ deals</td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="65%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                            <!-- Leverage Reduction Rules -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">Leverage Reduction Rules</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Automatic LTV reductions based on deal characteristics</p>
+                                    </div>
+                                    <button class="text-sm text-primary hover:text-blue-700 font-medium">+ Add Rule</button>
+                                </div>
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                        <div class="flex items-center">
+                                            <label class="relative inline-flex items-center cursor-pointer mr-3">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">Heavy Rehab (Class A/B)</div>
+                                                <div class="text-xs text-gray-500">Rehab budget > 50% of as-is value</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <span class="text-sm font-medium text-red-600">-5.0%</span>
+                                            <button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                        <div class="flex items-center">
+                                            <label class="relative inline-flex items-center cursor-pointer mr-3">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">Loan Amount $2M-$3M</div>
+                                                <div class="text-xs text-gray-500">High-balance loan adjustment</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <span class="text-sm font-medium text-red-600">-5.0%</span>
+                                            <button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                        <div class="flex items-center">
+                                            <label class="relative inline-flex items-center cursor-pointer mr-3">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">HPA Decline 0-10%</div>
+                                                <div class="text-xs text-gray-500">Market depreciation adjustment</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <span class="text-sm font-medium text-red-600">-5.0%</span>
+                                            <button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                        <div class="flex items-center">
+                                            <label class="relative inline-flex items-center cursor-pointer mr-3">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">Vacant Refinance (DSCR)</div>
+                                                <div class="text-xs text-gray-500">Unleased property at refinance</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center space-x-3">
+                                            <span class="text-sm font-medium text-red-600">-10.0%</span>
+                                            <button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DSCR Settings -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">DSCR Requirements</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Minimum DSCR thresholds by FICO tier</p>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <span class="text-sm font-medium text-gray-700">Standard (FICO 700+)</span>
+                                            <input type="text" value="1.00x" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <p class="text-xs text-gray-500">Minimum DSCR for borrowers with FICO 700 or higher</p>
+                                    </div>
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <div class="flex items-center justify-between mb-2">
+                                            <span class="text-sm font-medium text-gray-700">Low FICO (680-699)</span>
+                                            <input type="text" value="1.10x" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <p class="text-xs text-gray-500">Higher DSCR required for lower credit scores</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DSCR LTV Matrix -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">DSCR LTV Matrix</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Maximum LTV by FICO tier and loan purpose (DSCR loans only)</p>
+                                    </div>
+                                    <button class="text-sm text-primary hover:text-blue-700 font-medium">Reset to Defaults</button>
+                                </div>
+                                <div class="overflow-x-auto">
+                                    <table class="w-full text-sm">
+                                        <thead>
+                                            <tr class="border-b border-gray-200">
+                                                <th class="text-left py-3 px-4 font-semibold text-gray-700">FICO Tier</th>
+                                                <th class="text-center py-3 px-4 font-semibold text-gray-700">Purchase</th>
+                                                <th class="text-center py-3 px-4 font-semibold text-gray-700">Rate & Term</th>
+                                                <th class="text-center py-3 px-4 font-semibold text-gray-700">Cash-Out</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="divide-y divide-gray-100">
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">780+</span></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">760-779</span></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">740-759</span></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">720-739</span></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="80%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="70%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">700-719</span></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="70%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-orange-100 text-orange-800">680-699</span></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="75%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="70%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="65%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="px-4 py-3"><span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800">FN</span><span class="ml-2 text-xs text-gray-500">Foreign National</span></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="70%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="70%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                <td class="px-4 py-3 text-center"><input type="text" value="65%" class="w-16 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p class="text-xs text-gray-500 mt-3">Note: LTV may be further reduced by property type, leverage rules, and DSCR constraints.</p>
+                            </div>
+
+                            <!-- Rate Lock Configuration -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">Rate Lock Configuration</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Default lock periods and extension pricing</p>
+                                    </div>
+                                </div>
+                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6">
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Default Period</label>
+                                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <option>15 days</option>
+                                            <option selected>30 days</option>
+                                            <option>45 days</option>
+                                            <option>60 days</option>
+                                        </select>
+                                    </div>
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Max Period</label>
+                                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <option>45 days</option>
+                                            <option>60 days</option>
+                                            <option selected>90 days</option>
+                                            <option>120 days</option>
+                                        </select>
+                                    </div>
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Max Extensions</label>
+                                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <option>1 extension</option>
+                                            <option selected>2 extensions</option>
+                                            <option>3 extensions</option>
+                                            <option>Unlimited</option>
+                                        </select>
+                                    </div>
+                                    <div class="p-4 bg-gray-50 rounded-lg">
+                                        <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Relock Fee</label>
+                                        <div class="relative">
+                                            <input type="text" value="0.125" class="w-full pr-8 px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <span class="absolute right-3 top-2.5 text-gray-500 text-sm">%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5 class="text-sm font-medium text-gray-700 mb-3">Extension Costs (Rate Adjustment)</h5>
+                                    <div class="overflow-x-auto">
+                                        <table class="w-full text-sm">
+                                            <thead>
+                                                <tr class="border-b border-gray-200">
+                                                    <th class="text-left py-2 px-4 font-medium text-gray-600">Extension</th>
+                                                    <th class="text-center py-2 px-4 font-medium text-gray-600">7 Days</th>
+                                                    <th class="text-center py-2 px-4 font-medium text-gray-600">15 Days</th>
+                                                    <th class="text-center py-2 px-4 font-medium text-gray-600">30 Days</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="divide-y divide-gray-100">
+                                                <tr>
+                                                    <td class="px-4 py-2 text-gray-700">1st Extension</td>
+                                                    <td class="px-4 py-2 text-center"><input type="text" value="+0.125%" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-4 py-2 text-center"><input type="text" value="+0.250%" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-4 py-2 text-center"><input type="text" value="+0.375%" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-4 py-2 text-gray-700">2nd Extension</td>
+                                                    <td class="px-4 py-2 text-center"><input type="text" value="+0.250%" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-4 py-2 text-center"><input type="text" value="+0.375%" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-4 py-2 text-center"><input type="text" value="+0.500%" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Developer Preview (Collapsible) -->
+                            <div class="bg-gray-50 border border-gray-200 rounded-lg">
+                                <button onclick="toggleDevPreview('sizing-dev-preview')" class="w-full flex items-center justify-between p-4 text-left">
+                                    <div class="flex items-center">
+                                        <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                                        <span class="font-medium text-gray-700">Developer Preview</span>
+                                        <span class="ml-2 px-2 py-0.5 text-xs bg-yellow-100 text-yellow-800 rounded-full">Dev Only</span>
+                                    </div>
+                                    <svg id="sizing-dev-preview-icon" class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                                </button>
+                                <div id="sizing-dev-preview" class="hidden border-t border-gray-200 p-4">
+                                    <p class="text-xs text-gray-500 mb-3">Preview sizing output pages for development and testing:</p>
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                                        <button onclick="navigateTo('deal-sizing')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                            <div class="font-medium text-gray-900 text-sm">Deal Sizing View</div>
+                                            <div class="text-xs text-gray-500">Sizing results & metrics</div>
+                                        </button>
+                                        <button onclick="navigateTo('deal-sizing-edit')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                            <div class="font-medium text-gray-900 text-sm">Manual Override</div>
+                                            <div class="text-xs text-gray-500">Exception sizing</div>
+                                        </button>
+                                        <button onclick="navigateTo('rate-lock')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                            <div class="font-medium text-gray-900 text-sm">Rate Lock</div>
+                                            <div class="text-xs text-gray-500">Lock management</div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Save Button -->
+                            <div class="flex justify-end">
+                                <button class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Save Changes</button>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Tab: Quotes (Phase 4 Preview) -->
+                    <!-- Tab: Quotes Configuration -->
                     <div id="settings-quotes" class="settings-tab-content hidden">
                         <div class="space-y-6">
-                            <!-- Description Header -->
-                            <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                                <p class="text-sm text-blue-800">
-                                    <strong>Phase 4: Quote Generation & Term Sheet Preview</strong> — Preview pages for quote generation, term sheets, and payment processing. For development/testing purposes.
-                                </p>
+                            <!-- Page Header -->
+                            <div>
+                                <h3 class="text-lg font-bold text-gray-900">Quote & Term Sheet Configuration</h3>
+                                <p class="text-sm text-gray-500 mt-1">Configure quote options, prepayment structures, deposit settings, and term sheet defaults.</p>
                             </div>
 
-                            <!-- Preview Pages -->
+                            <!-- Quote Expiration & Defaults -->
                             <div class="bg-card border border-border rounded-lg shadow-sm p-6">
-                                <h4 class="font-semibold text-gray-900 mb-4">Preview Pages</h4>
-                                <div class="space-y-6">
-                                    <!-- Internal Pages -->
+                                <h4 class="font-semibold text-gray-900 mb-4">Quote Defaults</h4>
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                                     <div>
-                                        <h5 class="text-sm font-semibold text-gray-700 mb-3">Internal Pages (LO/Processor)</h5>
-                                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                            <button onclick="navigateTo('quote-generation')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                                <div class="font-semibold text-gray-900 mb-1">P4-01: Quote Generation</div>
-                                                <div class="text-sm text-gray-500">Generate and configure quote options</div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Quote Expiration</label>
+                                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <option>24 hours</option>
+                                            <option selected>48 hours</option>
+                                            <option>72 hours</option>
+                                            <option>7 days</option>
+                                        </select>
+                                        <p class="text-xs text-gray-500 mt-1">Time before quotes expire</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Max Quote Options</label>
+                                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <option>2 options</option>
+                                            <option selected>3 options</option>
+                                            <option>4 options</option>
+                                            <option>5 options</option>
+                                        </select>
+                                        <p class="text-xs text-gray-500 mt-1">Maximum options per quote package</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Rate Lock Period</label>
+                                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <option selected>30 days</option>
+                                            <option>45 days</option>
+                                            <option>60 days</option>
+                                            <option>90 days</option>
+                                        </select>
+                                        <p class="text-xs text-gray-500 mt-1">Default lock period for new locks</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Prepayment Structures -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">Prepayment Structures</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Available prepayment penalty options for quotes</p>
+                                    </div>
+                                    <button class="text-sm text-primary hover:text-blue-700 font-medium">+ Add Structure</button>
+                                </div>
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between p-4 border border-border rounded-lg">
+                                        <div class="flex items-center">
+                                            <label class="relative inline-flex items-center cursor-pointer mr-4">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">5-4-3-2-1 Step-Down</div>
+                                                <div class="text-xs text-gray-500">5% Year 1, 4% Year 2, 3% Year 3, 2% Year 4, 1% Year 5</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Default</span>
+                                            <button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button>
+                                        </div>
+                                    </div>
+                                    <div class="flex items-center justify-between p-4 border border-border rounded-lg">
+                                        <div class="flex items-center">
+                                            <label class="relative inline-flex items-center cursor-pointer mr-4">
+                                                <input type="checkbox" checked class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">3-2-1 Step-Down</div>
+                                                <div class="text-xs text-gray-500">3% Year 1, 2% Year 2, 1% Year 3</div>
+                                            </div>
+                                        </div>
+                                        <button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button>
+                                    </div>
+                                    <div class="flex items-center justify-between p-4 border border-border rounded-lg">
+                                        <div class="flex items-center">
+                                            <label class="relative inline-flex items-center cursor-pointer mr-4">
+                                                <input type="checkbox" class="sr-only peer">
+                                                <div class="w-9 h-5 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-primary"></div>
+                                            </label>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">No Prepayment Penalty</div>
+                                                <div class="text-xs text-gray-500">No penalty for early payoff (higher rate)</div>
+                                            </div>
+                                        </div>
+                                        <button class="text-gray-400 hover:text-gray-600"><svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z"/></svg></button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Deposit Settings -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <h4 class="font-semibold text-gray-900 mb-4">Third-Party Report Deposit</h4>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Standard Deposit Amount</label>
+                                        <div class="relative">
+                                            <span class="absolute left-3 top-2 text-gray-500">$</span>
+                                            <input type="text" value="2,500" class="w-full pl-7 pr-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                        </div>
+                                        <p class="text-xs text-gray-500 mt-1">Covers appraisal, title, flood, feasibility</p>
+                                    </div>
+                                    <div>
+                                        <label class="block text-sm font-medium text-gray-700 mb-2">Deposit Policy</label>
+                                        <select class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary text-sm">
+                                            <option selected>Non-refundable</option>
+                                            <option>Refundable if loan declines</option>
+                                            <option>Partially refundable</option>
+                                        </select>
+                                        <p class="text-xs text-gray-500 mt-1">Refund policy for deposit</p>
+                                    </div>
+                                </div>
+                                <div class="mt-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
+                                    <p class="text-xs text-yellow-800"><strong>Note:</strong> Deposit amount should cover estimated third-party costs. Adjust based on property type and location.</p>
+                                </div>
+                            </div>
+
+                            <!-- Email Templates -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">Email Templates</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Templates for quote and term sheet communications</p>
+                                    </div>
+                                </div>
+                                <div class="space-y-3">
+                                    <div class="flex items-center justify-between p-4 border border-border rounded-lg hover:border-primary transition-colors cursor-pointer">
+                                        <div class="flex items-center">
+                                            <div class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mr-3">
+                                                <svg class="w-5 h-5 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                            </div>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">Quote Presentation Email</div>
+                                                <div class="text-xs text-gray-500">Sent when quotes are ready for borrower review</div>
+                                            </div>
+                                        </div>
+                                        <button class="px-3 py-1 text-sm text-primary hover:text-blue-700 font-medium">Edit</button>
+                                    </div>
+                                    <div class="flex items-center justify-between p-4 border border-border rounded-lg hover:border-primary transition-colors cursor-pointer">
+                                        <div class="flex items-center">
+                                            <div class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mr-3">
+                                                <svg class="w-5 h-5 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                                            </div>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">Term Sheet Email</div>
+                                                <div class="text-xs text-gray-500">Sent when term sheet is ready for signature</div>
+                                            </div>
+                                        </div>
+                                        <button class="px-3 py-1 text-sm text-primary hover:text-blue-700 font-medium">Edit</button>
+                                    </div>
+                                    <div class="flex items-center justify-between p-4 border border-border rounded-lg hover:border-primary transition-colors cursor-pointer">
+                                        <div class="flex items-center">
+                                            <div class="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center mr-3">
+                                                <svg class="w-5 h-5 text-purple-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+                                            </div>
+                                            <div>
+                                                <div class="text-sm font-medium text-gray-900">Payment Request Email</div>
+                                                <div class="text-xs text-gray-500">Sent when deposit payment is due</div>
+                                            </div>
+                                        </div>
+                                        <button class="px-3 py-1 text-sm text-primary hover:text-blue-700 font-medium">Edit</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- DSCR Pricing LLPAs -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">DSCR Pricing Adjustments (LLPAs)</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Loan-Level Price Adjustments applied to DSCR base rate</p>
+                                    </div>
+                                    <button class="text-sm text-primary hover:text-blue-700 font-medium">Reset to Defaults</button>
+                                </div>
+
+                                <!-- LLPA Sub-tabs -->
+                                <div class="border-b border-gray-200 mb-4">
+                                    <nav class="-mb-px flex space-x-6 overflow-x-auto" id="llpa-tabs">
+                                        <button onclick="switchLLPATab('llpa-fico')" class="llpa-tab-btn border-primary text-primary whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm">FICO</button>
+                                        <button onclick="switchLLPATab('llpa-property')" class="llpa-tab-btn border-transparent text-gray-500 hover:text-gray-700 whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm">Property Type</button>
+                                        <button onclick="switchLLPATab('llpa-dscr')" class="llpa-tab-btn border-transparent text-gray-500 hover:text-gray-700 whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm">DSCR</button>
+                                        <button onclick="switchLLPATab('llpa-loansize')" class="llpa-tab-btn border-transparent text-gray-500 hover:text-gray-700 whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm">Loan Size</button>
+                                        <button onclick="switchLLPATab('llpa-cashout')" class="llpa-tab-btn border-transparent text-gray-500 hover:text-gray-700 whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm">Cash-Out</button>
+                                        <button onclick="switchLLPATab('llpa-io')" class="llpa-tab-btn border-transparent text-gray-500 hover:text-gray-700 whitespace-nowrap py-2 px-1 border-b-2 font-medium text-sm">I/O</button>
+                                    </nav>
+                                </div>
+
+                                <!-- LLPA Content: FICO -->
+                                <div id="llpa-fico" class="llpa-tab-content">
+                                    <p class="text-xs text-gray-500 mb-3">Rate adjustment by FICO score and LTV band</p>
+                                    <div class="overflow-x-auto">
+                                        <table class="w-full text-sm">
+                                            <thead>
+                                                <tr class="border-b border-gray-200">
+                                                    <th class="text-left py-2 px-3 font-medium text-gray-600">FICO</th>
+                                                    <th class="text-center py-2 px-3 font-medium text-gray-600">≤60%</th>
+                                                    <th class="text-center py-2 px-3 font-medium text-gray-600">60.01-65%</th>
+                                                    <th class="text-center py-2 px-3 font-medium text-gray-600">65.01-70%</th>
+                                                    <th class="text-center py-2 px-3 font-medium text-gray-600">70.01-75%</th>
+                                                    <th class="text-center py-2 px-3 font-medium text-gray-600">75.01-80%</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="divide-y divide-gray-100">
+                                                <tr>
+                                                    <td class="px-3 py-2 font-medium text-gray-700">780+</td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="-0.250" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="-0.125" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="0.000" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.125" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.250" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-3 py-2 font-medium text-gray-700">760-779</td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="-0.125" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="0.000" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.125" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.250" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.375" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-3 py-2 font-medium text-gray-700">740-759</td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="0.000" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.125" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.250" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.375" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.500" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-3 py-2 font-medium text-gray-700">720-739</td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.125" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.250" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.375" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.500" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.625" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-3 py-2 font-medium text-gray-700">700-719</td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.250" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.375" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.500" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.625" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.750" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="px-3 py-2 font-medium text-gray-700">680-699</td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.500" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.625" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.750" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+0.875" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                    <td class="px-3 py-2 text-center"><input type="text" value="+1.000" class="w-16 text-center text-xs border border-gray-300 rounded px-1 py-1 focus:ring-primary focus:border-primary"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <!-- LLPA Content: Property Type -->
+                                <div id="llpa-property" class="llpa-tab-content hidden">
+                                    <p class="text-xs text-gray-500 mb-3">Rate adjustment by property type</p>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Single Family (1 unit)</span>
+                                            <input type="text" value="0.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">2-4 Units</span>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">5-8 Units</span>
+                                            <input type="text" value="+0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Condo (Warrantable)</span>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Condo (Non-Warrantable)</span>
+                                            <input type="text" value="+0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Townhouse</span>
+                                            <input type="text" value="0.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- LLPA Content: DSCR -->
+                                <div id="llpa-dscr" class="llpa-tab-content hidden">
+                                    <p class="text-xs text-gray-500 mb-3">Rate adjustment by DSCR ratio</p>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">DSCR ≥ 1.25x</span>
+                                            <input type="text" value="-0.125" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">DSCR 1.10-1.24x</span>
+                                            <input type="text" value="0.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">DSCR 1.00-1.09x</span>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">DSCR 0.90-0.99x</span>
+                                            <input type="text" value="+0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">DSCR 0.75-0.89x</span>
+                                            <input type="text" value="+0.750" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">No-Ratio</span>
+                                            <input type="text" value="+1.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- LLPA Content: Loan Size -->
+                                <div id="llpa-loansize" class="llpa-tab-content hidden">
+                                    <p class="text-xs text-gray-500 mb-3">Rate adjustment by loan amount</p>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">$100K - $150K</span>
+                                            <input type="text" value="+0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">$150K - $250K</span>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">$250K - $1M</span>
+                                            <input type="text" value="0.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">$1M - $2M</span>
+                                            <input type="text" value="+0.125" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">$2M - $3M</span>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- LLPA Content: Cash-Out -->
+                                <div id="llpa-cashout" class="llpa-tab-content hidden">
+                                    <p class="text-xs text-gray-500 mb-3">Rate adjustment for cash-out refinance</p>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Purchase / Rate & Term</span>
+                                            <input type="text" value="0.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Cash-Out ≤ $250K</span>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Cash-Out $250K - $500K</span>
+                                            <input type="text" value="+0.375" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Cash-Out > $500K</span>
+                                            <input type="text" value="+0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- LLPA Content: Interest-Only -->
+                                <div id="llpa-io" class="llpa-tab-content hidden">
+                                    <p class="text-xs text-gray-500 mb-3">Rate adjustment for interest-only periods</p>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">Fully Amortizing</span>
+                                            <input type="text" value="0.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">I/O 3 Years</span>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">I/O 5 Years</span>
+                                            <input type="text" value="+0.375" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <span class="text-sm text-gray-700">I/O 10 Years</span>
+                                            <input type="text" value="+0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- RTL Pricing Configuration -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex items-center justify-between mb-4">
+                                    <div>
+                                        <h4 class="font-semibold text-gray-900">RTL Pricing Configuration</h4>
+                                        <p class="text-xs text-gray-500 mt-1">Base rates and adjustments for Fix & Flip, Bridge, and GUC loans</p>
+                                    </div>
+                                    <button class="text-sm text-primary hover:text-blue-700 font-medium">Reset to Defaults</button>
+                                </div>
+
+                                <!-- Base Rates -->
+                                <div class="mb-6">
+                                    <h5 class="text-sm font-medium text-gray-700 mb-3">Base Rates by Product</h5>
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        <div class="p-4 bg-gray-50 rounded-lg">
+                                            <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Fix & Flip</label>
+                                            <div class="flex items-center">
+                                                <input type="text" value="10.50" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-2 focus:ring-primary focus:border-primary">
+                                                <span class="ml-2 text-sm text-gray-500">%</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-4 bg-gray-50 rounded-lg">
+                                            <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Bridge</label>
+                                            <div class="flex items-center">
+                                                <input type="text" value="10.00" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-2 focus:ring-primary focus:border-primary">
+                                                <span class="ml-2 text-sm text-gray-500">%</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-4 bg-gray-50 rounded-lg">
+                                            <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Ground-Up Construction</label>
+                                            <div class="flex items-center">
+                                                <input type="text" value="11.00" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-2 focus:ring-primary focus:border-primary">
+                                                <span class="ml-2 text-sm text-gray-500">%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- RTL Adjustments -->
+                                <div class="mb-6">
+                                    <h5 class="text-sm font-medium text-gray-700 mb-3">Rate Adjustments</h5>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <div>
+                                                <span class="text-sm text-gray-700">Borrower Class A+</span>
+                                                <p class="text-xs text-gray-500">FICO 720+, 10+ completed deals</p>
+                                            </div>
+                                            <input type="text" value="-0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <div>
+                                                <span class="text-sm text-gray-700">Borrower Class A</span>
+                                                <p class="text-xs text-gray-500">FICO 700+, 5+ completed deals</p>
+                                            </div>
+                                            <input type="text" value="-0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <div>
+                                                <span class="text-sm text-gray-700">Borrower Class B</span>
+                                                <p class="text-xs text-gray-500">FICO 680+, 2+ completed deals</p>
+                                            </div>
+                                            <input type="text" value="0.000" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <div>
+                                                <span class="text-sm text-gray-700">Borrower Class C</span>
+                                                <p class="text-xs text-gray-500">FICO 660+, new investor</p>
+                                            </div>
+                                            <input type="text" value="+0.500" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <div>
+                                                <span class="text-sm text-gray-700">Heavy Rehab</span>
+                                                <p class="text-xs text-gray-500">Rehab > 50% of as-is value</p>
+                                            </div>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                        <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg">
+                                            <div>
+                                                <span class="text-sm text-gray-700">Loan Amount $2M+</span>
+                                                <p class="text-xs text-gray-500">High balance adjustment</p>
+                                            </div>
+                                            <input type="text" value="+0.250" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-1 focus:ring-primary focus:border-primary">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Origination Fees -->
+                                <div>
+                                    <h5 class="text-sm font-medium text-gray-700 mb-3">Origination Fee Range</h5>
+                                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                        <div class="p-4 bg-gray-50 rounded-lg">
+                                            <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Minimum</label>
+                                            <div class="flex items-center">
+                                                <input type="text" value="1.50" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-2 focus:ring-primary focus:border-primary">
+                                                <span class="ml-2 text-sm text-gray-500">pts</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-4 bg-gray-50 rounded-lg">
+                                            <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Standard</label>
+                                            <div class="flex items-center">
+                                                <input type="text" value="2.00" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-2 focus:ring-primary focus:border-primary">
+                                                <span class="ml-2 text-sm text-gray-500">pts</span>
+                                            </div>
+                                        </div>
+                                        <div class="p-4 bg-gray-50 rounded-lg">
+                                            <label class="block text-xs font-medium text-gray-500 uppercase mb-2">Maximum</label>
+                                            <div class="flex items-center">
+                                                <input type="text" value="3.00" class="w-20 text-center text-sm border border-gray-300 rounded px-2 py-2 focus:ring-primary focus:border-primary">
+                                                <span class="ml-2 text-sm text-gray-500">pts</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Developer Preview (Collapsible) -->
+                            <div class="bg-gray-50 border border-gray-200 rounded-lg">
+                                <button onclick="toggleDevPreview('quotes-dev-preview')" class="w-full flex items-center justify-between p-4 text-left">
+                                    <div class="flex items-center">
+                                        <svg class="w-5 h-5 text-gray-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+                                        <span class="font-medium text-gray-700">Developer Preview</span>
+                                        <span class="ml-2 px-2 py-0.5 text-xs bg-yellow-100 text-yellow-800 rounded-full">Dev Only</span>
+                                    </div>
+                                    <svg id="quotes-dev-preview-icon" class="w-5 h-5 text-gray-400 transform transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/></svg>
+                                </button>
+                                <div id="quotes-dev-preview" class="hidden border-t border-gray-200 p-4">
+                                    <p class="text-xs text-gray-500 mb-3">Preview quote and term sheet pages for development and testing:</p>
+
+                                    <!-- Internal Pages -->
+                                    <div class="mb-4">
+                                        <h5 class="text-xs font-semibold text-gray-600 uppercase mb-2">Internal Pages</h5>
+                                        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                                            <button onclick="navigateTo('quote-generation')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                                <div class="font-medium text-gray-900 text-sm">Quote Generation</div>
+                                                <div class="text-xs text-gray-500">Configure & generate quotes</div>
                                             </button>
-                                            <button onclick="navigateTo('term-sheet')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                                <div class="font-semibold text-gray-900 mb-1">P4-04: Term Sheet View</div>
-                                                <div class="text-sm text-gray-500">View term sheet and signature status</div>
+                                            <button onclick="navigateTo('term-sheet')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                                <div class="font-medium text-gray-900 text-sm">Term Sheet View</div>
+                                                <div class="text-xs text-gray-500">Signature status & management</div>
                                             </button>
                                         </div>
                                     </div>
 
-                                    <!-- Public Pages -->
+                                    <!-- Borrower-Facing Pages -->
                                     <div>
-                                        <h5 class="text-sm font-semibold text-gray-700 mb-3">Public Pages (Borrower-Facing)</h5>
-                                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                            <button onclick="navigateTo('quote-presentation')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                                <div class="font-semibold text-gray-900 mb-1">P4-02: Quote Presentation</div>
-                                                <div class="text-sm text-gray-500">Borrower quote comparison page</div>
+                                        <h5 class="text-xs font-semibold text-gray-600 uppercase mb-2">Borrower-Facing Pages</h5>
+                                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+                                            <button onclick="navigateTo('quote-presentation')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                                <div class="font-medium text-gray-900 text-sm">Quote Presentation</div>
+                                                <div class="text-xs text-gray-500">Borrower comparison view</div>
                                             </button>
-                                            <button onclick="navigateTo('quote-confirmation')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                                <div class="font-semibold text-gray-900 mb-1">P4-03: Quote Selection Confirmation</div>
-                                                <div class="text-sm text-gray-500">Confirmation after quote selection</div>
+                                            <button onclick="navigateTo('quote-confirmation')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                                <div class="font-medium text-gray-900 text-sm">Selection Confirmation</div>
+                                                <div class="text-xs text-gray-500">Quote selection success</div>
                                             </button>
-                                            <button onclick="navigateTo('deposit-payment')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                                <div class="font-semibold text-gray-900 mb-1">P4-05: Deposit Payment</div>
-                                                <div class="text-sm text-gray-500">Third-party report deposit payment</div>
+                                            <button onclick="navigateTo('deposit-payment')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                                <div class="font-medium text-gray-900 text-sm">Deposit Payment</div>
+                                                <div class="text-xs text-gray-500">Payment form</div>
                                             </button>
-                                            <button onclick="navigateTo('payment-confirmation')" class="p-4 border border-border rounded-lg hover:bg-muted/50 transition-colors text-left">
-                                                <div class="font-semibold text-gray-900 mb-1">P4-06: Payment Confirmation</div>
-                                                <div class="text-sm text-gray-500">Payment success confirmation</div>
+                                            <button onclick="navigateTo('payment-confirmation')" class="p-3 bg-white border border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50/50 transition-colors text-left">
+                                                <div class="font-medium text-gray-900 text-sm">Payment Confirmation</div>
+                                                <div class="text-xs text-gray-500">Payment success</div>
                                             </button>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+
+                            <!-- Save Button -->
+                            <div class="flex justify-end">
+                                <button class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Save Changes</button>
                             </div>
                         </div>
                     </div>
@@ -2384,6 +3300,45 @@
                 btn.classList.add('active', 'border-primary', 'text-primary');
                 btn.classList.remove('border-transparent', 'text-gray-500');
             });
+        }
+
+        // Toggle Developer Preview sections
+        function toggleDevPreview(previewId) {
+            const preview = document.getElementById(previewId);
+            const icon = document.getElementById(previewId + '-icon');
+
+            if (preview.classList.contains('hidden')) {
+                preview.classList.remove('hidden');
+                icon.classList.add('rotate-180');
+            } else {
+                preview.classList.add('hidden');
+                icon.classList.remove('rotate-180');
+            }
+        }
+
+        // Switch LLPA sub-tabs within Quotes Configuration
+        function switchLLPATab(tabId) {
+            // Hide all LLPA content panels
+            document.querySelectorAll('.llpa-tab-content').forEach(panel => {
+                panel.classList.add('hidden');
+            });
+
+            // Show the selected panel
+            document.getElementById(tabId).classList.remove('hidden');
+
+            // Update tab button styles
+            document.querySelectorAll('.llpa-tab-btn').forEach(btn => {
+                btn.classList.remove('border-primary', 'text-primary');
+                btn.classList.add('border-transparent', 'text-gray-500');
+            });
+
+            // Find and highlight the active tab
+            const activeBtn = Array.from(document.querySelectorAll('.llpa-tab-btn'))
+                .find(btn => btn.getAttribute('onclick').includes(tabId));
+            if (activeBtn) {
+                activeBtn.classList.remove('border-transparent', 'text-gray-500');
+                activeBtn.classList.add('border-primary', 'text-primary');
+            }
         }
 
         // Switch between Quick App Settings and Full App Settings
