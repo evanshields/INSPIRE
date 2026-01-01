@@ -252,10 +252,28 @@
                                 <ul class="divide-y divide-border">
                                     <li class="px-5 py-4 hover:bg-muted/50 transition-colors flex justify-between items-center group">
                                         <div>
-                                            <p class="text-sm font-semibold text-secondary">123 Main St <span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 text-red-800">Red Flag</span></p>
-                                            <p class="text-sm text-gray-600 mt-0.5">Insurance mortgagee clause incorrect</p>
+                                            <p class="text-sm font-semibold text-secondary">
+                                                123 Main St 
+                                                <span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">AI Flag</span>
+                                                <span class="ml-1 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 text-red-800">Red Flag</span>
+                                            </p>
+                                            <p class="text-sm text-gray-600 mt-0.5">FICO 655 below 660 minimum (Exception Pending)</p>
                                         </div>
-                                        <button onclick="navigateToDeal('123', 'analysis')" class="opacity-0 group-hover:opacity-100 px-3 py-1.5 border border-primary text-primary rounded-md text-sm font-medium hover:bg-blue-50 transition-all">Resolve</button>
+                                        <div class="flex space-x-2">
+                                            <button onclick="navigateToDeal('123', 'analysis')" class="opacity-0 group-hover:opacity-100 px-3 py-1.5 border border-primary text-primary rounded-md text-sm font-medium hover:bg-blue-50 transition-all">View Analysis</button>
+                                            <button onclick="navigateToDeal('123', 'exceptions')" class="opacity-0 group-hover:opacity-100 px-3 py-1.5 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50 transition-all">View Exception</button>
+                                        </div>
+                                    </li>
+                                    <li class="px-5 py-4 hover:bg-muted/50 transition-colors flex justify-between items-center group">
+                                        <div>
+                                            <p class="text-sm font-semibold text-secondary">
+                                                123 Main St 
+                                                <span class="ml-2 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-blue-100 text-blue-800">AI Flag</span>
+                                                <span class="ml-1 inline-flex items-center px-2 py-0.5 rounded text-xs font-medium bg-red-100 text-red-800">Red Flag</span>
+                                            </p>
+                                            <p class="text-sm text-gray-600 mt-0.5">ARV variance 8% exceeds 5% threshold</p>
+                                        </div>
+                                        <button onclick="requestException('flag_002')" class="opacity-0 group-hover:opacity-100 px-3 py-1.5 border border-primary text-primary rounded-md text-sm font-medium hover:bg-blue-50 transition-all">Request Exception</button>
                                     </li>
                                     <li class="px-5 py-4 hover:bg-muted/50 transition-colors flex justify-between items-center group">
                                         <div>
@@ -396,6 +414,30 @@
                                 </div>
                             </div>
 
+                            <!-- Credit Memos - Phase 7 -->
+                            <div class="bg-card rounded-lg border border-border shadow-sm overflow-hidden">
+                                <div class="px-5 py-4 border-b border-border flex justify-between items-center">
+                                    <h3 class="text-lg font-bold text-foreground">Credit Memos</h3>
+                                    <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">3 Ready</span>
+                                </div>
+                                <ul class="divide-y divide-border">
+                                    <li class="px-5 py-4 hover:bg-muted/50 transition-colors flex justify-between items-center group">
+                                        <div>
+                                            <p class="text-sm font-semibold text-secondary">123 Main St</p>
+                                            <p class="text-xs text-gray-500 mt-0.5">Credit Memo Ready for Review</p>
+                                        </div>
+                                        <button onclick="navigateToDeal('123', 'credit-memo')" class="opacity-0 group-hover:opacity-100 px-3 py-1.5 border border-primary text-primary rounded-md text-sm font-medium hover:bg-blue-50 transition-all">Review</button>
+                                    </li>
+                                    <li class="px-5 py-4 hover:bg-muted/50 transition-colors flex justify-between items-center group">
+                                        <div>
+                                            <p class="text-sm font-semibold text-secondary">456 Oak Ave</p>
+                                            <p class="text-xs text-gray-500 mt-0.5">Credit Memo Approved</p>
+                                        </div>
+                                        <button onclick="navigateToDeal('456', 'credit-memo')" class="opacity-0 group-hover:opacity-100 px-3 py-1.5 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50 transition-all">View</button>
+                                    </li>
+                                </ul>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -505,21 +547,28 @@
                                     <span class="px-2 py-0.5 rounded-full bg-white text-xs font-bold text-gray-600 border border-gray-200">6</span>
                                 </div>
                                 <div class="p-2 flex-1 overflow-y-auto space-y-2">
-                                    <div onclick="navigateToDeal('123', 'overview')" class="bg-white p-3 rounded shadow-sm border border-l-4 border-l-red-500 border-y-border border-r-border hover:shadow-md cursor-pointer transition-shadow">
+                                    <div onclick="navigateToDeal('123', 'overview')" class="bg-white p-3 rounded shadow-sm border border-l-4 border-l-yellow-500 border-y-border border-r-border hover:shadow-md cursor-pointer transition-shadow">
                                         <div class="flex justify-between items-start mb-2">
                                             <span class="font-bold text-secondary text-sm">123 Main St</span>
                                             <span class="px-1.5 py-0.5 bg-blue-50 text-blue-700 text-[10px] font-bold uppercase rounded">F&F</span>
                                         </div>
                                         <div class="text-xs text-gray-500 mb-2">Eastview</div>
                                         <div class="flex justify-between items-center text-sm font-medium mb-2">
-                                            <span>$425k</span>
+                                            <span>$382.5k</span>
                                         </div>
+                                        
+                                        <!-- Phase 7: Analysis indicators -->
+                                        <div class="flex space-x-1 mb-2">
+                                            <span class="px-1.5 py-0.5 bg-red-100 text-red-800 text-[10px] font-bold rounded" title="2 Red Flags">🔴 2</span>
+                                            <span class="px-1.5 py-0.5 bg-yellow-100 text-yellow-800 text-[10px] font-bold rounded" title="5 Yellow Flags">⚠️ 5</span>
+                                            <span class="px-1.5 py-0.5 bg-blue-100 text-blue-800 text-[10px] font-bold rounded" title="Credit Memo Ready">📋 Ready</span>
+                                        </div>
+                                        
                                         <div class="flex space-x-2 mb-2">
-                                            <span class="px-1.5 py-0.5 bg-red-100 text-red-800 text-[10px] font-bold rounded">2 Flags</span>
                                             <span class="px-1.5 py-0.5 bg-gray-100 text-gray-600 text-[10px] font-bold rounded">3 Tasks</span>
                                         </div>
-                                        <div class="border-t border-gray-100 pt-2 flex justify-between items-center text-xs text-red-500 font-medium">
-                                            <span>Past Due (1d)</span>
+                                        <div class="border-t border-gray-100 pt-2 flex justify-between items-center text-xs text-yellow-600 font-medium">
+                                            <span>Needs Attention</span>
                                         </div>
                                     </div>
                                 </div>
@@ -2502,7 +2551,7 @@
                                     Back to Pipeline
                                 </button>
                                 <div class="flex items-center space-x-3">
-                                    <h1 class="text-2xl font-bold text-foreground">123 Main Street, Miami FL</h1>
+                                    <h1 class="text-2xl font-bold text-foreground">123 Main Street, Austin, TX 78701</h1>
                                     <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-800">Processing</span>
                                 </div>
                                 <div class="text-sm text-gray-500 mt-1 space-x-2">
@@ -2548,6 +2597,8 @@
                             <button onclick="switchDealTab('tab-checklist')" class="tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Checklist</button>
                             <button onclick="switchDealTab('tab-documents')" class="tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Documents</button>
                             <button onclick="switchDealTab('tab-analysis')" class="tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm flex items-center">Analysis <span class="ml-2 bg-red-100 text-red-600 py-0.5 px-1.5 rounded-full text-[10px]">1</span></button>
+                            <button onclick="switchDealTab('tab-credit-memo')" class="tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Credit Memo</button>
+                            <button onclick="switchDealTab('tab-exceptions')" class="tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Exceptions</button>
                             <button onclick="switchDealTab('tab-tasks')" class="tab-btn border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300 whitespace-nowrap py-4 px-1 border-b-2 font-medium text-sm">Tasks</button>
                         </nav>
                     </div>
@@ -2687,46 +2738,1077 @@
                         </div>
                     </div>
 
-                    <!-- Tab Content: Analysis -->
-                    <div id="tab-analysis" class="tab-content hidden">
-                        <div class="bg-card border border-border rounded-lg shadow-sm overflow-hidden mb-6">
-                            <div class="p-6 border-b border-border">
-                                <h3 class="text-lg font-bold mb-4">AI Analysis Dashboard</h3>
-                                <div class="flex space-x-4">
-                                    <div class="px-4 py-2 bg-green-50 text-green-700 rounded-md font-bold text-sm border border-green-100 flex items-center">
-                                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/></svg>
-                                        12 Green Flags
-                                    </div>
-                                    <div class="px-4 py-2 bg-yellow-50 text-yellow-700 rounded-md font-bold text-sm border border-yellow-100 flex items-center">
-                                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
-                                        2 Yellow Flags
-                                    </div>
-                                    <div class="px-4 py-2 bg-red-50 text-red-700 rounded-md font-bold text-sm border border-red-100 flex items-center">
-                                        <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/></svg>
-                                        1 Red Flag
-                                    </div>
+                    <!-- Tab Content: Analysis - Phase 7 -->
+                    <!-- Component: ShadCN Tabs, Cards, Tables, Accordions, Badges -->
+                    <div id="tab-analysis" class="tab-content hidden space-y-6">
+                        <!-- Header with Actions -->
+                        <div class="flex justify-between items-center mb-6">
+                            <div>
+                                <h2 class="text-2xl font-bold text-foreground">AI Analysis Dashboard</h2>
+                                <p class="text-sm text-gray-500 mt-1">Last analyzed: 2 minutes ago</p>
+                            </div>
+                            <div class="flex space-x-3">
+                                <button onclick="reanalyzeAll()" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Re-Analyze All Documents</button>
+                                <button onclick="navigateToCreditMemo()" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Generate Credit Memo</button>
+                                <button onclick="exportFlags()" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Export Flags</button>
+                            </div>
+                        </div>
+
+                        <!-- OVERALL ANALYSIS STATUS - Summary Cards Grid -->
+                        <!-- Component: ShadCN Card Grid (4-col) -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+                            
+                            <!-- Risk Score Card -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <h3 class="text-sm font-medium text-gray-500 mb-4">Risk Score</h3>
+                                <div class="text-center mb-4">
+                                    <div class="text-5xl font-bold text-warning mb-2">35</div>
+                                    <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-yellow-100 text-yellow-800">MODERATE</span>
+                                </div>
+                                <p class="text-xs text-gray-500 text-center">Based on 35 checks across 12 documents</p>
+                            </div>
+
+                            <!-- Flag Summary Card -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <h3 class="text-sm font-medium text-gray-500 mb-4">Flag Summary</h3>
+                                <div class="space-y-3">
+                                    <button onclick="filterFlags('green')" class="w-full flex items-center justify-between p-3 bg-green-50 border border-green-200 rounded-lg hover:bg-green-100 transition-colors">
+                                        <div class="flex items-center">
+                                            <span class="text-xl mr-2">✅</span>
+                                            <span class="text-sm font-medium text-gray-700">Green</span>
+                                        </div>
+                                        <span class="text-2xl font-bold text-green-700">28</span>
+                                    </button>
+                                    <button onclick="filterFlags('yellow')" class="w-full flex items-center justify-between p-3 bg-yellow-50 border border-yellow-200 rounded-lg hover:bg-yellow-100 transition-colors">
+                                        <div class="flex items-center">
+                                            <span class="text-xl mr-2">⚠️</span>
+                                            <span class="text-sm font-medium text-gray-700">Yellow</span>
+                                        </div>
+                                        <span class="text-2xl font-bold text-yellow-700">5</span>
+                                    </button>
+                                    <button onclick="filterFlags('red')" class="w-full flex items-center justify-between p-3 bg-red-50 border border-red-200 rounded-lg hover:bg-red-100 transition-colors">
+                                        <div class="flex items-center">
+                                            <span class="text-xl mr-2">🔴</span>
+                                            <span class="text-sm font-medium text-gray-700">Red</span>
+                                        </div>
+                                        <span class="text-2xl font-bold text-red-700">2</span>
+                                    </button>
                                 </div>
                             </div>
-                            
-                            <div class="p-6 bg-red-50/30 border-b border-red-100">
-                                <h4 class="text-sm font-bold text-red-800 uppercase tracking-wide mb-3">Action Required</h4>
-                                <div class="bg-white border border-red-200 rounded-lg p-4 shadow-sm flex justify-between items-start">
-                                    <div class="flex items-start">
-                                        <div class="flex-shrink-0">
-                                            <svg class="h-5 w-5 text-red-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd"/></svg>
+
+                            <!-- Documents Analyzed Card -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <h3 class="text-sm font-medium text-gray-500 mb-4">Documents Analyzed</h3>
+                                <div class="text-center mb-4">
+                                    <div class="relative inline-flex items-center justify-center">
+                                        <svg class="transform -rotate-90 w-24 h-24">
+                                            <circle cx="48" cy="48" r="40" stroke="#e5e7eb" stroke-width="8" fill="none"></circle>
+                                            <circle cx="48" cy="48" r="40" stroke="#0171e2" stroke-width="8" fill="none" stroke-dasharray="251.2" stroke-dashoffset="35.2"></circle>
+                                        </svg>
+                                        <div class="absolute">
+                                            <div class="text-2xl font-bold text-foreground">12 / 14</div>
+                                            <div class="text-sm text-gray-500">86%</div>
                                         </div>
-                                        <div class="ml-3">
-                                            <h3 class="text-sm font-bold text-gray-900">Mortgagee Clause Incorrect</h3>
-                                            <div class="mt-1 text-sm text-gray-700">
-                                                <p>Found: "ABC Lender", expected: "Eastview Capital..." in Insurance Certificate.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="flex space-x-2">
-                                        <button class="bg-white border border-gray-300 text-gray-700 px-3 py-1.5 rounded text-sm font-medium hover:bg-gray-50">View Doc</button>
-                                        <button class="bg-red-600 text-white px-3 py-1.5 rounded text-sm font-medium hover:bg-red-700">Request Correction</button>
                                     </div>
                                 </div>
+                                <p class="text-xs text-gray-500 text-center">2 documents pending analysis</p>
+                            </div>
+
+                            <!-- Exceptions Card -->
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                                <h3 class="text-sm font-medium text-gray-500 mb-4">Exceptions</h3>
+                                <div class="text-center mb-4">
+                                    <div class="text-4xl font-bold text-foreground mb-2">2</div>
+                                    <span class="text-sm text-gray-600">Required</span>
+                                </div>
+                                <div class="space-y-2 mb-4">
+                                    <div class="flex justify-between text-sm">
+                                        <span class="text-gray-600">Pending</span>
+                                        <span class="font-medium text-warning">1</span>
+                                    </div>
+                                    <div class="flex justify-between text-sm">
+                                        <span class="text-gray-600">Approved</span>
+                                        <span class="font-medium text-success">1</span>
+                                    </div>
+                                </div>
+                                <button onclick="switchDealTab('tab-exceptions')" class="w-full px-3 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Manage Exceptions</button>
+                            </div>
+
+                        </div>
+
+                        <!-- CRITICAL FINDINGS (RED FLAGS) -->
+                        <!-- Component: ShadCN Alert Cards -->
+                        <section class="bg-red-50/30 border border-red-200 rounded-lg shadow-sm overflow-hidden mb-6">
+                            <div class="bg-red-100 px-6 py-4 border-b border-red-200 flex items-center justify-between">
+                                <h3 class="text-lg font-bold text-red-800 flex items-center">
+                                    <span class="mr-2">🔴</span>
+                                    Red Flags - Action Required
+                                </h3>
+                                <span class="px-3 py-1 bg-red-200 text-red-800 rounded-full text-sm font-bold">2</span>
+                            </div>
+
+                            <div class="p-6 space-y-4">
+                                
+                                <!-- Red Flag 1: FICO -->
+                                <article class="bg-white border-l-4 border-red-500 rounded-lg p-5 shadow-sm">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded">Credit</span>
+                                            <span class="px-2 py-1 bg-red-200 text-red-900 text-xs font-bold rounded">🔴 Red Flag</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">FICO Score Below Minimum</h4>
+                                    <p class="text-sm text-gray-700 mb-3">Middle FICO score of <strong class="font-bold">655</strong> is below investor minimum of <strong class="font-bold">660</strong>.</p>
+                                    <div class="grid grid-cols-3 gap-4 mb-3 p-3 bg-gray-50 rounded-md">
+                                        <div>
+                                            <span class="text-xs text-gray-500">Actual:</span>
+                                            <span class="block text-sm font-bold text-gray-900">655</span>
+                                        </div>
+                                        <div>
+                                            <span class="text-xs text-gray-500">Required:</span>
+                                            <span class="block text-sm font-bold text-gray-900">≥660</span>
+                                        </div>
+                                        <div>
+                                            <span class="text-xs text-gray-500">Variance:</span>
+                                            <span class="block text-sm font-bold text-red-600">-5 points</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs text-gray-600 italic mb-4">
+                                        <em>Reference: Eastview RTL Guidelines Section 2.1 - "Minimum FICO score of 660 required"</em>
+                                    </p>
+                                    <div class="flex space-x-2 mb-3">
+                                        <button onclick="requestException('flag_001')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Request Exception</button>
+                                        <button onclick="viewDocument('credit_report')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">View Credit Report</button>
+                                        <button onclick="resolveFlag('flag_001')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Mark Resolved</button>
+                                    </div>
+                                    <div class="pt-3 border-t border-gray-200">
+                                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">Exception Pending</span>
+                                        <span class="ml-2 text-xs text-gray-500">Submitted 12/15/2024 by Sarah Johnson</span>
+                                    </div>
+                                </article>
+
+                                <!-- Red Flag 2: ARV Variance -->
+                                <article class="bg-white border-l-4 border-red-500 rounded-lg p-5 shadow-sm">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 bg-purple-100 text-purple-800 text-xs font-medium rounded">Valuation</span>
+                                            <span class="px-2 py-1 bg-red-200 text-red-900 text-xs font-bold rounded">🔴 Red Flag</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">ARV Variance Exceeds Threshold</h4>
+                                    <p class="text-sm text-gray-700 mb-3">Appraisal ARV of <strong class="font-bold">$485,000</strong> differs from feasibility by <strong class="font-bold">8%</strong>, exceeding 5% threshold.</p>
+                                    <div class="grid grid-cols-3 gap-4 mb-3 p-3 bg-gray-50 rounded-md">
+                                        <div>
+                                            <span class="text-xs text-gray-500">Appraisal ARV:</span>
+                                            <span class="block text-sm font-bold text-gray-900">$485,000</span>
+                                        </div>
+                                        <div>
+                                            <span class="text-xs text-gray-500">Feasibility ARV:</span>
+                                            <span class="block text-sm font-bold text-gray-900">$520,000</span>
+                                        </div>
+                                        <div>
+                                            <span class="text-xs text-gray-500">Variance:</span>
+                                            <span class="block text-sm font-bold text-red-600">-$35,000 (-6.7%)</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-sm text-gray-700 mb-3">
+                                        <strong>Impact:</strong> LTARV increases from 68% to 73%. Still within maximum (75%).
+                                    </p>
+                                    <p class="text-xs text-gray-600 italic mb-4">
+                                        <em>Reference: Eastview RTL Guidelines Section 5.2.1 - "ARV variance must be within 5%"</em>
+                                    </p>
+                                    <div class="flex space-x-2">
+                                        <button onclick="requestException('flag_002')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Request Exception</button>
+                                        <button onclick="viewDocument('appraisal')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">View Appraisal</button>
+                                        <button onclick="viewDocument('feasibility')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">View Feasibility</button>
+                                    </div>
+                                </article>
+
+                            </div>
+                        </section>
+
+                        <!-- WARNING FLAGS (YELLOW) - Collapsible -->
+                        <!-- Component: ShadCN Accordion -->
+                        <section class="bg-yellow-50/30 border border-yellow-200 rounded-lg shadow-sm overflow-hidden mb-6">
+                            <button onclick="toggleSection('yellow-flags')" class="w-full bg-yellow-100 px-6 py-4 border-b border-yellow-200 flex items-center justify-between hover:bg-yellow-200 transition-colors">
+                                <h3 class="text-lg font-bold text-yellow-800 flex items-center">
+                                    <span class="mr-2">⚠️</span>
+                                    Yellow Flags - Review Recommended
+                                </h3>
+                                <div class="flex items-center space-x-3">
+                                    <span class="px-3 py-1 bg-yellow-200 text-yellow-800 rounded-full text-sm font-bold">5</span>
+                                    <svg id="yellow-flags-icon" class="w-5 h-5 text-yellow-700 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg>
+                                </div>
+                            </button>
+
+                            <div id="yellow-flags" class="p-6 space-y-4">
+                                
+                                <!-- Yellow Flag 1: Experience -->
+                                <article class="bg-white border-l-4 border-yellow-500 rounded-lg p-5 shadow-sm">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 bg-blue-100 text-blue-800 text-xs font-medium rounded">Experience</span>
+                                            <span class="px-2 py-1 bg-yellow-200 text-yellow-900 text-xs font-bold rounded">⚠️ Yellow</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">Limited Track Record</h4>
+                                    <p class="text-sm text-gray-700 mb-3">Borrower has completed <strong class="font-bold">3 projects</strong> in past 36 months. 5+ preferred for Tier 1 pricing.</p>
+                                    <div class="grid grid-cols-2 gap-4 mb-3 p-3 bg-gray-50 rounded-md">
+                                        <div>
+                                            <span class="text-xs text-gray-500">Actual:</span>
+                                            <span class="block text-sm font-bold text-gray-900">3 deals</span>
+                                        </div>
+                                        <div>
+                                            <span class="text-xs text-gray-500">Preferred:</span>
+                                            <span class="block text-sm font-bold text-gray-900">5+ deals</span>
+                                        </div>
+                                    </div>
+                                    <p class="text-xs text-gray-600 italic mb-4">
+                                        <em>Reference: USDV Manual Section 2.3.1 - Experience Classification</em>
+                                    </p>
+                                    <div class="flex space-x-2">
+                                        <button onclick="acknowledgeFlag('flag_003')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Acknowledge</button>
+                                        <button onclick="viewDocument('experience_docs')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">View Documentation</button>
+                                    </div>
+                                </article>
+
+                                <!-- Yellow Flag 2: Large Deposit -->
+                                <article class="bg-white border-l-4 border-yellow-500 rounded-lg p-5 shadow-sm">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 bg-green-100 text-green-800 text-xs font-medium rounded">Financial</span>
+                                            <span class="px-2 py-1 bg-yellow-200 text-yellow-900 text-xs font-bold rounded">⚠️ Yellow</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">Large Deposit Requires Sourcing</h4>
+                                    <p class="text-sm text-gray-700 mb-4">$45,000 deposit on 11/15/2024 exceeds $10,000 threshold. Source verification recommended.</p>
+                                    <div class="flex space-x-2">
+                                        <button onclick="requestLOE('flag_004')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Request LOE</button>
+                                        <button onclick="viewDocument('bank_statements')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">View Bank Statement</button>
+                                        <button onclick="acknowledgeFlag('flag_004')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Acknowledge</button>
+                                    </div>
+                                </article>
+
+                                <!-- Yellow Flag 3: Easement -->
+                                <article class="bg-white border-l-4 border-yellow-500 rounded-lg p-5 shadow-sm">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 bg-indigo-100 text-indigo-800 text-xs font-medium rounded">Title</span>
+                                            <span class="px-2 py-1 bg-yellow-200 text-yellow-900 text-xs font-bold rounded">⚠️ Yellow</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">Easement Noted in Title</h4>
+                                    <p class="text-sm text-gray-700 mb-2">Utility easement on rear 10ft of property noted in Schedule B-II.</p>
+                                    <p class="text-sm text-gray-600 mb-4">Standard utility easement - no adverse impact expected.</p>
+                                    <div class="flex space-x-2">
+                                        <button onclick="viewDocument('title_commitment')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">View Title</button>
+                                        <button onclick="acknowledgeFlag('flag_005')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Acknowledge</button>
+                                    </div>
+                                </article>
+
+                                <!-- Yellow Flag 4: Appraisal Age -->
+                                <article class="bg-white border-l-4 border-yellow-500 rounded-lg p-5 shadow-sm">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs font-medium rounded">Documentation</span>
+                                            <span class="px-2 py-1 bg-yellow-200 text-yellow-900 text-xs font-bold rounded">⚠️ Yellow</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">Appraisal Approaching Expiration</h4>
+                                    <p class="text-sm text-gray-700 mb-4">Appraisal dated 11/18/2024 will expire in <strong class="font-bold">28 days</strong> (120-day limit).</p>
+                                    <div class="flex space-x-2">
+                                        <button onclick="orderRecertification()" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Order Recertification</button>
+                                        <button onclick="acknowledgeFlag('flag_006')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Acknowledge</button>
+                                    </div>
+                                </article>
+
+                                <!-- Yellow Flag 5: Insurance Term -->
+                                <article class="bg-white border-l-4 border-yellow-500 rounded-lg p-5 shadow-sm">
+                                    <div class="flex justify-between items-start mb-3">
+                                        <div class="flex items-center space-x-2">
+                                            <span class="px-2 py-1 bg-teal-100 text-teal-800 text-xs font-medium rounded">Insurance</span>
+                                            <span class="px-2 py-1 bg-yellow-200 text-yellow-900 text-xs font-bold rounded">⚠️ Yellow</span>
+                                        </div>
+                                    </div>
+                                    <h4 class="text-lg font-bold text-gray-900 mb-2">Policy Expires Before Loan Maturity</h4>
+                                    <p class="text-sm text-gray-700 mb-4">Insurance policy expires 10/15/2025. Loan maturity is 12/15/2025.</p>
+                                    <div class="flex space-x-2">
+                                        <button onclick="requestRenewal()" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Request Renewal</button>
+                                        <button onclick="acknowledgeFlag('flag_007')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Acknowledge</button>
+                                    </div>
+                                </article>
+
+                            </div>
+                        </section>
+
+                        <!-- PASSING CHECKS (GREEN) - Collapsible -->
+                        <!-- Component: ShadCN Accordion -->
+                        <section class="bg-green-50/30 border border-green-200 rounded-lg shadow-sm overflow-hidden mb-6">
+                            <button onclick="toggleSection('green-flags')" class="w-full bg-green-100 px-6 py-4 border-b border-green-200 flex items-center justify-between hover:bg-green-200 transition-colors">
+                                <h3 class="text-lg font-bold text-green-800 flex items-center">
+                                    <span class="mr-2">✅</span>
+                                    Passing Checks
+                                </h3>
+                                <div class="flex items-center space-x-3">
+                                    <span class="px-3 py-1 bg-green-200 text-green-800 rounded-full text-sm font-bold">28</span>
+                                    <svg id="green-flags-icon" class="w-5 h-5 text-green-700 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                                    </svg>
+                                </div>
+                            </button>
+
+                            <div id="green-flags" class="p-6 space-y-6">
+                                
+                                <!-- Credit Checks -->
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-700 mb-3">Credit (6 checks)</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Credit report current (dated 11/20/2024 - within 120 days)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No mortgage lates in 24 months</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No bankruptcy within 4 years</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No foreclosure within 4 years</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No open collections over $5,000</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Minimum 3 trade lines requirement met (8 active)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Background Checks -->
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-700 mb-3">Background (4 checks)</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Background check clear - no criminal records</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>OFAC/AML screening passed</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No active litigation</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No unresolved judgments over $10,000</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Entity Checks -->
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-700 mb-3">Entity (4 checks)</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Entity in good standing (Certificate dated 11/25/2024)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>EIN verified</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Operating agreement on file</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>All guarantors documented</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Property Checks -->
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-700 mb-3">Property (5 checks)</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Property type eligible (SFR)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Square footage meets minimum (1,850 sf)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Condition rating acceptable (C4)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Zoning compliant (Residential)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Not in flood zone (Zone X)</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Title Checks -->
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-700 mb-3">Title (4 checks)</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Clear title - no adverse liens</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No tax liens</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No mechanic's liens</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Legal access confirmed</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Financial Checks -->
+                                <div>
+                                    <h4 class="text-sm font-bold text-gray-700 mb-3">Financial (5 checks)</h4>
+                                    <ul class="space-y-2 text-sm text-gray-700">
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Liquidity verified: $185,000 (required: $142,000)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Bank statements current (dated 11/22/2024)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>No NSF/overdrafts in 90 days</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Reserves requirement met (130% of required)</span>
+                                        </li>
+                                        <li class="flex items-start">
+                                            <span class="text-green-600 mr-2">✅</span>
+                                            <span>Closing costs verified</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </section>
+
+                        <!-- DOCUMENT ANALYSIS SUMMARY -->
+                        <!-- Component: ShadCN Table -->
+                        <section class="bg-card border border-border rounded-lg shadow-sm overflow-hidden mb-6">
+                            <div class="px-6 py-4 border-b border-border flex justify-between items-center">
+                                <h3 class="text-lg font-bold text-foreground">Document-by-Document Analysis</h3>
+                                <select onchange="filterDocAnalysis(this.value)" class="block w-48 pl-3 pr-10 py-2 border-gray-300 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm rounded-md border bg-white">
+                                    <option value="all">All Documents</option>
+                                    <option value="flagged">Flagged Only</option>
+                                    <option value="pending">Pending Analysis</option>
+                                </select>
+                            </div>
+
+                            <div class="overflow-x-auto">
+                                <table class="min-w-full divide-y divide-border">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Document</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Type</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Analyzed</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Status</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Flags</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Confidence</th>
+                                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white divide-y divide-border">
+                                        <tr class="bg-red-50/30 hover:bg-red-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Tri-Merge Credit Report</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Credit Report</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12/10/2024 10:15 AM</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Complete</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="text-xl" title="1 Red Flag">🔴</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">95%</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm space-x-2">
+                                                <button onclick="viewDocAnalysis('credit_report')" class="text-primary hover:text-blue-800 font-medium">View</button>
+                                                <button onclick="reanalyzeDoc('credit_report')" class="text-primary hover:text-blue-800 font-medium">Re-analyze</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-red-50/30 hover:bg-red-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Full Appraisal Report</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Appraisal</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12/15/2024 2:00 PM</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Complete</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="text-xl mr-1" title="1 Red Flag">🔴</span>
+                                                <span class="text-xl" title="1 Yellow Flag">⚠️</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">88%</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm space-x-2">
+                                                <button onclick="viewDocAnalysis('appraisal')" class="text-primary hover:text-blue-800 font-medium">View</button>
+                                                <button onclick="reanalyzeDoc('appraisal')" class="text-primary hover:text-blue-800 font-medium">Re-analyze</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Title Commitment</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Title</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12/12/2024 4:30 PM</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Complete</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="text-xl" title="1 Yellow Flag">⚠️</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">92%</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm">
+                                                <button onclick="viewDocAnalysis('title')" class="text-primary hover:text-blue-800 font-medium">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Hazard Insurance Certificate</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Insurance</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12/14/2024 9:00 AM</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Complete</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="text-xl" title="1 Yellow Flag">⚠️</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">96%</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm">
+                                                <button onclick="viewDocAnalysis('insurance')" class="text-primary hover:text-blue-800 font-medium">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Background Check Report</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Background</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12/11/2024 11:30 AM</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Complete</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="text-xl" title="All Clear">✅</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">98%</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm">
+                                                <button onclick="viewDocAnalysis('background')" class="text-primary hover:text-blue-800 font-medium">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Bank Statements (Nov)</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Bank Statement</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12/13/2024 3:15 PM</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Complete</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="text-xl" title="1 Yellow Flag">⚠️</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">90%</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm">
+                                                <button onclick="viewDocAnalysis('bank_statements')" class="text-primary hover:text-blue-800 font-medium">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="hover:bg-gray-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Operating Agreement</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Entity Docs</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">12/09/2024 8:45 AM</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">Complete</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="text-xl" title="All Clear">✅</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 font-medium">94%</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm">
+                                                <button onclick="viewDocAnalysis('entity')" class="text-primary hover:text-blue-800 font-medium">View</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-gray-50/50 hover:bg-gray-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Feasibility Study</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Feasibility</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">-</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Pending</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-400">-</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-400">-</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm">
+                                                <button onclick="analyzeDoc('feasibility')" class="text-primary hover:text-blue-800 font-medium">Analyze Now</button>
+                                            </td>
+                                        </tr>
+                                        <tr class="bg-gray-50/50 hover:bg-gray-50">
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">Contractor License</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">Contractor</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">-</td>
+                                            <td class="px-6 py-4 whitespace-nowrap">
+                                                <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">Pending</span>
+                                            </td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-400">-</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-400">-</td>
+                                            <td class="px-6 py-4 whitespace-nowrap text-sm">
+                                                <button onclick="analyzeDoc('contractor')" class="text-primary hover:text-blue-800 font-medium">Analyze Now</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </section>
+
+                        <!-- CATEGORY SCORE BREAKDOWN -->
+                        <!-- Component: ShadCN Progress Bars / Score Cards -->
+                        <section class="bg-card border border-border rounded-lg shadow-sm p-6">
+                            <h3 class="text-lg font-bold text-foreground mb-6">Analysis by Category</h3>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <span class="text-sm font-medium text-gray-700">Borrower</span>
+                                        <span class="text-2xl font-bold text-gray-900">85</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mb-2">
+                                        <div class="bg-green-500 h-2 rounded-full" style="width: 85%"></div>
+                                    </div>
+                                    <p class="text-xs text-gray-500">Credit: Good | Experience: 8 deals | Background: Clear</p>
+                                </div>
+
+                                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <span class="text-sm font-medium text-gray-700">Property</span>
+                                        <span class="text-2xl font-bold text-gray-900">90</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mb-2">
+                                        <div class="bg-green-500 h-2 rounded-full" style="width: 90%"></div>
+                                    </div>
+                                    <p class="text-xs text-gray-500">SFR in Austin | Condition C4 | Good market</p>
+                                </div>
+
+                                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <span class="text-sm font-medium text-gray-700">Valuation</span>
+                                        <span class="text-2xl font-bold text-warning">75</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mb-2">
+                                        <div class="bg-yellow-500 h-2 rounded-full" style="width: 75%"></div>
+                                    </div>
+                                    <p class="text-xs text-gray-500">ARV variance 8% | Comps adequate</p>
+                                </div>
+
+                                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <span class="text-sm font-medium text-gray-700">Title</span>
+                                        <span class="text-2xl font-bold text-gray-900">95</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mb-2">
+                                        <div class="bg-green-500 h-2 rounded-full" style="width: 95%"></div>
+                                    </div>
+                                    <p class="text-xs text-gray-500">Clear title | Standard utility easement</p>
+                                </div>
+
+                                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <span class="text-sm font-medium text-gray-700">Insurance</span>
+                                        <span class="text-2xl font-bold text-warning">80</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mb-2">
+                                        <div class="bg-yellow-500 h-2 rounded-full" style="width: 80%"></div>
+                                    </div>
+                                    <p class="text-xs text-gray-500">Coverage adequate | Policy renewal needed</p>
+                                </div>
+
+                                <div class="bg-white border border-gray-200 rounded-lg p-4">
+                                    <div class="flex justify-between items-center mb-3">
+                                        <span class="text-sm font-medium text-gray-700">Financial</span>
+                                        <span class="text-2xl font-bold text-gray-900">88</span>
+                                    </div>
+                                    <div class="w-full bg-gray-200 rounded-full h-2 mb-2">
+                                        <div class="bg-green-500 h-2 rounded-full" style="width: 88%"></div>
+                                    </div>
+                                    <p class="text-xs text-gray-500">Reserves: 130% | Large deposit flagged</p>
+                                </div>
+
+                            </div>
+                        </section>
+
+                    </div>
+
+                    <!-- Tab Content: Credit Memo - Phase 7 -->
+                    <!-- Component: ShadCN Document Viewer, Sections, Tables, Badges -->
+                    <div id="tab-credit-memo" class="tab-content hidden space-y-6">
+                        <!-- Header -->
+                        <div class="flex justify-between items-center mb-4">
+                            <div>
+                                <h2 class="text-2xl font-bold text-foreground">Credit Memorandum</h2>
+                                <div class="flex items-center space-x-4 mt-2 text-sm text-gray-500">
+                                    <span>Version: 1.0</span>
+                                    <span>Generated: 12/15/2024 4:30 PM</span>
+                                    <span>Generated By: AI (Claude)</span>
+                                </div>
+                            </div>
+                            <div class="flex space-x-3">
+                                <span class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-green-100 text-green-800">Ready for Review</span>
+                                <button onclick="regenerateCreditMemo()" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Regenerate</button>
+                                <button onclick="editCreditMemo()" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Edit Memo</button>
+                                <button onclick="exportCreditMemo('pdf')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Export PDF</button>
+                                <button onclick="exportCreditMemo('docx')" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Export Word</button>
+                            </div>
+                        </div>
+
+                        <!-- Memo Content -->
+                        <div class="bg-white border border-border rounded-lg shadow-sm p-8 space-y-8">
+                            
+                            <!-- MEMO HEADER -->
+                            <header class="text-center border-b border-border pb-6 mb-8">
+                                <h1 class="text-4xl font-bold text-foreground mb-6">CREDIT MEMORANDUM</h1>
+                                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm text-gray-700">
+                                    <div><strong>Property:</strong> 123 Main Street, Austin, TX 78701</div>
+                                    <div><strong>Loan Type:</strong> Fix & Flip</div>
+                                    <div><strong>Loan Amount:</strong> $382,500</div>
+                                    <div><strong>Investor:</strong> Eastview Capital</div>
+                                    <div><strong>Prepared By:</strong> INSPIRE AI Analysis</div>
+                                    <div><strong>Date:</strong> December 15, 2024</div>
+                                    <div><strong>Deal ID:</strong> DEAL-2024-1234</div>
+                                </div>
+                            </header>
+
+                            <!-- SECTION 1: EXECUTIVE SUMMARY -->
+                            <section class="space-y-6">
+                                <h2 class="text-2xl font-bold text-foreground border-b border-border pb-2">1. Executive Summary</h2>
+                                
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <h3 class="font-bold mb-3">Deal Snapshot</h3>
+                                        <dl class="space-y-2 text-sm">
+                                            <div class="flex justify-between"><dt class="text-gray-600">Property:</dt><dd class="font-medium">123 Main Street, Austin, TX</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">Property Type:</dt><dd class="font-medium">Single Family Residence</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">Loan Type:</dt><dd class="font-medium">Fix & Flip</dd></div>
+                                        </dl>
+                                    </div>
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <h3 class="font-bold mb-3">Loan Terms</h3>
+                                        <dl class="space-y-2 text-sm">
+                                            <div class="flex justify-between"><dt class="text-gray-600">Loan Amount:</dt><dd class="font-medium">$382,500</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">Interest Rate:</dt><dd class="font-medium">10.6%</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">Term:</dt><dd class="font-medium">12 Months</dd></div>
+                                        </dl>
+                                    </div>
+                                </div>
+
+                                <div class="bg-blue-50 border border-blue-200 rounded-lg p-5">
+                                    <div class="flex items-center space-x-3 mb-3">
+                                        <span class="px-3 py-1 bg-blue-600 text-white rounded-full text-sm font-bold">APPROVE WITH CONDITIONS</span>
+                                    </div>
+                                    <p class="text-sm text-gray-700">
+                                        Strong borrower profile with extensive experience mitigates the 5-point FICO shortfall.
+                                        Conservative leverage provides cushion for the ARV variance. Deal fundamentals are solid
+                                        with clear exit strategy and adequate reserves.
+                                    </p>
+                                </div>
+
+                                <div class="grid grid-cols-2 gap-4">
+                                    <div>
+                                        <h4 class="font-bold mb-2">Key Strengths</h4>
+                                        <ul class="text-sm space-y-1 text-gray-700 list-disc list-inside">
+                                            <li>Experienced sponsor with 8 completed projects</li>
+                                            <li>Conservative leverage at 65% LTV</li>
+                                            <li>Strong liquidity: $185,000 verified</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold mb-2">Key Risks</h4>
+                                        <ul class="text-sm space-y-1 text-gray-700 list-disc list-inside">
+                                            <li>🔴 FICO 655 requires credit exception (Approved)</li>
+                                            <li>🔴 ARV variance 8% (Exception pending)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- SECTION 2: BORROWER ANALYSIS -->
+                            <section class="space-y-6 border-t border-border pt-6">
+                                <h2 class="text-2xl font-bold text-foreground border-b border-border pb-2">2. Borrower Analysis</h2>
+                                
+                                <div class="bg-card border border-border rounded-lg p-5">
+                                    <h3 class="font-bold mb-3">Sponsor Overview</h3>
+                                    <table class="min-w-full divide-y divide-border text-sm">
+                                        <thead class="bg-gray-50">
+                                            <tr><th class="px-4 py-2 text-left">Guarantor</th><th class="px-4 py-2 text-left">FICO</th><th class="px-4 py-2 text-left">Experience</th></tr>
+                                        </thead>
+                                        <tbody class="bg-white">
+                                            <tr><td class="px-4 py-2">John Smith</td><td class="px-4 py-2">655</td><td class="px-4 py-2">8 deals / 36mo</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <h4 class="font-bold mb-2">Credit Highlights</h4>
+                                        <ul class="text-sm space-y-1 text-gray-700">
+                                            <li>⚠️ FICO 655 (5 pts below minimum) - Mitigated by experience</li>
+                                            <li>✅ 8 active trade lines</li>
+                                            <li>✅ No mortgage lates in 24 months</li>
+                                        </ul>
+                                    </div>
+                                    <div class="bg-gray-50 rounded-lg p-4">
+                                        <h4 class="font-bold mb-2">Liquidity</h4>
+                                        <dl class="text-sm space-y-1">
+                                            <div class="flex justify-between"><dt>Total Verified:</dt><dd class="font-bold">$185,000</dd></div>
+                                            <div class="flex justify-between"><dt>Required:</dt><dd>$142,000</dd></div>
+                                            <div class="flex justify-between border-t pt-1"><dt>Surplus:</dt><dd class="font-bold text-green-600">130%</dd></div>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- SECTION 3: PROPERTY ANALYSIS -->
+                            <section class="space-y-6 border-t border-border pt-6">
+                                <h2 class="text-2xl font-bold text-foreground border-b border-border pb-2">3. Property Analysis</h2>
+                                
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                    <div class="bg-card border border-border rounded-lg p-5">
+                                        <h3 class="font-bold mb-3">Property Overview</h3>
+                                        <dl class="space-y-2 text-sm">
+                                            <div class="flex justify-between"><dt class="text-gray-600">Address:</dt><dd>123 Main Street</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">Type:</dt><dd>SFR</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">Square Footage:</dt><dd>1,850 sf</dd></div>
+                                        </dl>
+                                    </div>
+                                    <div class="bg-card border border-border rounded-lg p-5">
+                                        <h3 class="font-bold mb-3">Valuation</h3>
+                                        <dl class="space-y-2 text-sm">
+                                            <div class="flex justify-between"><dt class="text-gray-600">As-Is Value:</dt><dd class="font-medium">$425,000</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">ARV:</dt><dd class="font-medium">$485,000</dd></div>
+                                            <div class="flex justify-between"><dt class="text-gray-600">Appraisal Date:</dt><dd>11/18/2024</dd></div>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- SECTION 4: DEAL ECONOMICS -->
+                            <section class="space-y-6 border-t border-border pt-6">
+                                <h2 class="text-2xl font-bold text-foreground border-b border-border pb-2">4. Deal Economics</h2>
+                                
+                                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                    <div class="bg-card border border-border rounded-lg p-4">
+                                        <h4 class="font-bold mb-2">As-Is LTV</h4>
+                                        <div class="text-3xl font-bold">65%</div>
+                                        <p class="text-xs text-gray-500 mt-1">Max: 75% (10pt cushion)</p>
+                                    </div>
+                                    <div class="bg-card border border-border rounded-lg p-4">
+                                        <h4 class="font-bold mb-2">LTC</h4>
+                                        <div class="text-3xl font-bold">75%</div>
+                                        <p class="text-xs text-gray-500 mt-1">Max: 85% (10pt cushion)</p>
+                                    </div>
+                                    <div class="bg-card border border-border rounded-lg p-4">
+                                        <h4 class="font-bold mb-2">LTARV</h4>
+                                        <div class="text-3xl font-bold text-warning">73%</div>
+                                        <p class="text-xs text-gray-500 mt-1">Max: 75% (2pt cushion)</p>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- SECTION 6: RISK ASSESSMENT -->
+                            <section class="space-y-6 border-t border-border pt-6">
+                                <h2 class="text-2xl font-bold text-foreground border-b border-border pb-2">6. Risk Assessment</h2>
+                                
+                                <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-5 text-center">
+                                    <div class="text-5xl font-bold text-warning mb-2">35</div>
+                                    <div class="text-lg font-bold text-gray-700 mb-2">MODERATE RISK</div>
+                                    <p class="text-sm text-gray-600">
+                                        Deal presents moderate risk due to FICO shortfall and ARV variance. These are substantially
+                                        mitigated by strong borrower experience, conservative leverage, and excess liquidity.
+                                    </p>
+                                </div>
+
+                                <div class="bg-card border border-border rounded-lg overflow-hidden">
+                                    <table class="min-w-full divide-y divide-border">
+                                        <thead class="bg-gray-50">
+                                            <tr>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Category</th>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Risk Level</th>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Description</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="bg-white divide-y divide-border text-sm">
+                                            <tr><td class="px-4 py-3">Credit</td><td class="px-4 py-3"><span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-medium">Moderate</span></td><td class="px-4 py-3">FICO 655 below minimum</td></tr>
+                                            <tr><td class="px-4 py-3">Valuation</td><td class="px-4 py-3"><span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-medium">Moderate</span></td><td class="px-4 py-3">8% ARV variance</td></tr>
+                                            <tr><td class="px-4 py-3">Experience</td><td class="px-4 py-3"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">Low</span></td><td class="px-4 py-3">8 projects completed</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </section>
+
+                            <!-- SECTION 7: CONDITIONS & EXCEPTIONS -->
+                            <section class="space-y-6 border-t border-border pt-6">
+                                <h2 class="text-2xl font-bold text-foreground border-b border-border pb-2">7. Conditions & Exceptions</h2>
+                                
+                                <div class="bg-card border border-border rounded-lg overflow-hidden">
+                                    <table class="min-w-full divide-y divide-border">
+                                        <thead class="bg-gray-50">
+                                            <tr>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Type</th>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Description</th>
+                                                <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="bg-white divide-y divide-border text-sm">
+                                            <tr><td class="px-4 py-3">Credit - FICO</td><td class="px-4 py-3">FICO 655 (5 pts below 660 min)</td><td class="px-4 py-3"><span class="px-2 py-1 bg-green-100 text-green-800 rounded text-xs font-medium">Approved</span></td></tr>
+                                            <tr><td class="px-4 py-3">Valuation - ARV</td><td class="px-4 py-3">8% ARV variance (5% threshold)</td><td class="px-4 py-3"><span class="px-2 py-1 bg-yellow-100 text-yellow-800 rounded text-xs font-medium">Pending</span></td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+
+                                <div class="bg-blue-50 border border-blue-200 rounded-lg p-5">
+                                    <h4 class="font-bold mb-2">Final Recommendation: APPROVE WITH CONDITIONS</h4>
+                                    <ul class="text-sm space-y-1 text-gray-700 list-disc list-inside">
+                                        <li>Credit exception approved with 10bps rate adjustment</li>
+                                        <li>ARV variance exception pending investor approval</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                        </div>
+
+                        <!-- Memo Actions Footer -->
+                        <div class="flex justify-end space-x-3">
+                            <button onclick="approveCreditMemo()" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Approve Memo</button>
+                            <button onclick="requestChanges()" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Request Changes</button>
+                        </div>
+                    </div>
+
+                    <!-- Tab Content: Exceptions - Phase 7 -->
+                    <!-- Component: ShadCN Cards, Badges, Forms, Tables -->
+                    <div id="tab-exceptions" class="tab-content hidden space-y-6">
+                        <div class="flex justify-between items-center mb-4">
+                            <h2 class="text-2xl font-bold text-foreground">Exception Management</h2>
+                            <button onclick="showModal('modal-exception-request')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">New Exception Request</button>
+                        </div>
+
+                        <!-- Exception Summary Cards -->
+                        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-6">
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-5 text-center">
+                                <div class="text-3xl font-bold text-foreground mb-1">2</div>
+                                <div class="text-sm text-gray-500">Active Exceptions</div>
+                            </div>
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-5 text-center">
+                                <div class="text-3xl font-bold text-warning mb-1">1</div>
+                                <div class="text-sm text-gray-500">Pending Review</div>
+                            </div>
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-5 text-center">
+                                <div class="text-3xl font-bold text-success mb-1">1</div>
+                                <div class="text-sm text-gray-500">Approved</div>
+                            </div>
+                            <div class="bg-card border border-border rounded-lg shadow-sm p-5 text-center">
+                                <div class="text-3xl font-bold text-gray-400 mb-1">0</div>
+                                <div class="text-sm text-gray-500">Denied</div>
+                            </div>
+                        </div>
+
+                        <!-- Exception List -->
+                        <div class="space-y-4">
+                            
+                            <!-- Exception 1: Approved -->
+                            <article class="bg-card border-l-4 border-green-500 border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div>
+                                        <div class="flex items-center space-x-2 mb-2">
+                                            <span class="text-sm font-mono text-gray-500">EXC-2024-001</span>
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">✅ Approved</span>
+                                        </div>
+                                        <p class="text-xs text-gray-500">Submitted: 12/10/2024 | Approved: 12/12/2024</p>
+                                    </div>
+                                </div>
+                                <h4 class="text-lg font-bold text-gray-900 mb-3">Credit Exception - FICO Below Minimum</h4>
+                                <p class="text-sm text-gray-700 mb-4"><strong>Flag:</strong> FICO 655 vs. 660 minimum (5 points below)</p>
+                                
+                                <div class="bg-gray-50 rounded-lg p-4 mb-4">
+                                    <h5 class="font-bold mb-2 text-sm">Compensating Factors:</h5>
+                                    <ul class="text-sm space-y-1 text-gray-700 list-disc list-inside">
+                                        <li>8 completed projects in 36 months</li>
+                                        <li>$185,000 verified liquidity (130% of requirement)</li>
+                                        <li>65% LTV (10 point cushion to max)</li>
+                                    </ul>
+                                </div>
+
+                                <div class="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
+                                    <h5 class="font-bold mb-2 text-sm">Investor Response:</h5>
+                                    <p class="text-sm text-gray-700 mb-2">"Exception approved. Strong compensating factors noted. Apply 10bps rate adjustment."</p>
+                                    <p class="text-xs text-gray-600"><strong>Conditions:</strong> 10bps rate adjustment applied (10.5% → 10.6%)</p>
+                                    <p class="text-xs text-gray-600 mt-1"><strong>Approved By:</strong> M. Thompson, Eastview Capital</p>
+                                </div>
+
+                                <button onclick="viewExceptionDetail('EXC-2024-001')" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">View Full Request</button>
+                            </article>
+
+                            <!-- Exception 2: Pending -->
+                            <article class="bg-card border-l-4 border-yellow-500 border border-border rounded-lg shadow-sm p-6">
+                                <div class="flex justify-between items-start mb-4">
+                                    <div>
+                                        <div class="flex items-center space-x-2 mb-2">
+                                            <span class="text-sm font-mono text-gray-500">EXC-2024-002</span>
+                                            <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-yellow-100 text-yellow-800">⏳ Pending Review</span>
+                                        </div>
+                                        <p class="text-xs text-gray-500">Submitted: 12/15/2024</p>
+                                    </div>
+                                </div>
+                                <h4 class="text-lg font-bold text-gray-900 mb-3">Valuation Exception - ARV Variance</h4>
+                                <p class="text-sm text-gray-700 mb-4"><strong>Flag:</strong> 8% ARV variance exceeds 5% threshold</p>
+                                
+                                <div class="bg-gray-50 rounded-lg p-4 mb-4">
+                                    <h5 class="font-bold mb-2 text-sm">Compensating Factors:</h5>
+                                    <ul class="text-sm space-y-1 text-gray-700 list-disc list-inside">
+                                        <li>Conservative 65% LTV provides value cushion</li>
+                                        <li>Appraised ARV ($485K) is lower than feasibility ($520K) - conservative</li>
+                                        <li>Strong market appreciation (6% YoY in Austin MSA)</li>
+                                    </ul>
+                                </div>
+
+                                <p class="text-sm text-gray-600 italic mb-4">Awaiting investor review. Expected response within 2 business days.</p>
+
+                                <div class="flex space-x-2">
+                                    <button onclick="viewExceptionDetail('EXC-2024-002')" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">View Request</button>
+                                    <button onclick="withdrawException('EXC-2024-002')" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Withdraw</button>
+                                </div>
+                            </article>
+
+                        </div>
+
+                        <!-- Exception Template -->
+                        <div class="bg-gray-50 border border-border rounded-lg p-5 mt-6">
+                            <h3 class="font-bold mb-2">Exception Request Template</h3>
+                            <p class="text-sm text-gray-600 mb-3">Use the USDV standard exception request format when submitting to investors.</p>
+                            <div class="flex space-x-3">
+                                <button onclick="showExceptionTemplate()" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">View Template</button>
+                                <button onclick="downloadExceptionTemplate()" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Download Word Template</button>
                             </div>
                         </div>
                     </div>
@@ -3179,6 +4261,101 @@
                 </div>
 
                 <!-- ========================================== -->
+                <!-- MODAL: DOCUMENT ANALYSIS DETAIL - Phase 7 -->
+                <div id="modal-doc-analysis" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-doc-analysis-title" role="dialog" aria-modal="true">
+                    <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" onclick="closeModal('modal-doc-analysis')"></div>
+                        <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+                        <div class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full sm:p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-doc-analysis-title">Document Analysis: Appraisal Report</h3>
+                                <button onclick="closeModal('modal-doc-analysis')" class="text-gray-400 hover:text-gray-500">×</button>
+                            </div>
+                            <div class="space-y-6">
+                                <div class="grid grid-cols-4 gap-4 text-sm">
+                                    <div><span class="text-gray-500">Type:</span> <strong>Appraisal</strong></div>
+                                    <div><span class="text-gray-500">File:</span> <strong>Appraisal_123_Main_St.pdf</strong></div>
+                                    <div><span class="text-gray-500">Analyzed:</span> <strong>12/15/2024 2:00 PM</strong></div>
+                                    <div><span class="text-gray-500">Confidence:</span> <strong>88%</strong></div>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-2">Extracted Data</h4>
+                                    <div class="grid grid-cols-2 gap-4 text-sm">
+                                        <div><span class="text-gray-500">As-Is Value:</span> <span class="font-medium">$425,000</span></div>
+                                        <div><span class="text-gray-500">ARV:</span> <span class="font-medium">$485,000</span></div>
+                                        <div><span class="text-gray-500">Property Type:</span> <span class="font-medium">SFR</span></div>
+                                        <div><span class="text-gray-500">Square Footage:</span> <span class="font-medium">1,850 sf</span></div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-2">Analysis Results</h4>
+                                    <div class="overflow-x-auto">
+                                        <table class="min-w-full divide-y divide-border text-sm">
+                                            <thead class="bg-gray-50">
+                                                <tr><th class="px-4 py-2 text-left">Check</th><th class="px-4 py-2 text-left">Result</th><th class="px-4 py-2 text-left">Finding</th></tr>
+                                            </thead>
+                                            <tbody class="bg-white divide-y">
+                                                <tr><td class="px-4 py-2">Report Currency</td><td class="px-4 py-2 text-green-600">✅ Pass</td><td class="px-4 py-2">Within 120 days</td></tr>
+                                                <tr><td class="px-4 py-2">ARV Variance</td><td class="px-4 py-2 text-red-600">🔴 Fail</td><td class="px-4 py-2">8% variance (5% threshold)</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-5 flex justify-end">
+                                <button onclick="closeModal('modal-doc-analysis')" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 bg-white hover:bg-gray-50">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MODAL: EXCEPTION REQUEST - Phase 7 -->
+                <div id="modal-exception-request" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-exception-title" role="dialog" aria-modal="true">
+                    <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+                        <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" onclick="closeModal('modal-exception-request')"></div>
+                        <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+                        <div class="inline-block align-bottom bg-white rounded-lg px-4 pt-5 pb-4 text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-3xl sm:w-full sm:p-6">
+                            <div class="flex justify-between items-start mb-4">
+                                <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-exception-title">Request Exception</h3>
+                                <button onclick="closeModal('modal-exception-request')" class="text-gray-400 hover:text-gray-500">×</button>
+                            </div>
+                            <div class="space-y-4">
+                                <div class="bg-red-50 border border-red-200 rounded-lg p-4">
+                                    <div class="flex items-center space-x-2 mb-2">
+                                        <span class="px-2 py-1 bg-red-200 text-red-900 text-xs font-bold rounded">🔴 Red Flag</span>
+                                        <span class="px-2 py-1 bg-gray-100 text-gray-800 text-xs rounded">Credit</span>
+                                    </div>
+                                    <h4 class="font-bold mb-1">FICO Score Below Minimum</h4>
+                                    <p class="text-sm text-gray-700">Middle FICO score of <strong>655</strong> is below investor minimum of <strong>660</strong>.</p>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Exception Type *</label>
+                                    <select class="block w-full border border-gray-300 rounded-md px-3 py-2 text-sm">
+                                        <option value="credit_fico" selected>Credit - FICO Below Threshold</option>
+                                        <option value="valuation">Valuation Variance</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Justification *</label>
+                                    <textarea rows="4" class="block w-full border border-gray-300 rounded-md px-3 py-2 text-sm" placeholder="Explain why this exception should be approved...">Borrower's FICO dropped due to high credit utilization. All balances have been paid down. Strong track record mitigates FICO concern.</textarea>
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Compensating Factors</label>
+                                    <div class="space-y-2">
+                                        <label class="flex items-center"><input type="checkbox" checked class="mr-2"> Strong Experience (8+ completed projects)</label>
+                                        <label class="flex items-center"><input type="checkbox" checked class="mr-2"> Excess Liquidity ($185K - 130% of required)</label>
+                                        <label class="flex items-center"><input type="checkbox" checked class="mr-2"> Conservative Leverage (LTV 65%)</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-5 sm:mt-6 sm:grid sm:grid-cols-2 sm:gap-3 sm:grid-flow-row-dense">
+                                <button onclick="submitException()" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary text-base font-medium text-white hover:bg-blue-700 sm:col-start-2 sm:text-sm">Submit Exception Request</button>
+                                <button onclick="closeModal('modal-exception-request')" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 sm:mt-0 sm:col-start-1 sm:text-sm">Cancel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- MODAL: NEW DEAL -->
                 <!-- ========================================== -->
                 <div id="modal-new-deal" class="fixed inset-0 z-50 hidden overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
@@ -3282,6 +4459,174 @@
 
         function closeModal(id) {
             document.getElementById(id).classList.add('hidden');
+        }
+
+        // ===== PHASE 7: AI ANALYSIS FUNCTIONS =====
+
+        // Flag filtering
+        function filterFlags(severity) {
+            console.log('Filter flags by:', severity);
+            alert('Filtering flags by: ' + severity);
+        }
+
+        // Section toggle for collapsible sections
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            const icon = document.getElementById(sectionId + '-icon');
+            if (section) {
+                section.classList.toggle('hidden');
+                if (icon) {
+                    icon.classList.toggle('rotate-180');
+                }
+            }
+        }
+
+        // View document analysis detail
+        function viewDocAnalysis(docType) {
+            console.log('View analysis for:', docType);
+            showModal('modal-doc-analysis');
+        }
+
+        // Re-analyze document
+        function reanalyzeDoc(docType) {
+            console.log('Re-analyzing:', docType);
+            alert('Re-analyzing document: ' + docType);
+        }
+
+        // Analyze pending document
+        function analyzeDoc(docType) {
+            console.log('Analyzing:', docType);
+            alert('Starting analysis for: ' + docType);
+        }
+
+        // Re-analyze all documents
+        function reanalyzeAll() {
+            alert('Re-analyzing all documents. This may take a few minutes...');
+        }
+
+        // Navigate to credit memo tab
+        function navigateToCreditMemo() {
+            switchDealTab('tab-credit-memo');
+        }
+
+        // Export flags
+        function exportFlags() {
+            alert('Exporting flags to CSV...');
+        }
+
+        function exportFlagsCSV() {
+            alert('Exporting all flags to CSV...');
+        }
+
+        // ===== FLAG ACTIONS =====
+
+        function requestException(flagId) {
+            console.log('Requesting exception for flag:', flagId);
+            showModal('modal-exception-request');
+        }
+
+        function resolveFlag(flagId) {
+            console.log('Resolving flag:', flagId);
+            alert('Mark flag as resolved: ' + flagId);
+        }
+
+        function acknowledgeFlag(flagId) {
+            console.log('Acknowledging flag:', flagId);
+            alert('Flag acknowledged: ' + flagId);
+        }
+
+        function requestLOE(flagId) {
+            console.log('Requesting LOE for flag:', flagId);
+            alert('Letter of Explanation requested');
+        }
+
+        function orderRecertification() {
+            alert('Ordering appraisal recertification...');
+        }
+
+        function requestRenewal() {
+            alert('Requesting insurance policy renewal...');
+        }
+
+        function bulkAcknowledge() {
+            alert('Bulk acknowledging selected flags...');
+        }
+
+        // ===== EXCEPTION FUNCTIONS =====
+
+        function addCompensatingFactor() {
+            alert('Adding new compensating factor row...');
+        }
+
+        function saveExceptionDraft() {
+            alert('Exception request saved as draft.');
+        }
+
+        function submitException() {
+            alert('Exception request submitted to investor.');
+            closeModal('modal-exception-request');
+        }
+
+        function viewExceptionDetail(exceptionId) {
+            console.log('View exception:', exceptionId);
+            alert('Viewing exception: ' + exceptionId);
+        }
+
+        function withdrawException(exceptionId) {
+            if (confirm('Are you sure you want to withdraw this exception request?')) {
+                alert('Exception withdrawn: ' + exceptionId);
+            }
+        }
+
+        function showExceptionTemplate() {
+            alert('Opening USDV Exception Request Template...');
+        }
+
+        function downloadExceptionTemplate() {
+            alert('Downloading exception template...');
+        }
+
+        // ===== CREDIT MEMO FUNCTIONS =====
+
+        function regenerateCreditMemo() {
+            if (confirm('This will regenerate the credit memo with latest data. Continue?')) {
+                alert('Regenerating credit memo...');
+            }
+        }
+
+        function editCreditMemo() {
+            alert('Opening credit memo editor...');
+        }
+
+        function exportCreditMemo(format) {
+            alert('Exporting credit memo as ' + format.toUpperCase() + '...');
+        }
+
+        function approveCreditMemo() {
+            if (confirm('Approve this credit memo?')) {
+                alert('Credit memo approved.');
+            }
+        }
+
+        function requestChanges() {
+            alert('Opening change request dialog...');
+        }
+
+        // ===== DOCUMENT VIEWER =====
+
+        function viewPDF(docType) {
+            console.log('Opening PDF viewer for:', docType);
+            alert('Opening document viewer for: ' + docType);
+        }
+
+        function viewDocument(docType) {
+            console.log('View document:', docType);
+            alert('Opening document: ' + docType);
+        }
+
+        // Filter document analysis
+        function filterDocAnalysis(filter) {
+            console.log('Filtering document analysis:', filter);
         }
 
         function switchSettingsTab(tabId) {
@@ -6390,6 +7735,1157 @@
             </div>
         </main>
     </section>
+
+    <!-- ========================================== -->
+    <!-- PHASE 5: THIRD-PARTY REPORTS - STYLED -->
+    <!-- ========================================== -->
+
+    <!-- P5-01: Third-Party Reports Dashboard -->
+    <section id="view-reports-dashboard" class="view-section hidden">
+        <div class="min-h-screen bg-background">
+            <!-- Breadcrumb Navigation -->
+            <div class="border-b border-border bg-white">
+                <div class="container mx-auto px-6 py-4">
+                    <nav class="flex items-center space-x-2 text-sm text-gray-500">
+                        <button onclick="navigateTo('pipeline')" class="hover:text-primary">Pipeline</button>
+                        <span>/</span>
+                        <button onclick="navigateToDeal('123', 'overview')" class="hover:text-primary">123 Main St, Miami FL</button>
+                        <span>/</span>
+                        <span class="text-gray-900 font-medium">Third-Party Reports</span>
+                    </nav>
+                </div>
+            </div>
+
+            <!-- Page Header -->
+            <div class="border-b border-border bg-white">
+                <div class="container mx-auto px-6 py-6">
+                    <div class="flex justify-between items-start">
+                        <div>
+                            <h1 class="text-2xl font-bold text-secondary mb-2">Third-Party Reports</h1>
+                            <div class="flex items-center space-x-4 text-sm text-gray-600">
+                                <span>Deal: <strong>123 Main Street, Miami FL 33139</strong></span>
+                                <span>•</span>
+                                <span>Borrower: <strong>John Smith</strong></span>
+                                <span>•</span>
+                                <span>Loan Type: <strong>Fix & Flip</strong></span>
+                            </div>
+                        </div>
+                        <button onclick="navigateTo('report-order')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Order New Report</button>
+                    </div>
+                </div>
+            </div>
+
+            <main class="container mx-auto px-6 py-8">
+                <!-- Progress Summary -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <h2 class="text-lg font-bold mb-4">Report Status Summary</h2>
+                    <div class="grid grid-cols-4 gap-4 mb-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-green-600 tabular-nums">4</div>
+                            <div class="text-sm text-gray-600 mt-1">Received</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-blue-600 tabular-nums">2</div>
+                            <div class="text-sm text-gray-600 mt-1">In Progress</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-yellow-600 tabular-nums">1</div>
+                            <div class="text-sm text-gray-600 mt-1">Pending</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-secondary tabular-nums">7</div>
+                            <div class="text-sm text-gray-600 mt-1">Total</div>
+                        </div>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <label class="text-sm font-medium text-gray-700">Overall Progress:</label>
+                        <div class="flex-1 bg-gray-200 rounded-full h-3">
+                            <div class="bg-primary h-3 rounded-full" style="width: 57%"></div>
+                        </div>
+                        <span class="text-sm font-medium text-gray-700 tabular-nums">57%</span>
+                    </div>
+                </div>
+
+                <!-- Report Cards Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-6">
+                    <!-- Credit Report Card -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-secondary">Credit Report (Tri-Merge)</h3>
+                            <span class="px-2.5 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Received</span>
+                        </div>
+                        <div class="space-y-2 text-sm mb-4">
+                            <p><span class="text-gray-500">Provider:</span> <span class="font-medium">CRS</span></p>
+                            <p><span class="text-gray-500">Ordered:</span> <span>Dec 8, 2024 10:00 AM</span></p>
+                            <p><span class="text-gray-500">Received:</span> <span>Dec 8, 2024 10:05 AM</span></p>
+                            <p><span class="text-gray-500">Document:</span> <a href="#" class="text-primary hover:underline">credit_report_001.pdf</a></p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button onclick="viewReport('report_001')" class="flex-1 px-3 py-1.5 bg-primary text-white rounded text-sm font-medium hover:bg-blue-600">View</button>
+                            <button onclick="downloadReport('report_001')" class="px-3 py-1.5 border border-gray-300 text-gray-700 rounded text-sm font-medium hover:bg-gray-50">Download</button>
+                        </div>
+                    </div>
+
+                    <!-- Background Check Card -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-secondary">Background Check (Individual)</h3>
+                            <span class="px-2.5 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Received</span>
+                        </div>
+                        <div class="space-y-2 text-sm mb-4">
+                            <p><span class="text-gray-500">Provider:</span> <span class="font-medium">CRS</span></p>
+                            <p><span class="text-gray-500">Ordered:</span> <span>Dec 8, 2024 10:00 AM</span></p>
+                            <p><span class="text-gray-500">Received:</span> <span>Dec 8, 2024 10:10 AM</span></p>
+                            <p><span class="text-gray-500">Document:</span> <a href="#" class="text-primary hover:underline">background_check_001.pdf</a></p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button onclick="viewReport('report_002')" class="flex-1 px-3 py-1.5 bg-primary text-white rounded text-sm font-medium hover:bg-blue-600">View</button>
+                            <button onclick="downloadReport('report_002')" class="px-3 py-1.5 border border-gray-300 text-gray-700 rounded text-sm font-medium hover:bg-gray-50">Download</button>
+                        </div>
+                    </div>
+
+                    <!-- Appraisal Card -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-secondary">Appraisal</h3>
+                            <span class="px-2.5 py-0.5 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Scheduled</span>
+                        </div>
+                        <div class="space-y-2 text-sm mb-4">
+                            <p><span class="text-gray-500">Provider:</span> <span class="font-medium">Single Source</span></p>
+                            <p><span class="text-gray-500">Ordered:</span> <span>Dec 10, 2024 2:00 PM</span></p>
+                            <p><span class="text-gray-500">Order ID:</span> <span class="font-mono text-xs">SS-2024-12345</span></p>
+                            <p><span class="text-gray-500">Vendor:</span> <span>ABC Appraisals</span></p>
+                            <p><span class="text-gray-500">Scheduled:</span> <span>Dec 15, 2024 10:00 AM</span></p>
+                            <p><span class="text-gray-500">Est. Completion:</span> <span>Dec 17, 2024 5:00 PM</span></p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button onclick="navigateTo('report-detail')" class="flex-1 px-3 py-1.5 bg-primary text-white rounded text-sm font-medium hover:bg-blue-600">Track Status</button>
+                            <button onclick="viewReport('report_003')" class="px-3 py-1.5 border border-gray-300 text-gray-700 rounded text-sm font-medium hover:bg-gray-50">Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Title Report Card -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-secondary">Title Report</h3>
+                            <span class="px-2.5 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Received</span>
+                        </div>
+                        <div class="space-y-2 text-sm mb-4">
+                            <p><span class="text-gray-500">Provider:</span> <span class="font-medium">Single Source</span></p>
+                            <p><span class="text-gray-500">Ordered:</span> <span>Dec 8, 2024 2:00 PM</span></p>
+                            <p><span class="text-gray-500">Received:</span> <span>Dec 9, 2024 4:00 PM</span></p>
+                            <p><span class="text-gray-500">Document:</span> <a href="#" class="text-primary hover:underline">title_report_001.pdf</a></p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button onclick="viewReport('report_004')" class="flex-1 px-3 py-1.5 bg-primary text-white rounded text-sm font-medium hover:bg-blue-600">View</button>
+                            <button onclick="downloadReport('report_004')" class="px-3 py-1.5 border border-gray-300 text-gray-700 rounded text-sm font-medium hover:bg-gray-50">Download</button>
+                        </div>
+                    </div>
+
+                    <!-- Flood Determination Card -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-secondary">Flood Determination</h3>
+                            <span class="px-2.5 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Received</span>
+                        </div>
+                        <div class="space-y-2 text-sm mb-4">
+                            <p><span class="text-gray-500">Provider:</span> <span class="font-medium">Single Source</span></p>
+                            <p><span class="text-gray-500">Ordered:</span> <span>Dec 10, 2024 2:00 PM</span></p>
+                            <p><span class="text-gray-500">Received:</span> <span>Dec 10, 2024 2:30 PM</span></p>
+                            <p><span class="text-gray-500">Document:</span> <a href="#" class="text-primary hover:underline">flood_cert_001.pdf</a></p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button onclick="viewReport('report_005')" class="flex-1 px-3 py-1.5 bg-primary text-white rounded text-sm font-medium hover:bg-blue-600">View</button>
+                            <button onclick="downloadReport('report_005')" class="px-3 py-1.5 border border-gray-300 text-gray-700 rounded text-sm font-medium hover:bg-gray-50">Download</button>
+                        </div>
+                    </div>
+
+                    <!-- Feasibility Study Card -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-secondary">Feasibility Study</h3>
+                            <span class="px-2.5 py-0.5 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">In Progress</span>
+                        </div>
+                        <div class="space-y-2 text-sm mb-4">
+                            <p><span class="text-gray-500">Provider:</span> <span class="font-medium">Single Source</span></p>
+                            <p><span class="text-gray-500">Ordered:</span> <span>Dec 10, 2024 2:00 PM</span></p>
+                            <p><span class="text-gray-500">Order ID:</span> <span class="font-mono text-xs">SS-2024-12346</span></p>
+                            <p><span class="text-gray-500">Est. Completion:</span> <span>Dec 14, 2024 5:00 PM</span></p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button onclick="navigateTo('report-detail')" class="flex-1 px-3 py-1.5 bg-primary text-white rounded text-sm font-medium hover:bg-blue-600">Track Status</button>
+                            <button onclick="viewReport('report_006')" class="px-3 py-1.5 border border-gray-300 text-gray-700 rounded text-sm font-medium hover:bg-gray-50">Details</button>
+                        </div>
+                    </div>
+
+                    <!-- Insurance Quote Card -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-lg font-bold text-secondary">Insurance Quote</h3>
+                            <span class="px-2.5 py-0.5 bg-yellow-100 text-yellow-800 rounded-full text-xs font-medium">Ordered</span>
+                        </div>
+                        <div class="space-y-2 text-sm mb-4">
+                            <p><span class="text-gray-500">Provider:</span> <span class="font-medium">First Choice Insurance</span></p>
+                            <p><span class="text-gray-500">Ordered:</span> <span>Dec 8, 2024 2:00 PM</span></p>
+                            <p><span class="text-gray-500">Method:</span> <span>Email Request</span></p>
+                            <p class="text-gray-600 italic">Awaiting response from provider</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button onclick="navigateTo('report-detail')" class="flex-1 px-3 py-1.5 bg-primary text-white rounded text-sm font-medium hover:bg-blue-600">Track Status</button>
+                            <button onclick="resendRequest('report_007')" class="px-3 py-1.5 border border-gray-300 text-gray-700 rounded text-sm font-medium hover:bg-gray-50">Resend</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="flex space-x-3">
+                    <button onclick="navigateTo('report-order')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Order New Report</button>
+                    <button onclick="orderAllPending()" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Order All Pending</button>
+                    <button onclick="refreshReports()" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Refresh Status</button>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- P5-02: Report Order Form -->
+    <section id="view-report-order" class="view-section hidden">
+        <div class="min-h-screen bg-background">
+            <!-- Breadcrumb Navigation -->
+            <div class="border-b border-border bg-white">
+                <div class="container mx-auto px-6 py-4">
+                    <nav class="flex items-center space-x-2 text-sm text-gray-500">
+                        <button onclick="navigateTo('pipeline')" class="hover:text-primary">Pipeline</button>
+                        <span>/</span>
+                        <button onclick="navigateToDeal('123', 'overview')" class="hover:text-primary">123 Main St, Miami FL</button>
+                        <span>/</span>
+                        <button onclick="navigateTo('reports-dashboard')" class="hover:text-primary">Reports</button>
+                        <span>/</span>
+                        <span class="text-gray-900 font-medium">Order Report</span>
+                    </nav>
+                </div>
+            </div>
+
+            <main class="container mx-auto px-6 py-8 max-w-3xl">
+                <h1 class="text-2xl font-bold text-secondary mb-6">Order Third-Party Report</h1>
+
+                <form class="space-y-6">
+                    <!-- Report Type Selection -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <h2 class="text-lg font-bold mb-4">Select Report Type</h2>
+                        <div class="space-y-2">
+                            <label class="flex items-center p-3 border border-border rounded hover:bg-muted/50 cursor-pointer">
+                                <input type="radio" name="report-type" value="credit" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <div>
+                                    <span class="font-medium">Credit Report (Tri-Merge)</span>
+                                    <p class="text-xs text-gray-500">Auto-ordered via CRS API</p>
+                                </div>
+                            </label>
+                            <label class="flex items-center p-3 border border-border rounded hover:bg-muted/50 cursor-pointer">
+                                <input type="radio" name="report-type" value="background_individual" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <div>
+                                    <span class="font-medium">Background Check (Individual)</span>
+                                    <p class="text-xs text-gray-500">Auto-ordered via CRS API</p>
+                                </div>
+                            </label>
+                            <label class="flex items-center p-3 border border-border rounded hover:bg-muted/50 cursor-pointer">
+                                <input type="radio" name="report-type" value="appraisal" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <div>
+                                    <span class="font-medium">Appraisal</span>
+                                    <p class="text-xs text-gray-500">Auto-ordered via Single Source API</p>
+                                </div>
+                            </label>
+                            <label class="flex items-center p-3 border border-border rounded hover:bg-muted/50 cursor-pointer">
+                                <input type="radio" name="report-type" value="title" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <div>
+                                    <span class="font-medium">Title Report</span>
+                                    <p class="text-xs text-gray-500">Auto-ordered via Single Source API</p>
+                                </div>
+                            </label>
+                            <label class="flex items-center p-3 border border-border rounded hover:bg-muted/50 cursor-pointer">
+                                <input type="radio" name="report-type" value="flood" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <div>
+                                    <span class="font-medium">Flood Determination</span>
+                                    <p class="text-xs text-gray-500">Auto-ordered via Single Source API</p>
+                                </div>
+                            </label>
+                            <label class="flex items-center p-3 border border-border rounded hover:bg-muted/50 cursor-pointer">
+                                <input type="radio" name="report-type" value="feasibility" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <div>
+                                    <span class="font-medium">Feasibility Study</span>
+                                    <p class="text-xs text-gray-500">Auto-ordered via Single Source API (Fix & Flip only)</p>
+                                </div>
+                            </label>
+                            <label class="flex items-center p-3 border border-border rounded hover:bg-muted/50 cursor-pointer">
+                                <input type="radio" name="report-type" value="insurance" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <div>
+                                    <span class="font-medium">Insurance Quote</span>
+                                    <p class="text-xs text-gray-500">Ordered via email to First Choice Insurance</p>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Appraisal Options (Conditional) -->
+                    <div id="appraisal-options" class="bg-card border border-border rounded-lg shadow-sm p-6 hidden">
+                        <h2 class="text-lg font-bold mb-4">Appraisal Options</h2>
+                        <div class="space-y-3">
+                            <label class="flex items-center">
+                                <input type="radio" name="appraisal-type" value="interior_bpo" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <span>Interior BPO</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="radio" name="appraisal-type" value="full_appraisal" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <span>Full Appraisal</span>
+                            </label>
+                            <label class="flex items-center">
+                                <input type="checkbox" name="rush-order" class="mr-3 h-4 w-4 text-primary focus:ring-primary">
+                                <span>Rush Order (Additional Fee)</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Manual Order Fallback -->
+                    <div class="bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm p-6">
+                        <h2 class="text-lg font-bold mb-4">Manual Order (Fallback)</h2>
+                        <p class="text-sm text-gray-600 mb-4">If automatic ordering fails, use manual order:</p>
+                        <div class="space-y-4">
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">External Order ID</label>
+                                <input type="text" name="external-order-id" placeholder="e.g., SS-2024-12345" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Provider</label>
+                                <select name="provider" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
+                                    <option value="">Select provider...</option>
+                                    <option value="single_source">Single Source</option>
+                                    <option value="crs">CRS</option>
+                                    <option value="manual">Manual</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Notes</label>
+                                <textarea name="manual-notes" rows="3" placeholder="Additional information for manual ordering..." class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Form Actions -->
+                    <div class="flex space-x-3">
+                        <button type="button" onclick="submitOrder()" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Submit Order</button>
+                        <button type="button" onclick="navigateTo('reports-dashboard')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Cancel</button>
+                    </div>
+                </form>
+            </main>
+        </div>
+    </section>
+
+    <!-- P5-03: Report Detail View -->
+    <section id="view-report-detail" class="view-section hidden">
+        <div class="min-h-screen bg-background">
+            <!-- Breadcrumb Navigation -->
+            <div class="border-b border-border bg-white">
+                <div class="container mx-auto px-6 py-4">
+                    <nav class="flex items-center space-x-2 text-sm text-gray-500">
+                        <button onclick="navigateTo('pipeline')" class="hover:text-primary">Pipeline</button>
+                        <span>/</span>
+                        <button onclick="navigateToDeal('123', 'overview')" class="hover:text-primary">123 Main St, Miami FL</button>
+                        <span>/</span>
+                        <button onclick="navigateTo('reports-dashboard')" class="hover:text-primary">Reports</button>
+                        <span>/</span>
+                        <span class="text-gray-900 font-medium">Report Details</span>
+                    </nav>
+                </div>
+            </div>
+
+            <main class="container mx-auto px-6 py-8 max-w-4xl">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h1 class="text-2xl font-bold text-secondary mb-2">Appraisal Report</h1>
+                        <p class="text-sm text-gray-600 font-mono">SS-2024-12345</p>
+                    </div>
+                    <span class="px-2.5 py-0.5 bg-blue-100 text-blue-800 rounded-full text-xs font-medium">Scheduled</span>
+                </div>
+
+                <!-- Report Information -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <h2 class="text-lg font-bold mb-4">Report Information</h2>
+                    <dl class="grid grid-cols-2 gap-4 text-sm">
+                        <div>
+                            <dt class="text-gray-500">Report Type</dt>
+                            <dd class="font-medium mt-1">Appraisal</dd>
+                        </div>
+                        <div>
+                            <dt class="text-gray-500">Provider</dt>
+                            <dd class="font-medium mt-1">Single Source</dd>
+                        </div>
+                        <div>
+                            <dt class="text-gray-500">Status</dt>
+                            <dd class="font-medium mt-1">Scheduled</dd>
+                        </div>
+                        <div>
+                            <dt class="text-gray-500">Order ID</dt>
+                            <dd class="font-medium font-mono text-xs mt-1">SS-2024-12345</dd>
+                        </div>
+                        <div>
+                            <dt class="text-gray-500">Ordered Date</dt>
+                            <dd class="font-medium mt-1">December 10, 2024 at 2:00 PM</dd>
+                        </div>
+                        <div>
+                            <dt class="text-gray-500">Assigned Vendor</dt>
+                            <dd class="font-medium mt-1">ABC Appraisals</dd>
+                        </div>
+                        <div>
+                            <dt class="text-gray-500">Scheduled Date</dt>
+                            <dd class="font-medium mt-1">December 15, 2024 at 10:00 AM</dd>
+                        </div>
+                        <div>
+                            <dt class="text-gray-500">Estimated Completion</dt>
+                            <dd class="font-medium mt-1">December 17, 2024 at 5:00 PM</dd>
+                        </div>
+                    </dl>
+                </div>
+
+                <!-- Status Timeline -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <h2 class="text-lg font-bold mb-4">Status Timeline</h2>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <div class="flex-shrink-0 w-2 h-2 bg-primary rounded-full mt-2"></div>
+                            <div>
+                                <p class="text-sm font-medium text-gray-900">Order placed via Single Source API</p>
+                                <p class="text-xs text-gray-500">Dec 10, 2024 2:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="flex-shrink-0 w-2 h-2 bg-primary rounded-full mt-2"></div>
+                            <div>
+                                <p class="text-sm font-medium text-gray-900">Order accepted, vendor assigned: ABC Appraisals</p>
+                                <p class="text-xs text-gray-500">Dec 10, 2024 3:15 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <div class="flex-shrink-0 w-2 h-2 bg-blue-200 rounded-full mt-2"></div>
+                            <div>
+                                <p class="text-sm font-medium text-gray-900">Property inspection scheduled for Dec 15, 2024</p>
+                                <p class="text-xs text-gray-500">Dec 11, 2024 9:00 AM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="flex space-x-3">
+                    <button onclick="trackReport('report_003')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Refresh Status</button>
+                    <button onclick="reorderReport('report_003')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Reorder</button>
+                    <button onclick="navigateTo('reports-dashboard')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Back to Reports</button>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- ========================================== -->
+    <!-- PHASE 6: DILIGENCE CHASE - STYLED -->
+    <!-- ========================================== -->
+
+    <!-- P6-01: Diligence Checklist -->
+    <section id="view-diligence-checklist" class="view-section hidden">
+        <div class="min-h-screen bg-background">
+            <!-- Breadcrumb Navigation -->
+            <div class="border-b border-border bg-white">
+                <div class="container mx-auto px-6 py-4">
+                    <nav class="flex items-center space-x-2 text-sm text-gray-500">
+                        <button onclick="navigateTo('pipeline')" class="hover:text-primary">Pipeline</button>
+                        <span>/</span>
+                        <button onclick="navigateToDeal('123', 'overview')" class="hover:text-primary">123 Main St, Miami FL</button>
+                        <span>/</span>
+                        <span class="text-gray-900 font-medium">Diligence Checklist</span>
+                    </nav>
+                </div>
+            </div>
+
+            <main class="container mx-auto px-6 py-8">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h1 class="text-2xl font-bold text-secondary mb-2">Diligence Checklist</h1>
+                        <div class="flex items-center space-x-4 text-sm text-gray-600">
+                            <span>Client Type: <strong>Existing</strong></span>
+                            <span>•</span>
+                            <span>Loan Type: <strong>Fix & Flip</strong></span>
+                        </div>
+                    </div>
+                    <button onclick="sendDiligenceRequest()" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Send Request Email</button>
+                </div>
+
+                <!-- Overall Progress -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <h2 class="text-lg font-bold mb-4">Overall Progress</h2>
+                    <div class="mb-6">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="text-sm font-medium text-gray-700">78% Complete</span>
+                            <span class="text-sm text-gray-600">18 of 23 items</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-4">
+                            <div class="bg-primary h-4 rounded-full" style="width: 78%"></div>
+                        </div>
+                    </div>
+                    <div class="grid grid-cols-4 gap-4">
+                        <div>
+                            <p class="text-sm text-gray-500">Borrower Documents</p>
+                            <p class="text-lg font-bold tabular-nums">6 of 8</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Property Documents</p>
+                            <p class="text-lg font-bold tabular-nums">5 of 6</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Third-Party Reports</p>
+                            <p class="text-lg font-bold tabular-nums">5 of 6</p>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500">Closing Documents</p>
+                            <p class="text-lg font-bold tabular-nums">2 of 4</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Expiring Documents Alert -->
+                <div class="bg-yellow-50 border border-yellow-200 rounded-lg shadow-sm p-4 mb-6">
+                    <div class="flex items-start">
+                        <svg class="h-5 w-5 text-yellow-600 mt-0.5 mr-3" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/></svg>
+                        <div class="flex-1">
+                            <h3 class="text-sm font-bold text-yellow-800 mb-2">⚠️ Expiring Documents</h3>
+                            <div class="space-y-2">
+                                <div class="flex justify-between items-center">
+                                    <div>
+                                        <p class="text-sm font-medium text-gray-900">Certificate of Good Standing</p>
+                                        <p class="text-xs text-gray-600">Expires: March 10, 2025 (90 days remaining)</p>
+                                    </div>
+                                    <button onclick="requestRenewal('item_002')" class="px-3 py-1.5 bg-yellow-100 text-yellow-800 rounded text-xs font-medium hover:bg-yellow-200">Request Renewal</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Borrower Documents Category -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold">Borrower Documents</h2>
+                        <span class="text-sm text-gray-600">6 of 8 complete</span>
+                    </div>
+                    <div class="space-y-3">
+                        <!-- Checklist Item -->
+                        <div class="flex items-start space-x-3 p-3 bg-green-50 border border-green-200 rounded-md">
+                            <input type="checkbox" checked disabled class="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-gray-900">Articles of Organization</p>
+                                <p class="text-xs text-gray-500 mt-0.5">On file from deal XYZ789 (June 15, 2024)</p>
+                            </div>
+                            <button onclick="viewDocument('doc_ao_001')" class="px-3 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50">View</button>
+                        </div>
+
+                        <div class="flex items-start space-x-3 p-3 bg-green-50 border border-green-200 rounded-md">
+                            <input type="checkbox" checked disabled class="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-gray-900">Certificate of Good Standing</p>
+                                <p class="text-xs text-gray-500 mt-0.5">Received: Dec 8, 2024 | Expires: March 10, 2025</p>
+                            </div>
+                            <div class="flex space-x-2">
+                                <button onclick="viewDocument('doc_cgs_001')" class="px-3 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50">View</button>
+                                <button onclick="requestRenewal('item_002')" class="px-3 py-1 text-xs bg-yellow-100 text-yellow-800 rounded hover:bg-yellow-200">Renewal</button>
+                            </div>
+                        </div>
+
+                        <div class="flex items-start space-x-3 p-3 bg-white border border-border rounded-md">
+                            <input type="checkbox" class="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-gray-900">Driver's License - Jane Smith</p>
+                                <p class="text-xs text-gray-500 mt-0.5">Required for co-guarantor</p>
+                            </div>
+                            <div class="flex space-x-2">
+                                <button onclick="requestDocument('item_004')" class="px-3 py-1 text-xs bg-primary text-white rounded hover:bg-blue-600">Request</button>
+                                <button onclick="sendReminder('item_004')" class="px-3 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50">Reminder</button>
+                            </div>
+                        </div>
+                        <!-- More items... -->
+                    </div>
+                </div>
+
+                <!-- Property Documents Category -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold">Property Documents</h2>
+                        <span class="text-sm text-gray-600">5 of 6 complete</span>
+                    </div>
+                    <div class="space-y-3">
+                        <!-- Similar checklist items... -->
+                        <div class="flex items-start space-x-3 p-3 bg-green-50 border border-green-200 rounded-md">
+                            <input type="checkbox" checked disabled class="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-gray-900">Purchase Contract / PSA</p>
+                                <p class="text-xs text-gray-500 mt-0.5">Received: Dec 8, 2024</p>
+                            </div>
+                            <button onclick="viewDocument('doc_psa_001')" class="px-3 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50">View</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Third-Party Reports Category -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold">Third-Party Reports</h2>
+                        <span class="text-sm text-gray-600">5 of 6 complete</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start space-x-3 p-3 bg-green-50 border border-green-200 rounded-md">
+                            <input type="checkbox" checked disabled class="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-gray-900">Credit Report</p>
+                                <p class="text-xs text-gray-500 mt-0.5">Auto-ordered via CRS | Received: Dec 8, 2024</p>
+                            </div>
+                            <button onclick="viewReport('report_001')" class="px-3 py-1 text-xs border border-gray-300 rounded hover:bg-gray-50">View Report</button>
+                        </div>
+                        <div class="flex items-start space-x-3 p-3 bg-blue-50 border border-blue-200 rounded-md">
+                            <input type="checkbox" class="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-gray-900">Appraisal</p>
+                                <p class="text-xs text-gray-500 mt-0.5">Auto-ordered via Single Source | Scheduled: Dec 15, 2024</p>
+                            </div>
+                            <button onclick="navigateTo('reports-dashboard')" class="px-3 py-1 text-xs bg-primary text-white rounded hover:bg-blue-600">Track Status</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Closing Documents Category -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <div class="flex justify-between items-center mb-4">
+                        <h2 class="text-lg font-bold">Closing Documents</h2>
+                        <span class="text-sm text-gray-600">2 of 4 complete</span>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start space-x-3 p-3 bg-white border border-border rounded-md">
+                            <input type="checkbox" class="mt-1 h-4 w-4 text-primary border-gray-300 rounded focus:ring-primary">
+                            <div class="flex-1">
+                                <p class="text-sm font-medium text-gray-900">Preliminary HUD / Settlement Statement</p>
+                                <p class="text-xs text-gray-500 mt-0.5">Awaiting from title company</p>
+                            </div>
+                            <button onclick="requestDocument('item_hud')" class="px-3 py-1 text-xs bg-primary text-white rounded hover:bg-blue-600">Request</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Actions -->
+                <div class="flex space-x-3">
+                    <button onclick="sendDiligenceRequest()" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Send Diligence Request Email</button>
+                    <button onclick="sendReminderAll()" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Send Reminder (All Outstanding)</button>
+                    <button onclick="navigateTo('document-review')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Review Document Queue</button>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- P6-02: Document Upload (Borrower-Facing) -->
+    <section id="view-document-upload" class="view-section hidden">
+        <div class="min-h-screen bg-white">
+            <!-- Public Header -->
+            <header class="border-b border-border bg-white sticky top-0 z-50">
+                <div class="container mx-auto px-6 py-4">
+                    <div class="text-xl font-bold text-secondary">USDV Capital</div>
+                </div>
+            </header>
+
+            <main class="container mx-auto max-w-4xl px-6 py-8">
+                <div class="mb-6">
+                    <h1 class="text-3xl font-bold text-secondary mb-2">Upload Documents</h1>
+                    <p class="text-gray-600">Property: <strong>123 Main Street, Miami, FL 33139</strong></p>
+                    <p class="text-sm text-gray-500">Deal ID: deal_abc123</p>
+                </div>
+
+                <!-- Drag & Drop Upload Area -->
+                <div class="bg-card border-2 border-dashed border-gray-300 rounded-lg p-12 mb-6 text-center hover:border-primary transition-colors">
+                    <svg class="mx-auto h-12 w-12 text-gray-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"/>
+                    </svg>
+                    <h2 class="text-xl font-bold text-gray-900 mb-2">Drag & Drop Files Here</h2>
+                    <p class="text-gray-600 mb-4">or</p>
+                    <button onclick="document.getElementById('file-input').click()" class="px-6 py-3 bg-primary text-white rounded-md font-medium hover:bg-blue-600">Browse Files</button>
+                    <input type="file" id="file-input" multiple style="display:none;" onchange="handleFileSelect(event)">
+                    <p class="text-sm text-gray-500 mt-4">Supported: PDF, JPG, PNG, DOC, DOCX (Max 50MB per file)</p>
+                </div>
+
+                <!-- Upload Progress List -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <h2 class="text-lg font-bold mb-4">Upload Progress</h2>
+                    <div id="upload-list" class="space-y-3">
+                        <!-- Upload items will be added here dynamically -->
+                        <div class="text-sm text-gray-500 italic">No files uploading...</div>
+                    </div>
+                </div>
+
+                <!-- Recent Uploads -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6 mb-6">
+                    <h2 class="text-lg font-bold mb-4">Recently Uploaded</h2>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full divide-y divide-gray-200">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Filename</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Uploaded</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Classification</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody class="bg-white divide-y divide-gray-200">
+                                <tr>
+                                    <td class="px-4 py-3 text-sm text-gray-900">bank_statements_nov_2024.pdf</td>
+                                    <td class="px-4 py-3 text-sm text-gray-600">Dec 9, 2024 2:30 PM</td>
+                                    <td class="px-4 py-3 text-sm text-gray-600">Bank Statements (AI Classified)</td>
+                                    <td class="px-4 py-3"><span class="px-2 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Approved</span></td>
+                                    <td class="px-4 py-3"><button onclick="viewDocument('doc_bank_001')" class="text-primary hover:underline text-sm">View</button></td>
+                                </tr>
+                                <tr>
+                                    <td class="px-4 py-3 text-sm text-gray-900">purchase_contract_signed.pdf</td>
+                                    <td class="px-4 py-3 text-sm text-gray-600">Dec 8, 2024 10:15 AM</td>
+                                    <td class="px-4 py-3 text-sm text-gray-600">Purchase Contract (AI Classified)</td>
+                                    <td class="px-4 py-3"><span class="px-2 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Approved</span></td>
+                                    <td class="px-4 py-3"><button onclick="viewDocument('doc_psa_001')" class="text-primary hover:underline text-sm">View</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Instructions -->
+                <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+                    <h2 class="text-lg font-bold mb-4">What to Upload</h2>
+                    <ul class="space-y-2 text-sm text-gray-700 mb-4">
+                        <li><strong>Borrower Documents:</strong> Articles of Organization, Operating Agreement, Bank Statements, Driver's License, etc.</li>
+                        <li><strong>Property Documents:</strong> Purchase Contract, Scope of Work, Plans, Permits, etc.</li>
+                        <li><strong>Supporting Documents:</strong> Any other documents requested by your loan officer</li>
+                    </ul>
+                    <p class="text-sm text-gray-600">AI will automatically classify your documents. Our team will review and approve them.</p>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- P6-03: Document Review Queue -->
+    <section id="view-document-review" class="view-section hidden">
+        <div class="min-h-screen bg-background">
+            <!-- Breadcrumb Navigation -->
+            <div class="border-b border-border bg-white">
+                <div class="container mx-auto px-6 py-4">
+                    <nav class="flex items-center space-x-2 text-sm text-gray-500">
+                        <button onclick="navigateTo('pipeline')" class="hover:text-primary">Pipeline</button>
+                        <span>/</span>
+                        <button onclick="navigateToDeal('123', 'overview')" class="hover:text-primary">123 Main St, Miami FL</button>
+                        <span>/</span>
+                        <span class="text-gray-900 font-medium">Document Review Queue</span>
+                    </nav>
+                </div>
+            </div>
+
+            <main class="container mx-auto px-6 py-8">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h1 class="text-2xl font-bold text-secondary mb-2">Document Review Queue</h1>
+                        <p class="text-sm text-gray-600">5 documents pending review</p>
+                    </div>
+                </div>
+
+                <!-- Filters -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-4 mb-6">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Filter by Status</label>
+                            <select id="status-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-primary focus:border-primary">
+                                <option value="all">All</option>
+                                <option value="pending">Pending Review</option>
+                                <option value="approved">Approved</option>
+                                <option value="rejected">Rejected</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Filter by Classification</label>
+                            <select id="classification-filter" class="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-primary focus:border-primary">
+                                <option value="all">All</option>
+                                <option value="borrower_entity">Borrower Entity</option>
+                                <option value="borrower_financial">Borrower Financial</option>
+                                <option value="property">Property Documents</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700 mb-1">Search</label>
+                            <input type="text" id="search-input" placeholder="Search documents..." class="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:ring-primary focus:border-primary">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Document Review Cards -->
+                <div class="space-y-6">
+                    <!-- Review Card 1 -->
+                    <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-lg font-bold text-secondary">bank_statements_dec_2024.pdf</h3>
+                                <span class="inline-flex items-center px-2.5 py-0.5 bg-blue-100 text-blue-800 rounded-full text-xs font-medium mt-2">
+                                    AI Classified: Bank Statements
+                                    <span class="ml-2 text-blue-600">95% confidence</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4 text-sm">
+                            <div>
+                                <p class="text-gray-500">Original Filename:</p>
+                                <p class="font-medium">statements.pdf</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">Uploaded:</p>
+                                <p class="font-medium">Dec 10, 2024 3:45 PM</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">Upload Method:</p>
+                                <p class="font-medium">Drag & Drop</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">File Size:</p>
+                                <p class="font-medium">2.3 MB</p>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <p class="text-sm text-gray-500 mb-1">Suggested Filename:</p>
+                            <p class="text-sm font-medium">bank_statements_dec_2024.pdf</p>
+                        </div>
+                        <div class="border border-border rounded-lg p-4 bg-gray-50 mb-4" style="min-height: 400px;">
+                            <p class="text-sm text-gray-500 text-center">Document Preview</p>
+                        </div>
+                        <div class="flex space-x-3">
+                            <button onclick="approveDocument('doc_review_001')" class="px-4 py-2 bg-green-600 text-white rounded-md text-sm font-medium hover:bg-green-700">Approve</button>
+                            <button onclick="showRejectDialog('doc_review_001')" class="px-4 py-2 bg-red-600 text-white rounded-md text-sm font-medium hover:bg-red-700">Reject</button>
+                            <button onclick="showReclassifyDialog('doc_review_001')" class="px-4 py-2 border border-gray-300 text-gray-700 rounded-md text-sm font-medium hover:bg-gray-50">Reclassify</button>
+                        </div>
+                    </div>
+
+                    <!-- Review Card 2 (Low Confidence) -->
+                    <div class="bg-yellow-50 border-2 border-yellow-300 rounded-lg shadow-sm p-6">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h3 class="text-lg font-bold text-secondary">unknown_document.pdf</h3>
+                                <span class="inline-flex items-center px-2.5 py-0.5 bg-yellow-100 text-yellow-800 rounded-full text-xs font-medium mt-2">
+                                    AI Classification: Unknown
+                                    <span class="ml-2 text-yellow-600">42% confidence</span>
+                                </span>
+                                <p class="text-sm text-yellow-800 mt-2">⚠️ Low confidence classification - manual review required</p>
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4 text-sm">
+                            <div>
+                                <p class="text-gray-500">Original Filename:</p>
+                                <p class="font-medium">doc1.pdf</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">Uploaded:</p>
+                                <p class="font-medium">Dec 9, 2024 4:15 PM</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">Upload Method:</p>
+                                <p class="font-medium">Drag & Drop</p>
+                            </div>
+                            <div>
+                                <p class="text-gray-500">File Size:</p>
+                                <p class="font-medium">850 KB</p>
+                            </div>
+                        </div>
+                        <div class="border border-border rounded-lg p-4 bg-gray-50 mb-4" style="min-height: 400px;">
+                            <p class="text-sm text-gray-500 text-center">Document Preview</p>
+                        </div>
+                        <div class="flex space-x-3">
+                            <button onclick="showReclassifyDialog('doc_review_003')" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Classify Manually</button>
+                            <button onclick="approveDocument('doc_review_003')" class="px-4 py-2 bg-green-600 text-white rounded-md text-sm font-medium hover:bg-green-700">Approve</button>
+                            <button onclick="showRejectDialog('doc_review_003')" class="px-4 py-2 bg-red-600 text-white rounded-md text-sm font-medium hover:bg-red-700">Reject</button>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- P6-04: Data Room Browser -->
+    <section id="view-data-room" class="view-section hidden">
+        <div class="min-h-screen bg-background">
+            <!-- Breadcrumb Navigation -->
+            <div class="border-b border-border bg-white">
+                <div class="container mx-auto px-6 py-4">
+                    <nav class="flex items-center space-x-2 text-sm text-gray-500">
+                        <button onclick="navigateTo('pipeline')" class="hover:text-primary">Pipeline</button>
+                        <span>/</span>
+                        <button onclick="navigateToDeal('123', 'overview')" class="hover:text-primary">123 Main St, Miami FL</button>
+                        <span>/</span>
+                        <span class="text-gray-900 font-medium">Data Room</span>
+                    </nav>
+                </div>
+            </div>
+
+            <main class="container mx-auto px-6 py-8">
+                <div class="flex justify-between items-start mb-6">
+                    <div>
+                        <h1 class="text-2xl font-bold text-secondary mb-2">Data Room</h1>
+                        <p class="text-sm text-gray-600">47 documents organized</p>
+                    </div>
+                    <div class="flex space-x-3">
+                        <button onclick="toggleView('grid')" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50">Grid View</button>
+                        <button onclick="toggleView('list')" class="px-4 py-2 border border-gray-300 rounded-md text-sm font-medium text-gray-700 hover:bg-gray-50">List View</button>
+                        <button onclick="downloadAll()" class="px-4 py-2 bg-primary text-white rounded-md text-sm font-medium hover:bg-blue-600">Download All</button>
+                    </div>
+                </div>
+
+                <!-- Search -->
+                <div class="mb-6">
+                    <input type="text" id="data-room-search" placeholder="Search documents..." class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-primary focus:border-primary">
+                </div>
+
+                <!-- Folder Structure -->
+                <div class="bg-card border border-border rounded-lg shadow-sm p-6">
+                    <div class="flex items-center space-x-2 text-sm text-gray-500 mb-4">
+                        <button onclick="navigateFolder('root')" class="hover:text-primary">Root</button>
+                        <span>/</span>
+                        <span id="current-folder" class="text-gray-900 font-medium">All Documents</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <!-- Folder Tree -->
+                        <div class="md:col-span-1">
+                            <div class="space-y-1">
+                                <details open class="mb-2">
+                                    <summary class="cursor-pointer font-medium text-gray-900 py-2 hover:bg-muted/50 rounded px-2">📁 Borrower Documents</summary>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <details class="mb-1">
+                                            <summary class="cursor-pointer text-sm text-gray-700 py-1 hover:bg-muted/50 rounded px-2">📁 Entity Documents</summary>
+                                            <div class="ml-4 space-y-1">
+                                                <button onclick="viewDocument('doc_ao_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Articles of Organization.pdf</button>
+                                                <button onclick="viewDocument('doc_oa_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Operating Agreement.pdf</button>
+                                                <button onclick="viewDocument('doc_cgs_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Certificate of Good Standing.pdf</button>
+                                            </div>
+                                        </details>
+                                        <details class="mb-1">
+                                            <summary class="cursor-pointer text-sm text-gray-700 py-1 hover:bg-muted/50 rounded px-2">📁 Financial Documents</summary>
+                                            <div class="ml-4 space-y-1">
+                                                <button onclick="viewDocument('doc_bank_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Bank Statements - Nov 2024.pdf</button>
+                                                <button onclick="viewDocument('doc_pfs_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Personal Financial Statement.pdf</button>
+                                            </div>
+                                        </details>
+                                    </div>
+                                </details>
+                                <details open class="mb-2">
+                                    <summary class="cursor-pointer font-medium text-gray-900 py-2 hover:bg-muted/50 rounded px-2">📁 Property Documents</summary>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <button onclick="viewDocument('doc_psa_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Purchase Contract.pdf</button>
+                                        <button onclick="viewDocument('doc_sow_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Scope of Work.pdf</button>
+                                    </div>
+                                </details>
+                                <details open class="mb-2">
+                                    <summary class="cursor-pointer font-medium text-gray-900 py-2 hover:bg-muted/50 rounded px-2">📁 Third-Party Reports</summary>
+                                    <div class="ml-4 mt-1 space-y-1">
+                                        <button onclick="viewReport('report_001')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Credit Report.pdf</button>
+                                        <button onclick="viewReport('report_002')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Background Check.pdf</button>
+                                        <button onclick="viewReport('report_003')" class="block text-sm text-gray-600 py-1 px-2 hover:bg-muted/50 rounded w-full text-left">📄 Appraisal.pdf</button>
+                                    </div>
+                                </details>
+                            </div>
+                        </div>
+
+                        <!-- Document List View -->
+                        <div class="md:col-span-2">
+                            <div class="overflow-x-auto">
+                                <table class="min-w-full divide-y divide-gray-200">
+                                    <thead class="bg-gray-50">
+                                        <tr>
+                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Name</th>
+                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Category</th>
+                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Uploaded</th>
+                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Size</th>
+                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Status</th>
+                                            <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="bg-white divide-y divide-gray-200">
+                                        <tr class="hover:bg-muted/50">
+                                            <td class="px-4 py-3 text-sm text-gray-900">Articles of Organization.pdf</td>
+                                            <td class="px-4 py-3 text-sm text-gray-600">Borrower / Entity Documents</td>
+                                            <td class="px-4 py-3 text-sm text-gray-600">Jun 15, 2024</td>
+                                            <td class="px-4 py-3 text-sm text-gray-600">245 KB</td>
+                                            <td class="px-4 py-3"><span class="px-2 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Approved</span></td>
+                                            <td class="px-4 py-3">
+                                                <div class="flex space-x-2">
+                                                    <button onclick="viewDocument('doc_ao_001')" class="text-primary hover:underline text-sm">View</button>
+                                                    <button onclick="downloadDocument('doc_ao_001')" class="text-primary hover:underline text-sm">Download</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="hover:bg-muted/50">
+                                            <td class="px-4 py-3 text-sm text-gray-900">Bank Statements - Nov 2024.pdf</td>
+                                            <td class="px-4 py-3 text-sm text-gray-600">Borrower / Financial Documents</td>
+                                            <td class="px-4 py-3 text-sm text-gray-600">Dec 9, 2024</td>
+                                            <td class="px-4 py-3 text-sm text-gray-600">2.3 MB</td>
+                                            <td class="px-4 py-3"><span class="px-2 py-0.5 bg-green-100 text-green-800 rounded-full text-xs font-medium">Approved</span></td>
+                                            <td class="px-4 py-3">
+                                                <div class="flex space-x-2">
+                                                    <button onclick="viewDocument('doc_bank_001')" class="text-primary hover:underline text-sm">View</button>
+                                                    <button onclick="downloadDocument('doc_bank_001')" class="text-primary hover:underline text-sm">Download</button>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- Phase 5-6 Helper Functions -->
+    <script>
+        // Phase 5 Functions
+        function viewReport(reportId) {
+            navigateTo('report-detail');
+            // In production, would load report data based on reportId
+        }
+
+        function downloadReport(reportId) {
+            alert('Downloading report ' + reportId + '...');
+        }
+
+        function trackReport(reportId) {
+            alert('Refreshing status for report ' + reportId + '...');
+        }
+
+        function reorderReport(reportId) {
+            if (confirm('Reorder this report?')) {
+                alert('Report reordered successfully!');
+            }
+        }
+
+        function resendRequest(reportId) {
+            if (confirm('Resend request for this report?')) {
+                alert('Request resent successfully!');
+            }
+        }
+
+        function submitOrder() {
+            const reportType = document.querySelector('input[name="report-type"]:checked');
+            if (!reportType) {
+                alert('Please select a report type');
+                return;
+            }
+            alert('Order submitted for ' + reportType.value + '!');
+            navigateTo('reports-dashboard');
+        }
+
+        function orderAllPending() {
+            if (confirm('Order all pending reports?')) {
+                alert('All pending reports ordered!');
+            }
+        }
+
+        function refreshReports() {
+            alert('Refreshing report status...');
+        }
+
+        // Phase 6 Functions
+        function viewDocument(docId) {
+            alert('Viewing document ' + docId + '...');
+        }
+
+        function downloadDocument(docId) {
+            alert('Downloading document ' + docId + '...');
+        }
+
+        function requestDocument(itemId) {
+            if (confirm('Send document request for item ' + itemId + '?')) {
+                alert('Document request sent!');
+            }
+        }
+
+        function sendReminder(itemId) {
+            if (confirm('Send reminder for item ' + itemId + '?')) {
+                alert('Reminder sent!');
+            }
+        }
+
+        function requestRenewal(itemId) {
+            if (confirm('Request renewal for item ' + itemId + '?')) {
+                alert('Renewal request sent!');
+            }
+        }
+
+        function sendDiligenceRequest() {
+            if (confirm('Send diligence request email to borrower?')) {
+                alert('Diligence request email sent!');
+            }
+        }
+
+        function sendReminderAll() {
+            if (confirm('Send reminder email for all outstanding items?')) {
+                alert('Reminder emails sent!');
+            }
+        }
+
+        function handleFileSelect(event) {
+            const files = event.target.files;
+            if (files.length > 0) {
+                alert('Selected ' + files.length + ' file(s). In production, these would be uploaded.');
+            }
+        }
+
+        function handleDrop(event) {
+            event.preventDefault();
+            const files = event.dataTransfer.files;
+            if (files.length > 0) {
+                alert('Dropped ' + files.length + ' file(s). In production, these would be uploaded.');
+            }
+        }
+
+        function handleDragOver(event) {
+            event.preventDefault();
+        }
+
+        function approveDocument(docId) {
+            if (confirm('Approve document ' + docId + '?')) {
+                alert('Document approved!');
+            }
+        }
+
+        function showRejectDialog(docId) {
+            const reason = prompt('Rejection reason:');
+            if (reason) {
+                alert('Document rejected: ' + reason);
+            }
+        }
+
+        function showReclassifyDialog(docId) {
+            const newType = prompt('New classification:');
+            if (newType) {
+                alert('Document reclassified as: ' + newType);
+            }
+        }
+
+        function navigateFolder(folderId) {
+            alert('Navigating to folder: ' + folderId);
+        }
+
+        function toggleView(viewType) {
+            alert('Switching to ' + viewType + ' view...');
+        }
+
+        function downloadAll() {
+            if (confirm('Download all documents?')) {
+                alert('Downloading all documents...');
+            }
+        }
+    </script>
 
 </body>
 </html>
