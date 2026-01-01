@@ -102,3 +102,4 @@ When converting to React/Shadcn, apply these overrides:
 -   Size: `h-5 w-5` standard, `h-4 w-4` for dense areas.
 -   Color: `text-gray-400` default, `text-primary` active.
 
+
